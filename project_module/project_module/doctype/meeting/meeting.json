@@ -1,0 +1,171 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-09-04 13:30:49.646740",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "meeting_schedule",
+  "meeting_info_section",
+  "meeting_date",
+  "party_type1",
+  "project",
+  "column_break_bney",
+  "meeting_arranged_by",
+  "party",
+  "meeting_agenda",
+  "section_break_akpj",
+  "attendees",
+  "meeting_discussion",
+  "actions",
+  "cc_to",
+  "send_mail",
+  "section_break_wuvq",
+  "next_contact_by",
+  "column_break_tczc",
+  "next_contact_date"
+ ],
+ "fields": [
+  {
+   "fieldname": "meeting_schedule",
+   "fieldtype": "Link",
+   "label": "Meeting Schedule",
+   "options": "Meeting Schedule"
+  },
+  {
+   "fieldname": "meeting_info_section",
+   "fieldtype": "Section Break",
+   "label": "Meeting Info"
+  },
+  {
+   "fetch_from": "meeting_schedule.scheduled_from",
+   "fieldname": "meeting_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Meeting Date",
+   "reqd": 1
+  },
+  {
+   "fetch_from": "meeting_schedule.party_type1",
+   "fieldname": "party_type1",
+   "fieldtype": "Link",
+   "label": "Party Type",
+   "options": "DocType",
+   "reqd": 1
+  },
+  {
+   "fetch_from": "meeting_schedule.project",
+   "fieldname": "project",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Project",
+   "options": "Project"
+  },
+  {
+   "fieldname": "column_break_bney",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "meeting_schedule.meeting_arranged_by",
+   "fieldname": "meeting_arranged_by",
+   "fieldtype": "Link",
+   "label": "Meeting Arranged By",
+   "options": "Employee",
+   "reqd": 1
+  },
+  {
+   "fetch_from": "meeting_schedule.party",
+   "fieldname": "party",
+   "fieldtype": "Dynamic Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Party",
+   "options": "party_type1",
+   "reqd": 1
+  },
+  {
+   "fetch_from": "meeting_schedule.meeting_agenda",
+   "fieldname": "meeting_agenda",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "Meeting Agenda",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_akpj",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "attendees",
+   "fieldtype": "Table",
+   "label": "Attendees",
+   "options": "Attendees"
+  },
+  {
+   "fieldname": "meeting_discussion",
+   "fieldtype": "Text Editor",
+   "label": "Meeting Discussion"
+  },
+  {
+   "fieldname": "actions",
+   "fieldtype": "Table",
+   "label": "Actions",
+   "options": "Actions"
+  },
+  {
+   "fieldname": "cc_to",
+   "fieldtype": "Data",
+   "label": "CC To"
+  },
+  {
+   "fieldname": "send_mail",
+   "fieldtype": "Button",
+   "label": "Send Mail"
+  },
+  {
+   "fieldname": "section_break_wuvq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "next_contact_by",
+   "fieldtype": "Data",
+   "label": "Next Contact By"
+  },
+  {
+   "fieldname": "column_break_tczc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "next_contact_date",
+   "fieldtype": "Date",
+   "label": "Next Contact Date"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-10-09 12:37:35.975379",
+ "modified_by": "Administrator",
+ "module": "Project Module",
+ "name": "Meeting",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

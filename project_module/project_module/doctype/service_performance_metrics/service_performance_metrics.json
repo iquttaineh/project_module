@@ -1,0 +1,32 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-09-02 13:19:53.904270",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "service_performance_metrics"
+ ],
+ "fields": [
+  {
+   "fieldname": "service_performance_metrics",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Service Performance Metrics",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-10-09 12:34:42.141014",
+ "modified_by": "Administrator",
+ "module": "Project Module",
+ "name": "Service Performance Metrics",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

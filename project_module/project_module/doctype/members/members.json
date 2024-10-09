@@ -1,0 +1,60 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-09-03 12:59:41.481664",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "party_type1",
+  "column_break_hgoe",
+  "member_name",
+  "column_break_thbb",
+  "role"
+ ],
+ "fields": [
+  {
+   "fieldname": "party_type1",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Party Type",
+   "link_filters": "[[\"DocType\",\"name\",\"in\",[\"Customer\",\"Employee\"]]]",
+   "options": "DocType",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_hgoe",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "member_name",
+   "fieldtype": "Dynamic Link",
+   "in_list_view": 1,
+   "label": "Member Name",
+   "options": "party_type1",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_thbb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "role",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Role"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-10-09 12:36:10.282490",
+ "modified_by": "Administrator",
+ "module": "Project Module",
+ "name": "Members",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

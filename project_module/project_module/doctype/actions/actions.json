@@ -1,0 +1,93 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-09-04 13:38:23.913629",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "action",
+  "section_break_eeul",
+  "responsible",
+  "expected_completion_date",
+  "actual_close_date",
+  "column_break_yqjt",
+  "owner_name",
+  "status",
+  "section_break_veqw",
+  "notes"
+ ],
+ "fields": [
+  {
+   "fieldname": "action",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "Action",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_eeul",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "responsible",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Responsible",
+   "link_filters": "[[\"Party Type\",\"name\",\"in\",[\"Customer\",\"Lead\"]]]",
+   "options": "Party Type",
+   "reqd": 1
+  },
+  {
+   "fieldname": "expected_completion_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Expected Completion Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "actual_close_date",
+   "fieldtype": "Date",
+   "label": "Actual Close Date"
+  },
+  {
+   "fieldname": "column_break_yqjt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "owner_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Owner Name"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Status",
+   "options": "Open\nDone",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_veqw",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "Small Text",
+   "label": "Notes"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-10-09 12:37:08.467205",
+ "modified_by": "Administrator",
+ "module": "Project Module",
+ "name": "Actions",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
