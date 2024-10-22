@@ -2,7 +2,6 @@
  "actions": [],
  "allow_import": 1,
  "allow_rename": 1,
- "autoname": "PROJ-ACC-.#####",
  "creation": "2015-03-23 02:00:21.861546",
  "doctype": "DocType",
  "document_type": "Setup",
@@ -86,7 +85,7 @@
   }
  ],
  "links": [],
- "modified": "2024-10-09 12:29:15.642077",
+ "modified": "2024-10-20 13:14:04.568504",
  "modified_by": "Administrator",
  "module": "Project Module",
  "name": "Activity Cost",

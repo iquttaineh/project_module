@@ -7,16 +7,14 @@
  "engine": "InnoDB",
  "field_order": [
   "risk_level",
-  "column_break_aayr",
+  "risk_description",
   "response_time",
-  "section_break_xrff",
   "escalation_response_time",
-  "section_break_lqel",
-  "for_customer_escalate_to",
-  "for_service_provider_escalate_to",
-  "column_break_ocus",
-  "customer_role",
-  "service_provider_role"
+  "column_break_aayr",
+  "customer_escalate_to",
+  "customer_party_name",
+  "service_provider_party_name",
+  "service_provider_escalate_to"
  ],
  "fields": [
   {
@@ -32,65 +30,62 @@
    "fieldtype": "Column Break"
   },
   {
-   "description": "in hours",
    "fieldname": "response_time",
    "fieldtype": "Float",
    "in_list_view": 1,
-   "label": "Response Time",
+   "label": "Response Time (hours)",
    "non_negative": 1,
    "precision": "0",
    "reqd": 1
   },
   {
-   "fieldname": "section_break_xrff",
-   "fieldtype": "Section Break"
-  },
-  {
-   "description": "in hours",
    "fieldname": "escalation_response_time",
    "fieldtype": "Float",
    "in_list_view": 1,
-   "label": "Escalation Response Time",
+   "label": "Escalation Response Time (hours)",
    "non_negative": 1,
-   "precision": "0"
+   "precision": "0",
+   "reqd": 1
   },
   {
-   "fieldname": "section_break_lqel",
-   "fieldtype": "Section Break"
-  },
-  {
-   "fieldname": "for_customer_escalate_to",
+   "fieldname": "risk_description",
    "fieldtype": "Data",
    "in_list_view": 1,
-   "label": "For Customer Escalate to"
+   "label": "Risk Description",
+   "reqd": 1
   },
   {
-   "fieldname": "for_service_provider_escalate_to",
+   "fieldname": "customer_escalate_to",
    "fieldtype": "Link",
    "in_list_view": 1,
-   "label": "For Service Provider Escalate to",
+   "label": "Customer Escalate to",
+   "options": "Stakeholder Type",
+   "reqd": 1
+  },
+  {
+   "fieldname": "service_provider_escalate_to",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Service Provider Escalate to",
+   "options": "Stakeholder Type",
+   "reqd": 1
+  },
+  {
+   "fieldname": "customer_party_name",
+   "fieldtype": "Data",
+   "label": "Customer Party Name"
+  },
+  {
+   "fieldname": "service_provider_party_name",
+   "fieldtype": "Link",
+   "label": "Service Provider Party Name",
    "options": "Employee"
-  },
-  {
-   "fieldname": "column_break_ocus",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "customer_role",
-   "fieldtype": "Data",
-   "label": "Customer Role"
-  },
-  {
-   "fieldname": "service_provider_role",
-   "fieldtype": "Link",
-   "label": "Service Provider Role",
-   "options": "Role"
   }
  ],
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2024-10-09 12:36:03.349406",
+ "modified": "2024-10-21 15:51:54.046222",
  "modified_by": "Administrator",
  "module": "Project Module",
  "name": "Risk Levels",

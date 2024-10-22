@@ -1,36 +1,36 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "format:PC-{YYYY}-{###}",
  "creation": "2024-09-02 10:30:39.217073",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
   "section_break_kmqa",
-  "project",
-  "column_break_vdis",
-  "creation_date",
-  "section_break_hnyi",
-  "business_needbusiness_case",
-  "project_description",
-  "project_scope",
-  "excluded_services",
-  "key_deliverables",
-  "project_objectives",
-  "stakeholders",
-  "section_break_oohy",
+  "project_title",
+  "project_manager",
   "initial_budget",
-  "project_manager_assigned",
-  "column_break_sfft",
+  "column_break_vdis",
+  "project_sponsor",
+  "creation_date",
   "schedule",
   "required_documents_section",
   "proposal",
   "contract",
-  "section_break_ujut",
-  "service_assumptions",
+  "section_break_hnyi",
+  "project_purpose",
+  "business_needbusiness_case",
+  "project_objectives",
+  "project_scope",
+  "excluded_services",
+  "key_stakeholders",
+  "key_deliverables",
   "milestones",
-  "constraints",
-  "risks",
+  "budget",
   "payment_plan",
+  "risks",
+  "service_assumptions",
+  "constraints",
   "service_level_agreement_sla_tab",
   "section_break_bymh",
   "sla_type",
@@ -59,6 +59,7 @@
   "validity_of_agreement",
   "penalties",
   "communication_plan_tab",
+  "risks_levels_section",
   "risk_levels",
   "review_meetings_section",
   "team_weekly_status_review_members",
@@ -70,15 +71,6 @@
    "fieldname": "section_break_kmqa",
    "fieldtype": "Section Break",
    "hide_border": 1
-  },
-  {
-   "fieldname": "project",
-   "fieldtype": "Link",
-   "in_list_view": 1,
-   "in_standard_filter": 1,
-   "label": "Project",
-   "options": "Project",
-   "reqd": 1
   },
   {
    "fieldname": "column_break_vdis",
@@ -104,27 +96,21 @@
    "options": "Business Need"
   },
   {
-   "fieldname": "project_description",
-   "fieldtype": "Small Text",
-   "label": "Project Description",
-   "reqd": 1
-  },
-  {
    "fieldname": "project_scope",
    "fieldtype": "Table",
-   "label": "Project Scope",
+   "label": "Project Scope (In-Scope)",
    "options": "Project Scope"
   },
   {
    "fieldname": "excluded_services",
    "fieldtype": "Table",
-   "label": "Excluded Services",
+   "label": "Excluded Services (Out-of-Scope)",
    "options": "Excluded Services"
   },
   {
    "fieldname": "key_deliverables",
    "fieldtype": "Table",
-   "label": "Key Deliverables",
+   "label": "Key Deliverables (High-Level Requirements)",
    "options": "Key Deliverables"
   },
   {
@@ -134,34 +120,11 @@
    "options": "Project Objectives"
   },
   {
-   "fieldname": "stakeholders",
-   "fieldtype": "Table",
-   "label": "Stakeholders",
-   "options": "Stakeholders"
-  },
-  {
-   "fieldname": "section_break_oohy",
-   "fieldtype": "Section Break",
-   "hide_border": 1
-  },
-  {
    "fieldname": "initial_budget",
-   "fieldtype": "Currency",
+   "fieldtype": "Data",
    "in_list_view": 1,
    "in_standard_filter": 1,
    "label": "Initial Budget"
-  },
-  {
-   "fieldname": "project_manager_assigned",
-   "fieldtype": "Link",
-   "in_list_view": 1,
-   "in_standard_filter": 1,
-   "label": "Project Manager Assigned",
-   "options": "Employee"
-  },
-  {
-   "fieldname": "column_break_sfft",
-   "fieldtype": "Column Break"
   },
   {
    "fieldname": "schedule",
@@ -188,14 +151,9 @@
    "label": "Contract"
   },
   {
-   "fieldname": "section_break_ujut",
-   "fieldtype": "Section Break",
-   "hide_border": 1
-  },
-  {
    "fieldname": "service_assumptions",
    "fieldtype": "Table",
-   "label": "Service Assumptions",
+   "label": "Service Assumptions (Success Criteria)",
    "options": "Service Assumptions"
   },
   {
@@ -213,7 +171,7 @@
   {
    "fieldname": "risks",
    "fieldtype": "Table",
-   "label": "Risks",
+   "label": "Risks and Mitigation",
    "options": "Risks"
   },
   {
@@ -377,7 +335,6 @@
   {
    "fieldname": "risk_levels",
    "fieldtype": "Table",
-   "label": "Risk Levels",
    "options": "Risk Levels"
   },
   {
@@ -402,14 +359,65 @@
    "fieldtype": "Table",
    "label": "Steering Committee Review Members",
    "options": "Members"
+  },
+  {
+   "fieldname": "project_purpose",
+   "fieldtype": "Small Text",
+   "label": "Project Purpose",
+   "reqd": 1
+  },
+  {
+   "fieldname": "key_stakeholders",
+   "fieldtype": "Table",
+   "label": "Key Stakeholders",
+   "options": "Stakeholders"
+  },
+  {
+   "fieldname": "project_title",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Project Title",
+   "options": "Project",
+   "reqd": 1
+  },
+  {
+   "fieldname": "project_sponsor",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Project Sponsor",
+   "link_filters": "[]",
+   "options": "Customer",
+   "reqd": 1
+  },
+  {
+   "fieldname": "project_manager",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Project Manager",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "budget",
+   "fieldtype": "Table",
+   "label": "Budget",
+   "options": "Project Budget"
+  },
+  {
+   "fieldname": "risks_levels_section",
+   "fieldtype": "Section Break",
+   "label": "Risks Levels"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-10-09 12:18:55.589748",
+ "modified": "2024-10-20 18:24:56.002912",
  "modified_by": "Administrator",
  "module": "Project Module",
  "name": "Project Charter",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {
@@ -429,6 +437,5 @@
  "sort_field": "creation",
  "sort_order": "DESC",
  "states": [],
- "title_field": "project",
  "track_changes": 1
 }

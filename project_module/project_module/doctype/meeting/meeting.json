@@ -145,7 +145,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-10-09 12:37:35.975379",
+ "modified": "2024-10-20 13:40:26.063518",
  "modified_by": "Administrator",
  "module": "Project Module",
  "name": "Meeting",
@@ -167,5 +167,6 @@
  "sort_field": "creation",
  "sort_order": "DESC",
  "states": [],
+ "title_field": "meeting_date",
  "track_changes": 1
 }

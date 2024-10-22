@@ -7,9 +7,9 @@
  "engine": "InnoDB",
  "field_order": [
   "party_type1",
+  "stakeholder_type",
   "column_break_ovwg",
   "stakeholder_name",
-  "column_break_bwjl",
   "role"
  ],
  "fields": [
@@ -35,21 +35,25 @@
    "reqd": 1
   },
   {
-   "fieldname": "column_break_bwjl",
-   "fieldtype": "Column Break"
+   "fetch_from": "stakeholder_type.roleresponsibility",
+   "fieldname": "role",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "Role"
   },
   {
-   "fieldname": "role",
-   "fieldtype": "Data",
+   "fieldname": "stakeholder_type",
+   "fieldtype": "Link",
    "in_list_view": 1,
-   "label": "Role",
+   "label": "Stakeholder Type",
+   "options": "Stakeholder Type",
    "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2024-10-09 12:31:38.311101",
+ "modified": "2024-10-22 09:37:54.257030",
  "modified_by": "Administrator",
  "module": "Project Module",
  "name": "Stakeholders",
