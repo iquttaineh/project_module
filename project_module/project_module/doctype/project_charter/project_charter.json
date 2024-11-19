@@ -17,6 +17,8 @@
   "required_documents_section",
   "proposal",
   "contract",
+  "column_break_njiw",
+  "project_manager_signature",
   "section_break_hnyi",
   "project_purpose",
   "business_needbusiness_case",
@@ -409,11 +411,20 @@
    "fieldname": "risks_levels_section",
    "fieldtype": "Section Break",
    "label": "Risks Levels"
+  },
+  {
+   "fieldname": "column_break_njiw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "project_manager_signature",
+   "fieldtype": "Signature",
+   "label": "Project Manager Signature"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-10-20 18:24:56.002912",
+ "modified": "2024-10-29 15:22:25.991926",
  "modified_by": "Administrator",
  "module": "Project Module",
  "name": "Project Charter",

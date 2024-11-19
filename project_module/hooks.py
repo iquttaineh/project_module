@@ -11,10 +11,17 @@ app_license = "mit"
 
 # include js, css files in header of desk.html
 # app_include_css = "/assets/project_module/css/project_module.css"
-# app_include_js = "/assets/project_module/js/project_module.js"
+app_include_css = "/MyPage/wsr_styles.css"
+# app_include_js = "https://cdn.jsdelivr.net/npm/chart.js"
+app_include_js = [
+    "https://cdn.jsdelivr.net/npm/chart.js",
+    "https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js",
+    "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    ]
 
 # include js, css files in header of web template
 # web_include_css = "/assets/project_module/css/project_module.css"
+web_include_css = "/MyPage/wsr_styles.css"
 # web_include_js = "/assets/project_module/js/project_module.js"
 
 # include custom scss in every website theme (without file extension ".scss")

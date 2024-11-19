@@ -1,0 +1,5 @@
+{
+    "css": [
+        "frappe-bench/apps/project_module/project_module/project_module/page/weekly_status_report/wsr_styles.css"
+    ]
+}
