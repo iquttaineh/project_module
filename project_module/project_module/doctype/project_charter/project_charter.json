@@ -8,16 +8,24 @@
  "field_order": [
   "section_break_kmqa",
   "project_title",
-  "project_manager",
+  "project_sponsor",
   "initial_budget",
   "column_break_vdis",
-  "project_sponsor",
   "creation_date",
+  "project_manager",
   "schedule",
   "required_documents_section",
   "proposal",
   "contract",
-  "column_break_njiw",
+  "section_break_umte",
+  "company_logo",
+  "image_qfbh",
+  "column_break_hxep",
+  "customer_logo",
+  "image_ztye",
+  "section_break_quya",
+  "project_sponsor_signature",
+  "column_break_aohe",
   "project_manager_signature",
   "section_break_hnyi",
   "project_purpose",
@@ -94,7 +102,7 @@
   {
    "fieldname": "business_needbusiness_case",
    "fieldtype": "Table",
-   "label": "Business Need/Business Case",
+   "label": "Business Need / Business Case",
    "options": "Business Need"
   },
   {
@@ -337,7 +345,7 @@
   {
    "fieldname": "risk_levels",
    "fieldtype": "Table",
-   "options": "Risk Levels"
+   "options": "Risk Levels Child"
   },
   {
    "fieldname": "review_meetings_section",
@@ -413,18 +421,56 @@
    "label": "Risks Levels"
   },
   {
-   "fieldname": "column_break_njiw",
-   "fieldtype": "Column Break"
-  },
-  {
    "fieldname": "project_manager_signature",
    "fieldtype": "Signature",
    "label": "Project Manager Signature"
+  },
+  {
+   "fieldname": "section_break_quya",
+   "fieldtype": "Section Break",
+   "label": "Signatures"
+  },
+  {
+   "fieldname": "project_sponsor_signature",
+   "fieldtype": "Signature",
+   "label": "Project Sponsor Signature"
+  },
+  {
+   "fieldname": "column_break_aohe",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_umte",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "company_logo",
+   "fieldtype": "Attach Image",
+   "label": "Company Logo"
+  },
+  {
+   "fieldname": "image_qfbh",
+   "fieldtype": "Image",
+   "options": "company_logo"
+  },
+  {
+   "fieldname": "column_break_hxep",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "customer_logo",
+   "fieldtype": "Attach Image",
+   "label": "Customer Logo"
+  },
+  {
+   "fieldname": "image_ztye",
+   "fieldtype": "Image",
+   "options": "customer_logo"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-10-29 15:22:25.991926",
+ "modified": "2024-12-05 11:23:00.389389",
  "modified_by": "Administrator",
  "module": "Project Module",
  "name": "Project Charter",

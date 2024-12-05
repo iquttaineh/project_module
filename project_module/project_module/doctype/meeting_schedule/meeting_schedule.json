@@ -1,7 +1,9 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "format:MS-{YYYY}-{MM}--{####}",
  "creation": "2024-09-03 16:06:00.012051",
+ "default_email_template": "Meeting Schedule",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
@@ -13,17 +15,13 @@
   "is_online",
   "column_break_nihg",
   "meeting_arranged_by",
-  "contact_person_name",
-  "mobile_no",
-  "email_id",
+  "contact_email",
+  "contact_phone",
+  "contact_mobile_no",
   "project",
   "meeting_agenda",
   "section_break_kjaj",
-  "participants",
-  "section_break_ennw",
-  "cc_to",
-  "invitation_message",
-  "send_invitation"
+  "participants"
  ],
  "fields": [
   {
@@ -54,8 +52,6 @@
   {
    "fieldname": "scheduled_to",
    "fieldtype": "Datetime",
-   "in_list_view": 1,
-   "in_standard_filter": 1,
    "label": "Scheduled To",
    "reqd": 1
   },
@@ -82,35 +78,19 @@
    "reqd": 1
   },
   {
-   "fetch_from": "meeting_arranged_by.email",
-   "fieldname": "contact_person_name",
-   "fieldtype": "Data",
-   "label": "Contact Person Name",
-   "reqd": 1
-  },
-  {
-   "fieldname": "mobile_no",
-   "fieldtype": "Data",
-   "label": "Mobile No"
-  },
-  {
-   "fetch_from": "contact_person_name.email",
-   "fieldname": "email_id",
-   "fieldtype": "Data",
-   "label": "Email Id"
-  },
-  {
    "fieldname": "project",
    "fieldtype": "Link",
    "in_list_view": 1,
    "in_standard_filter": 1,
    "label": "Project",
-   "options": "Project"
+   "options": "Project",
+   "reqd": 1
   },
   {
    "fieldname": "meeting_agenda",
    "fieldtype": "Small Text",
    "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Meeting Agenda",
    "reqd": 1
   },
@@ -125,32 +105,32 @@
    "options": "Attendees"
   },
   {
-   "fieldname": "section_break_ennw",
-   "fieldtype": "Section Break"
-  },
-  {
-   "fieldname": "cc_to",
+   "fetch_from": "meeting_arranged_by.phone",
+   "fieldname": "contact_phone",
    "fieldtype": "Data",
-   "label": "CC To"
+   "label": "Contact Phone"
   },
   {
-   "fieldname": "invitation_message",
-   "fieldtype": "Text Editor",
-   "label": "Invitation Message"
+   "fetch_from": "meeting_arranged_by.mobile_no",
+   "fieldname": "contact_mobile_no",
+   "fieldtype": "Data",
+   "label": "Contact Mobile No"
   },
   {
-   "fieldname": "send_invitation",
-   "fieldtype": "Button",
-   "label": "Send Invitation"
+   "fetch_from": "meeting_arranged_by.email",
+   "fieldname": "contact_email",
+   "fieldtype": "Data",
+   "label": "Contact Email"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_calendar_and_gantt": 1,
  "links": [],
- "modified": "2024-10-20 13:35:21.428414",
+ "modified": "2024-12-05 10:03:52.024277",
  "modified_by": "Administrator",
  "module": "Project Module",
  "name": "Meeting Schedule",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {
@@ -166,9 +146,11 @@
    "write": 1
   }
  ],
+ "show_title_field_in_link": 1,
  "sort_field": "creation",
  "sort_order": "DESC",
  "states": [],
  "title_field": "scheduled_from",
- "track_changes": 1
+ "track_changes": 1,
+ "translated_doctype": 1
 }

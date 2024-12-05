@@ -5,43 +5,29 @@
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
+  "subject",
+  "status",
+  "creation_date",
+  "column_break_fwgx",
   "project",
-  "date",
   "priority",
-  "risk",
-  "action",
-  "status"
+  "task_related",
+  "expected_end_date",
+  "section_break_gzhz",
+  "description",
+  "responsible_party",
+  "responsible_party_justification",
+  "mitigation_plan__action"
  ],
  "fields": [
-  {
-   "fieldname": "date",
-   "fieldtype": "Date",
-   "in_list_view": 1,
-   "in_standard_filter": 1,
-   "label": "Date",
-   "reqd": 1
-  },
-  {
-   "fieldname": "risk",
-   "fieldtype": "Small Text",
-   "in_list_view": 1,
-   "in_standard_filter": 1,
-   "label": "Risk",
-   "reqd": 1
-  },
   {
    "fieldname": "priority",
    "fieldtype": "Select",
    "in_list_view": 1,
    "in_standard_filter": 1,
    "label": "Priority",
-   "options": "Critical\nHigh\nMedium\nLow",
+   "options": "Low\nMedium\nHigh\nCritical",
    "reqd": 1
-  },
-  {
-   "fieldname": "action",
-   "fieldtype": "Small Text",
-   "label": "Action"
   },
   {
    "fieldname": "status",
@@ -49,7 +35,7 @@
    "in_list_view": 1,
    "in_standard_filter": 1,
    "label": "Status",
-   "options": "Open\nIn Progress\nBlocked\nDone",
+   "options": "Open\nWorking\nPending Review\nOverdue\nTemplate\nCompleted\nCancelled",
    "reqd": 1
   },
   {
@@ -60,11 +46,72 @@
    "label": "Project",
    "options": "Project",
    "reqd": 1
+  },
+  {
+   "fieldname": "column_break_fwgx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "subject",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Subject",
+   "reqd": 1
+  },
+  {
+   "fieldname": "responsible_party",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Responsible Party",
+   "options": "Stakeholder Party",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_gzhz",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "mitigation_plan__action",
+   "fieldtype": "Small Text",
+   "label": "Mitigation Plan / Action"
+  },
+  {
+   "fetch_from": "task_related.description",
+   "fieldname": "description",
+   "fieldtype": "Text Editor",
+   "label": "Description",
+   "read_only": 1
+  },
+  {
+   "fieldname": "responsible_party_justification",
+   "fieldtype": "Small Text",
+   "label": "Responsible Party Justification"
+  },
+  {
+   "fetch_from": "task_related.exp_end_date",
+   "fieldname": "expected_end_date",
+   "fieldtype": "Date",
+   "label": "Expected End Date",
+   "read_only": 1
+  },
+  {
+   "fieldname": "creation_date",
+   "fieldtype": "Date",
+   "label": "Creation Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "task_related",
+   "fieldtype": "Link",
+   "label": "Task Related",
+   "options": "Task"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-10-20 14:00:47.502082",
+ "modified": "2024-12-03 16:42:04.045898",
  "modified_by": "Administrator",
  "module": "Project Module",
  "name": "Risks Log",

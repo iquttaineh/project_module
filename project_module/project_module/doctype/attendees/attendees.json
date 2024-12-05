@@ -6,25 +6,18 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "party_type1",
+  "party",
+  "party_type",
   "role",
   "column_break_cufv",
   "name1",
-  "email_id"
+  "email"
  ],
  "fields": [
   {
-   "fieldname": "party_type1",
-   "fieldtype": "Link",
-   "in_list_view": 1,
-   "label": "Party Type",
-   "link_filters": "[[\"DocType\",\"name\",\"in\",[\"Customer\",\"User\"]]]",
-   "options": "DocType",
-   "reqd": 1
-  },
-  {
+   "fetch_from": "party_type.roleresponsibility",
    "fieldname": "role",
-   "fieldtype": "Data",
+   "fieldtype": "Small Text",
    "in_list_view": 1,
    "label": "Role"
   },
@@ -34,23 +27,37 @@
   },
   {
    "fieldname": "name1",
-   "fieldtype": "Dynamic Link",
+   "fieldtype": "Data",
    "in_list_view": 1,
    "label": "Name",
-   "options": "party_type1",
    "reqd": 1
   },
   {
-   "fieldname": "email_id",
+   "fieldname": "party",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Party",
+   "options": "Stakeholder Party",
+   "reqd": 1
+  },
+  {
+   "fieldname": "party_type",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Party Type",
+   "options": "Stakeholder Type"
+  },
+  {
+   "fieldname": "email",
    "fieldtype": "Data",
    "in_list_view": 1,
-   "label": "Email Id"
+   "label": "Email"
   }
  ],
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2024-10-09 12:36:30.877285",
+ "modified": "2024-12-01 12:34:07.426370",
  "modified_by": "Administrator",
  "module": "Project Module",
  "name": "Attendees",

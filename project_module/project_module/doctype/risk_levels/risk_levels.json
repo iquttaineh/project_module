@@ -9,12 +9,12 @@
   "risk_level",
   "risk_description",
   "response_time",
-  "escalation_response_time",
+  "resolve_time",
   "column_break_aayr",
   "customer_escalate_to",
   "customer_party_name",
-  "service_provider_party_name",
-  "service_provider_escalate_to"
+  "service_provider_escalate_to",
+  "service_provider_party_name"
  ],
  "fields": [
   {
@@ -22,7 +22,7 @@
    "fieldtype": "Select",
    "in_list_view": 1,
    "label": "Risk Level",
-   "options": "High\nMedium\nLow",
+   "options": "Low\nMedium\nHigh\nCritical",
    "reqd": 1
   },
   {
@@ -39,15 +39,6 @@
    "reqd": 1
   },
   {
-   "fieldname": "escalation_response_time",
-   "fieldtype": "Float",
-   "in_list_view": 1,
-   "label": "Escalation Response Time (hours)",
-   "non_negative": 1,
-   "precision": "0",
-   "reqd": 1
-  },
-  {
    "fieldname": "risk_description",
    "fieldtype": "Data",
    "in_list_view": 1,
@@ -57,7 +48,6 @@
   {
    "fieldname": "customer_escalate_to",
    "fieldtype": "Link",
-   "in_list_view": 1,
    "label": "Customer Escalate to",
    "options": "Stakeholder Type",
    "reqd": 1
@@ -65,7 +55,6 @@
   {
    "fieldname": "service_provider_escalate_to",
    "fieldtype": "Link",
-   "in_list_view": 1,
    "label": "Service Provider Escalate to",
    "options": "Stakeholder Type",
    "reqd": 1
@@ -80,18 +69,42 @@
    "fieldtype": "Link",
    "label": "Service Provider Party Name",
    "options": "Employee"
+  },
+  {
+   "fieldname": "resolve_time",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Resolve Time (hours)",
+   "non_negative": 1,
+   "precision": "0",
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
- "istable": 1,
  "links": [],
- "modified": "2024-10-21 15:51:54.046222",
+ "modified": "2024-12-05 11:17:07.266798",
  "modified_by": "Administrator",
  "module": "Project Module",
  "name": "Risk Levels",
  "owner": "Administrator",
- "permissions": [],
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "show_title_field_in_link": 1,
  "sort_field": "creation",
  "sort_order": "DESC",
- "states": []
+ "states": [],
+ "title_field": "risk_level",
+ "translated_doctype": 1
 }

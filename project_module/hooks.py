@@ -137,6 +137,12 @@ web_include_css = "/MyPage/wsr_styles.css"
 # 	}
 # }
 
+# doc_events = {
+# 	"Task": {
+#         "on_update": "project_module.project_module.doctype.risks_log.risk"
+# 	}
+# }
+
 # Scheduled Tasks
 # ---------------
 

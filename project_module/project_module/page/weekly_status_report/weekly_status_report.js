@@ -496,7 +496,7 @@ function loadProjectDetails(projectName) {
                 filters: {
                     project: projectName
                 },
-                fields: ["date", "priority", "risk", "status"]
+                fields: ["creation_date", "priority", "subject", "status"]
             },
             callback: function (response) {
                 if (response.message && response.message.length > 0) {
@@ -515,8 +515,8 @@ function loadProjectDetails(projectName) {
                     risks.forEach((risk, index) => {
                         const row = document.createElement('tr');
                         row.innerHTML = `
-                            <td style="white-space: nowrap; width: auto;">${risk.date}</td>
-                            <td>${risk.risk}</td>
+                            <td style="white-space: nowrap; width: auto;">${risk.creation_date}</td>
+                            <td>${risk.subject}</td>
                             <td>${risk.priority}</td>
                             <td>${risk.status}</td>
                         `;
@@ -545,7 +545,7 @@ function loadProjectDetails(projectName) {
                 filters: {
                     project: projectName
                 },
-                fields: ["date", "priority", "issue", "status"]
+                fields: ["creation_date", "priority", "subject", "status"]
             },
             callback: function (response) {
                 if (response.message && response.message.length > 0) {
@@ -563,8 +563,8 @@ function loadProjectDetails(projectName) {
                     issues.forEach((issue, index) => {
                         const row = document.createElement('tr');
                         row.innerHTML = `
-                            <td style="white-space: nowrap; width: auto;">${issue.date}</td>
-                            <td>${issue.issue}</td>
+                            <td style="white-space: nowrap; width: auto;">${issue.creation_date}</td>
+                            <td>${issue.subject}</td>
                             <td>${issue.priority}</td>
                             <td>${issue.status}</td>
                         `;
