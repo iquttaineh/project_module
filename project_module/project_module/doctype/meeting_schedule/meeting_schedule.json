@@ -16,6 +16,7 @@
   "column_break_nihg",
   "meeting_arranged_by",
   "contact_email",
+  "contact_job_title",
   "contact_phone",
   "contact_mobile_no",
   "project",
@@ -74,7 +75,7 @@
    "fieldname": "meeting_arranged_by",
    "fieldtype": "Link",
    "label": "Meeting Arranged By",
-   "options": "User",
+   "options": "Project Members",
    "reqd": 1
   },
   {
@@ -121,12 +122,18 @@
    "fieldname": "contact_email",
    "fieldtype": "Data",
    "label": "Contact Email"
+  },
+  {
+   "fetch_from": "meeting_arranged_by.job_title",
+   "fieldname": "contact_job_title",
+   "fieldtype": "Data",
+   "label": "Contact Job Title"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_calendar_and_gantt": 1,
  "links": [],
- "modified": "2024-12-05 10:03:52.024277",
+ "modified": "2024-12-05 13:54:53.524684",
  "modified_by": "Administrator",
  "module": "Project Module",
  "name": "Meeting Schedule",

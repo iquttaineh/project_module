@@ -54,8 +54,10 @@
   {
    "fetch_from": "meeting_schedule.party_type1",
    "fieldname": "party_type1",
-   "fieldtype": "Data",
+   "fieldtype": "Link",
    "label": "Party Type",
+   "link_filters": "[[\"DocType\",\"name\",\"in\",[\"Customer\",\"Lead\"]]]",
+   "options": "DocType",
    "read_only": 1
   },
   {
@@ -77,16 +79,17 @@
    "fieldname": "meeting_arranged_by",
    "fieldtype": "Link",
    "label": "Meeting Arranged By",
-   "options": "User",
+   "options": "Project Members",
    "read_only": 1
   },
   {
    "fetch_from": "meeting_schedule.party",
    "fieldname": "party",
-   "fieldtype": "Data",
+   "fieldtype": "Dynamic Link",
    "in_list_view": 1,
    "in_standard_filter": 1,
    "label": "Party",
+   "options": "party_type1",
    "read_only": 1
   },
   {
@@ -155,18 +158,20 @@
   },
   {
    "fieldname": "contact_person",
-   "fieldtype": "Data",
-   "label": "Contact Person"
+   "fieldtype": "Link",
+   "label": "Contact Person",
+   "options": "Project Members"
   },
   {
+   "fetch_from": "contact_person.role__responsibility",
    "fieldname": "contact_person_role",
-   "fieldtype": "Data",
+   "fieldtype": "Small Text",
    "label": "Contact Person Role"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-12-05 10:04:18.538332",
+ "modified": "2024-12-08 09:45:27.482813",
  "modified_by": "Administrator",
  "module": "Project Module",
  "name": "Meeting",

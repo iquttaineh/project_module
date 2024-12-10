@@ -9,11 +9,12 @@
   "section_break_kmqa",
   "project_title",
   "project_sponsor",
-  "initial_budget",
+  "schedule",
+  "duration",
   "column_break_vdis",
   "creation_date",
   "project_manager",
-  "schedule",
+  "initial_budget",
   "required_documents_section",
   "proposal",
   "contract",
@@ -398,7 +399,7 @@
    "in_standard_filter": 1,
    "label": "Project Sponsor",
    "link_filters": "[]",
-   "options": "Customer",
+   "options": "Project Members",
    "reqd": 1
   },
   {
@@ -407,7 +408,8 @@
    "in_list_view": 1,
    "in_standard_filter": 1,
    "label": "Project Manager",
-   "options": "Employee"
+   "options": "Project Members",
+   "reqd": 1
   },
   {
    "fieldname": "budget",
@@ -466,11 +468,17 @@
    "fieldname": "image_ztye",
    "fieldtype": "Image",
    "options": "customer_logo"
+  },
+  {
+   "fieldname": "duration",
+   "fieldtype": "Data",
+   "label": "Duration",
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-12-05 11:23:00.389389",
+ "modified": "2024-12-09 11:00:56.894044",
  "modified_by": "Administrator",
  "module": "Project Module",
  "name": "Project Charter",
