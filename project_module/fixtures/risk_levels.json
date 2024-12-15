@@ -1,0 +1,58 @@
+[
+ {
+  "customer_escalate_to": "qut2s9qias",
+  "customer_party_name": null,
+  "docstatus": 0,
+  "doctype": "Risk Levels",
+  "modified": "2024-12-05 10:44:56.448921",
+  "name": "r0tklcrcl7",
+  "resolve_time": 72.0,
+  "response_time": 24.0,
+  "risk_description": "Minimal impact; does not disrupt services significantly.",
+  "risk_level": "Low",
+  "service_provider_escalate_to": "r0m321cf1r",
+  "service_provider_party_name": null
+ },
+ {
+  "customer_escalate_to": "r4ulgg5gdq",
+  "customer_party_name": null,
+  "docstatus": 0,
+  "doctype": "Risk Levels",
+  "modified": "2024-12-05 10:53:15.361390",
+  "name": "r5phr75mr1",
+  "resolve_time": 48.0,
+  "response_time": 12.0,
+  "risk_description": "Moderate impact; minor service disruption, but workaround available.",
+  "risk_level": "Medium",
+  "service_provider_escalate_to": "r5hdhgp6tv",
+  "service_provider_party_name": null
+ },
+ {
+  "customer_escalate_to": "r6ig51v9f3",
+  "customer_party_name": null,
+  "docstatus": 0,
+  "doctype": "Risk Levels",
+  "modified": "2024-12-05 10:56:12.643520",
+  "name": "r7gu2bucs0",
+  "resolve_time": 24.0,
+  "response_time": 4.0,
+  "risk_description": "Significant impact; major service disruption requiring immediate attention.",
+  "risk_level": "High",
+  "service_provider_escalate_to": "r7bqpfdu2d",
+  "service_provider_party_name": null
+ },
+ {
+  "customer_escalate_to": "r8i0tbdr2q",
+  "customer_party_name": null,
+  "docstatus": 0,
+  "doctype": "Risk Levels",
+  "modified": "2024-12-05 11:00:40.048009",
+  "name": "ra4gojjimk",
+  "resolve_time": 4.0,
+  "response_time": 1.0,
+  "risk_description": "Severe impact; complete service failure or security breach.",
+  "risk_level": "Critical",
+  "service_provider_escalate_to": "ra0jp7aat9",
+  "service_provider_party_name": null
+ }
+]

@@ -1,0 +1,182 @@
+[
+ {
+  "constraints": "Budgetary Constraints.",
+  "docstatus": 0,
+  "doctype": "Constraints",
+  "modified": "2024-10-24 12:58:28.499738",
+  "name": "rslpui2c4t",
+  "parent": "PC-2024-017",
+  "parentfield": "constraints",
+  "parenttype": "Project Charter"
+ },
+ {
+  "constraints": "Budgetary Constraints.",
+  "docstatus": 0,
+  "doctype": "Constraints",
+  "modified": "2024-11-04 11:50:14.752849",
+  "name": "aqr07c4g72",
+  "parent": "PC-2024-021",
+  "parentfield": "constraints",
+  "parenttype": "Project Charter"
+ },
+ {
+  "constraints": "Time to market constrains: fail to test and be ready to market behind the beginning of the year may affect the ",
+  "docstatus": 0,
+  "doctype": "Constraints",
+  "modified": "2024-12-09 11:11:28.443558",
+  "name": "a041sk650v",
+  "parent": "PC-2024-022",
+  "parentfield": "constraints",
+  "parenttype": "Project Charter"
+ },
+ {
+  "constraints": "Time Constraints.",
+  "docstatus": 0,
+  "doctype": "Constraints",
+  "modified": "2024-10-24 12:58:28.499738",
+  "name": "rslp9jnorr",
+  "parent": "PC-2024-017",
+  "parentfield": "constraints",
+  "parenttype": "Project Charter"
+ },
+ {
+  "constraints": "Time Constraints.",
+  "docstatus": 0,
+  "doctype": "Constraints",
+  "modified": "2024-11-04 11:50:14.752849",
+  "name": "aqr0rjvccm",
+  "parent": "PC-2024-021",
+  "parentfield": "constraints",
+  "parenttype": "Project Charter"
+ },
+ {
+  "constraints": "Technology constrains: require to be multicompany cloud solution. fail to host and operate for multiclient will limit the success.",
+  "docstatus": 0,
+  "doctype": "Constraints",
+  "modified": "2024-12-09 11:11:28.443558",
+  "name": "a041665nt4",
+  "parent": "PC-2024-022",
+  "parentfield": "constraints",
+  "parenttype": "Project Charter"
+ },
+ {
+  "constraints": "Resource Availability.",
+  "docstatus": 0,
+  "doctype": "Constraints",
+  "modified": "2024-10-24 12:58:28.499738",
+  "name": "rslprgr9kj",
+  "parent": "PC-2024-017",
+  "parentfield": "constraints",
+  "parenttype": "Project Charter"
+ },
+ {
+  "constraints": "Resource Availability.",
+  "docstatus": 0,
+  "doctype": "Constraints",
+  "modified": "2024-11-04 11:50:14.752849",
+  "name": "aqr0hs0pr2",
+  "parent": "PC-2024-021",
+  "parentfield": "constraints",
+  "parenttype": "Project Charter"
+ },
+ {
+  "constraints": "Technology Constraints.",
+  "docstatus": 0,
+  "doctype": "Constraints",
+  "modified": "2024-10-24 12:58:28.499738",
+  "name": "rslpq6kpvj",
+  "parent": "PC-2024-017",
+  "parentfield": "constraints",
+  "parenttype": "Project Charter"
+ },
+ {
+  "constraints": "Technology Constraints.",
+  "docstatus": 0,
+  "doctype": "Constraints",
+  "modified": "2024-11-04 11:50:14.752849",
+  "name": "aqr0rshjd8",
+  "parent": "PC-2024-021",
+  "parentfield": "constraints",
+  "parenttype": "Project Charter"
+ },
+ {
+  "constraints": "Scope Definition.",
+  "docstatus": 0,
+  "doctype": "Constraints",
+  "modified": "2024-10-24 12:58:28.499738",
+  "name": "rslp2teans",
+  "parent": "PC-2024-017",
+  "parentfield": "constraints",
+  "parenttype": "Project Charter"
+ },
+ {
+  "constraints": "Scope Definition.",
+  "docstatus": 0,
+  "doctype": "Constraints",
+  "modified": "2024-11-04 11:50:14.752849",
+  "name": "aqr0tthuq6",
+  "parent": "PC-2024-021",
+  "parentfield": "constraints",
+  "parenttype": "Project Charter"
+ },
+ {
+  "constraints": "Compliance and Security Requirements.",
+  "docstatus": 0,
+  "doctype": "Constraints",
+  "modified": "2024-10-24 12:58:28.499738",
+  "name": "rslp93d7ju",
+  "parent": "PC-2024-017",
+  "parentfield": "constraints",
+  "parenttype": "Project Charter"
+ },
+ {
+  "constraints": "Compliance and Security Requirements.",
+  "docstatus": 0,
+  "doctype": "Constraints",
+  "modified": "2024-11-04 11:50:14.752849",
+  "name": "aqr0e6npbq",
+  "parent": "PC-2024-021",
+  "parentfield": "constraints",
+  "parenttype": "Project Charter"
+ },
+ {
+  "constraints": "Testing and User Acceptance.",
+  "docstatus": 0,
+  "doctype": "Constraints",
+  "modified": "2024-10-24 12:58:28.499738",
+  "name": "rslp9s6t15",
+  "parent": "PC-2024-017",
+  "parentfield": "constraints",
+  "parenttype": "Project Charter"
+ },
+ {
+  "constraints": "Testing and User Acceptance.",
+  "docstatus": 0,
+  "doctype": "Constraints",
+  "modified": "2024-11-04 11:50:14.752849",
+  "name": "aqr0fk5qlo",
+  "parent": "PC-2024-021",
+  "parentfield": "constraints",
+  "parenttype": "Project Charter"
+ },
+ {
+  "constraints": "Third-Party Dependencies.",
+  "docstatus": 0,
+  "doctype": "Constraints",
+  "modified": "2024-10-24 12:58:28.499738",
+  "name": "rslpq2pl88",
+  "parent": "PC-2024-017",
+  "parentfield": "constraints",
+  "parenttype": "Project Charter"
+ },
+ {
+  "constraints": "Third-Party Dependencies.",
+  "docstatus": 0,
+  "doctype": "Constraints",
+  "modified": "2024-11-04 11:50:14.752849",
+  "name": "aqr01qlopf",
+  "parent": "PC-2024-021",
+  "parentfield": "constraints",
+  "parenttype": "Project Charter"
+ }
+]

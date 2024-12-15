@@ -1,0 +1,232 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Project Objectives",
+  "modified": "2024-10-24 12:58:28.499738",
+  "name": "2kn8b25pg9",
+  "parent": "PC-2024-017",
+  "parentfield": "project_objectives",
+  "parenttype": "Project Charter",
+  "project_objectives": "Automate project setup."
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Project Objectives",
+  "modified": "2024-11-04 11:50:14.752849",
+  "name": "aqr0657pra",
+  "parent": "PC-2024-021",
+  "parentfield": "project_objectives",
+  "parenttype": "Project Charter",
+  "project_objectives": "Automate project setup."
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Project Objectives",
+  "modified": "2024-12-09 11:11:28.443558",
+  "name": "9a91s4cef9",
+  "parent": "PC-2024-022",
+  "parentfield": "project_objectives",
+  "parenttype": "Project Charter",
+  "project_objectives": "Define a project on the tool"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Project Objectives",
+  "modified": "2024-10-24 12:58:28.499738",
+  "name": "2kn8o8gjdi",
+  "parent": "PC-2024-017",
+  "parentfield": "project_objectives",
+  "parenttype": "Project Charter",
+  "project_objectives": "Reduce project setup time."
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Project Objectives",
+  "modified": "2024-11-04 11:50:14.752849",
+  "name": "aqr0ko4pcj",
+  "parent": "PC-2024-021",
+  "parentfield": "project_objectives",
+  "parenttype": "Project Charter",
+  "project_objectives": "Reduce project setup time."
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Project Objectives",
+  "modified": "2024-12-09 11:11:28.443558",
+  "name": "9a911bihpl",
+  "parent": "PC-2024-022",
+  "parentfield": "project_objectives",
+  "parenttype": "Project Charter",
+  "project_objectives": "Add stakeholders and communication contacts"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Project Objectives",
+  "modified": "2024-10-24 12:58:28.499738",
+  "name": "2kn867ni24",
+  "parent": "PC-2024-017",
+  "parentfield": "project_objectives",
+  "parenttype": "Project Charter",
+  "project_objectives": "Ensure consistent project structure."
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Project Objectives",
+  "modified": "2024-11-04 11:50:14.752849",
+  "name": "aqr0f0m9ko",
+  "parent": "PC-2024-021",
+  "parentfield": "project_objectives",
+  "parenttype": "Project Charter",
+  "project_objectives": "Ensure consistent project structure."
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Project Objectives",
+  "modified": "2024-12-09 11:11:28.443558",
+  "name": "9a91p3ecfc",
+  "parent": "PC-2024-022",
+  "parentfield": "project_objectives",
+  "parenttype": "Project Charter",
+  "project_objectives": "Create project charter"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Project Objectives",
+  "modified": "2024-10-24 12:58:28.499738",
+  "name": "2kn8gvp4fc",
+  "parent": "PC-2024-017",
+  "parentfield": "project_objectives",
+  "parenttype": "Project Charter",
+  "project_objectives": "Improve alignment with organizational goals."
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Project Objectives",
+  "modified": "2024-11-04 11:50:14.752849",
+  "name": "aqr0tb3pac",
+  "parent": "PC-2024-021",
+  "parentfield": "project_objectives",
+  "parenttype": "Project Charter",
+  "project_objectives": "Improve alignment with organizational goals."
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Project Objectives",
+  "modified": "2024-12-09 11:11:28.443558",
+  "name": "9a91artrng",
+  "parent": "PC-2024-022",
+  "parentfield": "project_objectives",
+  "parenttype": "Project Charter",
+  "project_objectives": "Go through the project charter approval process"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Project Objectives",
+  "modified": "2024-10-24 12:58:28.499738",
+  "name": "2kn86bfsm8",
+  "parent": "PC-2024-017",
+  "parentfield": "project_objectives",
+  "parenttype": "Project Charter",
+  "project_objectives": "Integrate seamlessly with existing project management tools."
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Project Objectives",
+  "modified": "2024-11-04 11:50:14.752849",
+  "name": "aqr00mc28g",
+  "parent": "PC-2024-021",
+  "parentfield": "project_objectives",
+  "parenttype": "Project Charter",
+  "project_objectives": "Integrate seamlessly with existing project management tools."
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Project Objectives",
+  "modified": "2024-12-09 11:11:28.443558",
+  "name": "9a91giglmp",
+  "parent": "PC-2024-022",
+  "parentfield": "project_objectives",
+  "parenttype": "Project Charter",
+  "project_objectives": "Create Milestones and project plan"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Project Objectives",
+  "modified": "2024-10-24 12:58:28.499738",
+  "name": "2kn8euue1g",
+  "parent": "PC-2024-017",
+  "parentfield": "project_objectives",
+  "parenttype": "Project Charter",
+  "project_objectives": "Enhance resource utilization."
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Project Objectives",
+  "modified": "2024-11-04 11:50:14.752849",
+  "name": "aqr0tk6k74",
+  "parent": "PC-2024-021",
+  "parentfield": "project_objectives",
+  "parenttype": "Project Charter",
+  "project_objectives": "Enhance resource utilization."
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Project Objectives",
+  "modified": "2024-12-09 11:11:28.443558",
+  "name": "9a91709uln",
+  "parent": "PC-2024-022",
+  "parentfield": "project_objectives",
+  "parenttype": "Project Charter",
+  "project_objectives": "create minutes of meeting using the tool, create actions and follow up action list"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Project Objectives",
+  "modified": "2024-12-09 11:11:28.443558",
+  "name": "9a916vjbfv",
+  "parent": "PC-2024-022",
+  "parentfield": "project_objectives",
+  "parenttype": "Project Charter",
+  "project_objectives": "create weekly status report"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Project Objectives",
+  "modified": "2024-12-09 11:11:28.443558",
+  "name": "9a91g7j5qg",
+  "parent": "PC-2024-022",
+  "parentfield": "project_objectives",
+  "parenttype": "Project Charter",
+  "project_objectives": "update progress on the project "
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Project Objectives",
+  "modified": "2024-12-09 11:11:28.443558",
+  "name": "9a91nh75cg",
+  "parent": "PC-2024-022",
+  "parentfield": "project_objectives",
+  "parenttype": "Project Charter",
+  "project_objectives": "show the updated status and completion report"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Project Objectives",
+  "modified": "2024-12-09 11:11:28.443558",
+  "name": "9a9166auus",
+  "parent": "PC-2024-022",
+  "parentfield": "project_objectives",
+  "parenttype": "Project Charter",
+  "project_objectives": "Define the gaps and take notes"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Project Objectives",
+  "modified": "2024-12-09 11:11:28.443558",
+  "name": "9a91evj64v",
+  "parent": "PC-2024-022",
+  "parentfield": "project_objectives",
+  "parenttype": "Project Charter",
+  "project_objectives": "Adjust and tune "
+ }
+]
