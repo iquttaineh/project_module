@@ -240,3 +240,6 @@ web_include_css = "/MyPage/wsr_styles.css"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+fixtures = [
+    
+]
