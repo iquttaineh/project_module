@@ -3895,30 +3895,6 @@
     "parenttype": "Task",
     "project": null,
     "subject": "Fix Send Email Dialog",
-    "task": "TASK-2024-00032"
-   },
-   {
-    "parent": "TASK-2024-00027",
-    "parentfield": "depends_on",
-    "parenttype": "Task",
-    "project": null,
-    "subject": "Fix Naming of Milestone",
-    "task": "TASK-2024-00033"
-   },
-   {
-    "parent": "TASK-2024-00027",
-    "parentfield": "depends_on",
-    "parenttype": "Task",
-    "project": null,
-    "subject": "Email MOM",
-    "task": "TASK-2024-00034"
-   },
-   {
-    "parent": "TASK-2024-00027",
-    "parentfield": "depends_on",
-    "parenttype": "Task",
-    "project": null,
-    "subject": "Fix Send Email Dialog",
     "task": "TASK-2024-00035"
    },
    {
@@ -3942,131 +3918,11 @@
     "parentfield": "depends_on",
     "parenttype": "Task",
     "project": null,
-    "subject": "Fix Send Email Dialog",
-    "task": "TASK-2024-00050"
-   },
-   {
-    "parent": "TASK-2024-00027",
-    "parentfield": "depends_on",
-    "parenttype": "Task",
-    "project": null,
-    "subject": "Fix Naming of Milestone",
-    "task": "TASK-2024-00051"
-   },
-   {
-    "parent": "TASK-2024-00027",
-    "parentfield": "depends_on",
-    "parenttype": "Task",
-    "project": null,
-    "subject": "Email MOM",
-    "task": "TASK-2024-00052"
-   },
-   {
-    "parent": "TASK-2024-00027",
-    "parentfield": "depends_on",
-    "parenttype": "Task",
-    "project": null,
-    "subject": "Action 1",
-    "task": "TASK-2024-00082"
-   },
-   {
-    "parent": "TASK-2024-00027",
-    "parentfield": "depends_on",
-    "parenttype": "Task",
-    "project": null,
-    "subject": "Fix Send Email Dialog",
-    "task": "TASK-2024-00083"
-   },
-   {
-    "parent": "TASK-2024-00027",
-    "parentfield": "depends_on",
-    "parenttype": "Task",
-    "project": null,
-    "subject": "Fix Naming of Milestone",
-    "task": "TASK-2024-00084"
-   },
-   {
-    "parent": "TASK-2024-00027",
-    "parentfield": "depends_on",
-    "parenttype": "Task",
-    "project": null,
-    "subject": "Email MOM",
-    "task": "TASK-2024-00085"
-   },
-   {
-    "parent": "TASK-2024-00027",
-    "parentfield": "depends_on",
-    "parenttype": "Task",
-    "project": null,
-    "subject": "Action 1",
-    "task": "TASK-2024-00098"
-   },
-   {
-    "parent": "TASK-2024-00027",
-    "parentfield": "depends_on",
-    "parenttype": "Task",
-    "project": null,
-    "subject": "Fix Send Email Dialog",
-    "task": "TASK-2024-00099"
-   },
-   {
-    "parent": "TASK-2024-00027",
-    "parentfield": "depends_on",
-    "parenttype": "Task",
-    "project": null,
-    "subject": "Fix Naming of Milestone",
-    "task": "TASK-2024-00100"
-   },
-   {
-    "parent": "TASK-2024-00027",
-    "parentfield": "depends_on",
-    "parenttype": "Task",
-    "project": null,
-    "subject": "Email MOM",
-    "task": "TASK-2024-00101"
-   },
-   {
-    "parent": "TASK-2024-00027",
-    "parentfield": "depends_on",
-    "parenttype": "Task",
-    "project": null,
-    "subject": "Action 1",
-    "task": "TASK-2024-00102"
-   },
-   {
-    "parent": "TASK-2024-00027",
-    "parentfield": "depends_on",
-    "parenttype": "Task",
-    "project": null,
-    "subject": "Fix Send Email Dialog",
-    "task": "TASK-2024-00103"
-   },
-   {
-    "parent": "TASK-2024-00027",
-    "parentfield": "depends_on",
-    "parenttype": "Task",
-    "project": null,
-    "subject": "Fix Naming of Milestone",
-    "task": "TASK-2024-00104"
-   },
-   {
-    "parent": "TASK-2024-00027",
-    "parentfield": "depends_on",
-    "parenttype": "Task",
-    "project": null,
-    "subject": "Email MOM",
-    "task": "TASK-2024-00105"
-   },
-   {
-    "parent": "TASK-2024-00027",
-    "parentfield": "depends_on",
-    "parenttype": "Task",
-    "project": null,
-    "subject": "Action 1",
-    "task": "TASK-2024-00120"
+    "subject": "Application Design and Development",
+    "task": "TASK-2024-00113"
    }
   ],
-  "depends_on_tasks": "TASK-2024-00031,TASK-2024-00032,TASK-2024-00033,TASK-2024-00034,TASK-2024-00035,TASK-2024-00036,TASK-2024-00037,TASK-2024-00050,TASK-2024-00051,TASK-2024-00052,TASK-2024-00082,TASK-2024-00083,TASK-2024-00084,TASK-2024-00085,TASK-2024-00098,TASK-2024-00099,TASK-2024-00100,TASK-2024-00101,TASK-2024-00102,TASK-2024-00103,TASK-2024-00104,TASK-2024-00105,TASK-2024-00120,",
+  "depends_on_tasks": "TASK-2024-00031,TASK-2024-00035,TASK-2024-00036,TASK-2024-00037,TASK-2024-00113,",
   "description": null,
   "docstatus": 0,
   "doctype": "Task",
@@ -4078,7 +3934,7 @@
   "is_milestone": 1,
   "is_template": 0,
   "issue": null,
-  "modified": "2024-12-19 11:03:28.821606",
+  "modified": "2024-12-19 11:31:16.805749",
   "name": "TASK-2024-00027",
   "old_parent": "",
   "parent_task": null,
