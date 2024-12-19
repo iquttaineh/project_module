@@ -2,52 +2,12 @@
  {
   "docstatus": 0,
   "doctype": "Project Scope",
-  "modified": "2024-10-24 12:58:28.499738",
-  "name": "2kn8t2vtn2",
-  "parent": "PC-2024-017",
-  "parentfield": "project_scope",
-  "parenttype": "Project Charter",
-  "project_scope": "A template library containing customizable templates for different project types."
- },
- {
-  "docstatus": 0,
-  "doctype": "Project Scope",
-  "modified": "2024-11-04 11:50:14.752849",
-  "name": "aqr0prmn90",
-  "parent": "PC-2024-021",
-  "parentfield": "project_scope",
-  "parenttype": "Project Charter",
-  "project_scope": "A template library containing customizable templates for different project types."
- },
- {
-  "docstatus": 0,
-  "doctype": "Project Scope",
   "modified": "2024-12-16 10:43:37.578345",
   "name": "9a91narupo",
   "parent": "PC-2024-022",
   "parentfield": "project_scope",
   "parenttype": "Project Charter",
   "project_scope": "Define a project and milestones"
- },
- {
-  "docstatus": 0,
-  "doctype": "Project Scope",
-  "modified": "2024-10-24 12:58:28.499738",
-  "name": "2kn8ubjvq6",
-  "parent": "PC-2024-017",
-  "parentfield": "project_scope",
-  "parenttype": "Project Charter",
-  "project_scope": "Automation features that generate milestones, timelines, tasks, and resource allocation based on inputs."
- },
- {
-  "docstatus": 0,
-  "doctype": "Project Scope",
-  "modified": "2024-11-04 11:50:14.752849",
-  "name": "aqr026croa",
-  "parent": "PC-2024-021",
-  "parentfield": "project_scope",
-  "parenttype": "Project Charter",
-  "project_scope": "Automation features that generate milestones, timelines, tasks, and resource allocation based on inputs."
  },
  {
   "docstatus": 0,
@@ -62,52 +22,12 @@
  {
   "docstatus": 0,
   "doctype": "Project Scope",
-  "modified": "2024-10-24 12:58:28.499738",
-  "name": "2kn8jsrmq3",
-  "parent": "PC-2024-017",
-  "parentfield": "project_scope",
-  "parenttype": "Project Charter",
-  "project_scope": "Integration with popular project management tools to transfer projects seamlessly."
- },
- {
-  "docstatus": 0,
-  "doctype": "Project Scope",
-  "modified": "2024-11-04 11:50:14.752849",
-  "name": "aqr0qfgtfs",
-  "parent": "PC-2024-021",
-  "parentfield": "project_scope",
-  "parenttype": "Project Charter",
-  "project_scope": "Integration with popular project management tools to transfer projects seamlessly."
- },
- {
-  "docstatus": 0,
-  "doctype": "Project Scope",
   "modified": "2024-12-16 10:43:37.578345",
   "name": "9a91f1alhn",
   "parent": "PC-2024-022",
   "parentfield": "project_scope",
   "parenttype": "Project Charter",
   "project_scope": "Record minutes and action lists "
- },
- {
-  "docstatus": 0,
-  "doctype": "Project Scope",
-  "modified": "2024-10-24 12:58:28.499738",
-  "name": "2kn88f0i4u",
-  "parent": "PC-2024-017",
-  "parentfield": "project_scope",
-  "parenttype": "Project Charter",
-  "project_scope": "Customization options for users to tailor project plans as needed."
- },
- {
-  "docstatus": 0,
-  "doctype": "Project Scope",
-  "modified": "2024-11-04 11:50:14.752849",
-  "name": "aqr07tr6vp",
-  "parent": "PC-2024-021",
-  "parentfield": "project_scope",
-  "parenttype": "Project Charter",
-  "project_scope": "Customization options for users to tailor project plans as needed."
  },
  {
   "docstatus": 0,
@@ -122,52 +42,12 @@
  {
   "docstatus": 0,
   "doctype": "Project Scope",
-  "modified": "2024-10-24 12:58:28.499738",
-  "name": "2kn8hr7h5j",
-  "parent": "PC-2024-017",
-  "parentfield": "project_scope",
-  "parenttype": "Project Charter",
-  "project_scope": "Training and onboarding for staff to ensure smooth adoption of the new system."
- },
- {
-  "docstatus": 0,
-  "doctype": "Project Scope",
-  "modified": "2024-11-04 11:50:14.752849",
-  "name": "aqr08nlmc7",
-  "parent": "PC-2024-021",
-  "parentfield": "project_scope",
-  "parenttype": "Project Charter",
-  "project_scope": "Training and onboarding for staff to ensure smooth adoption of the new system."
- },
- {
-  "docstatus": 0,
-  "doctype": "Project Scope",
   "modified": "2024-12-16 10:43:37.578345",
   "name": "9a91atgk0v",
   "parent": "PC-2024-022",
   "parentfield": "project_scope",
   "parenttype": "Project Charter",
   "project_scope": "Generate reports and weekly status report"
- },
- {
-  "docstatus": 0,
-  "doctype": "Project Scope",
-  "modified": "2024-10-24 12:58:28.499738",
-  "name": "2kn8a2e3ok",
-  "parent": "PC-2024-017",
-  "parentfield": "project_scope",
-  "parenttype": "Project Charter",
-  "project_scope": "Testing and deployment of the application, ensuring compatibility with existing infrastructure."
- },
- {
-  "docstatus": 0,
-  "doctype": "Project Scope",
-  "modified": "2024-11-04 11:50:14.752849",
-  "name": "aqr0brjvgu",
-  "parent": "PC-2024-021",
-  "parentfield": "project_scope",
-  "parenttype": "Project Charter",
-  "project_scope": "Testing and deployment of the application, ensuring compatibility with existing infrastructure."
  },
  {
   "docstatus": 0,

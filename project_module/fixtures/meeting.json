@@ -3,6 +3,26 @@
   "actions": [],
   "attendees": [
    {
+    "email": "ishaq.quttaineh@focuskm.com",
+    "name1": "Ishaq Quttaineh",
+    "parent": "mr79ctq1ri",
+    "parentfield": "attendees",
+    "parenttype": "Meeting",
+    "party": "cm9kncqotj",
+    "party_type": "2vrnij7ssa",
+    "role": "- Leads the development team in building the application.\n- Ensures technical requirements are met.\n- Provides status updates on development progress."
+   },
+   {
+    "email": "jibreel.abdeen@focuskm.com",
+    "name1": "Jibreel Abdeen",
+    "parent": "mr79ctq1ri",
+    "parentfield": "attendees",
+    "parenttype": "Meeting",
+    "party": "cm9kncqotj",
+    "party_type": "2vo9qmbs77",
+    "role": "- Oversees day-to-day project execution.\n- Coordinates communication between stakeholders and project team.\n- Manages project timelines, budget, and resources."
+   },
+   {
     "email": "jibreel.abdeen@focuskm.com",
     "name1": "Jibreel Abdeen",
     "parent": "mr79ctq1ri",
@@ -65,6 +85,28 @@
     "parenttype": "Meeting",
     "priority": "Medium",
     "responsible_party": "cm9kncqotj"
+   },
+   {
+    "action": "Action 1",
+    "description": "lshds uihfiush fiifihdsuifiudsh fudshfsdfdsghgchgchjjj",
+    "expected_completion_date": "2024-11-27",
+    "milestone": "TASK-2024-00027",
+    "parent": "MT-2024-12--0026",
+    "parentfield": "actions",
+    "parenttype": "Meeting",
+    "priority": "Medium",
+    "responsible_party": "cm9kncqotj"
+   },
+   {
+    "action": "Action 1",
+    "description": "lshds uihfiush fiifihdsuifiudsh fudshfsdfdsghgchgchjjj",
+    "expected_completion_date": "2024-11-27",
+    "milestone": "TASK-2024-00027",
+    "parent": "MT-2024-12--0026",
+    "parentfield": "actions",
+    "parenttype": "Meeting",
+    "priority": "Medium",
+    "responsible_party": "cm9kncqotj"
    }
   ],
   "attendees": [],
@@ -89,6 +131,72 @@
  },
  {
   "actions": [
+   {
+    "action": "Fix Send Email Dialog",
+    "description": "Override Send Email button function to load participants' emails into the \"To\" field.",
+    "expected_completion_date": "2024-12-03",
+    "milestone": "TASK-2024-00027",
+    "parent": "MT-2024-12--0028",
+    "parentfield": "actions",
+    "parenttype": "Meeting",
+    "priority": "Medium",
+    "responsible_party": "cm9kncqotj"
+   },
+   {
+    "action": "Fix Naming of Milestone",
+    "description": "Correct the Naming Field in the view.",
+    "expected_completion_date": "2024-12-03",
+    "milestone": "TASK-2024-00027",
+    "parent": "MT-2024-12--0028",
+    "parentfield": "actions",
+    "parenttype": "Meeting",
+    "priority": "Medium",
+    "responsible_party": "cm9kncqotj"
+   },
+   {
+    "action": "Email MOM",
+    "description": null,
+    "expected_completion_date": "2024-12-03",
+    "milestone": "TASK-2024-00027",
+    "parent": "MT-2024-12--0028",
+    "parentfield": "actions",
+    "parenttype": "Meeting",
+    "priority": "Medium",
+    "responsible_party": "cm9kncqotj"
+   },
+   {
+    "action": "Fix Send Email Dialog",
+    "description": "Override Send Email button function to load participants' emails into the \"To\" field.",
+    "expected_completion_date": "2024-12-03",
+    "milestone": "TASK-2024-00027",
+    "parent": "MT-2024-12--0028",
+    "parentfield": "actions",
+    "parenttype": "Meeting",
+    "priority": "Medium",
+    "responsible_party": "cm9kncqotj"
+   },
+   {
+    "action": "Email MOM",
+    "description": null,
+    "expected_completion_date": "2024-12-03",
+    "milestone": "TASK-2024-00027",
+    "parent": "MT-2024-12--0028",
+    "parentfield": "actions",
+    "parenttype": "Meeting",
+    "priority": "Medium",
+    "responsible_party": "cm9kncqotj"
+   },
+   {
+    "action": "Fix Naming of Milestone",
+    "description": "Correct the Naming Field in the view.",
+    "expected_completion_date": "2024-12-03",
+    "milestone": "TASK-2024-00027",
+    "parent": "MT-2024-12--0028",
+    "parentfield": "actions",
+    "parenttype": "Meeting",
+    "priority": "Medium",
+    "responsible_party": "cm9kncqotj"
+   },
    {
     "action": "Fix Send Email Dialog",
     "description": "Override Send Email button function to load participants' emails into the \"To\" field.",
@@ -157,6 +265,56 @@
    }
   ],
   "attendees": [
+   {
+    "email": "ishaq.quttaineh@focuskm.com",
+    "name1": "t3kuaolgri",
+    "parent": "MT-2024-12--0028",
+    "parentfield": "attendees",
+    "parenttype": "Meeting",
+    "party": "cm9kncqotj",
+    "party_type": "2vrnij7ssa",
+    "role": "- Leads the development team in building the application.\n- Ensures technical requirements are met.\n- Provides status updates on development progress."
+   },
+   {
+    "email": "rami.quttaineh@focuskm.com",
+    "name1": "t8386p5ho2",
+    "parent": "MT-2024-12--0028",
+    "parentfield": "attendees",
+    "parenttype": "Meeting",
+    "party": "cm9kncqotj",
+    "party_type": "ht6ga6s09v",
+    "role": "- Addresses any technical risks and resource allocation concerns."
+   },
+   {
+    "email": "samer.jabari@focuskm.com",
+    "name1": "t7nsht1j4k",
+    "parent": "MT-2024-12--0028",
+    "parentfield": "attendees",
+    "parenttype": "Meeting",
+    "party": "cm9kncqotj",
+    "party_type": "2vl19t1u3u",
+    "role": "- Provides overall project direction and funding.\n- Ensures project aligns with business goals.\n- Approves major deliverables and changes."
+   },
+   {
+    "email": "jibreel.abdeen@focuskm.com",
+    "name1": "t6g5549vi0",
+    "parent": "MT-2024-12--0028",
+    "parentfield": "attendees",
+    "parenttype": "Meeting",
+    "party": "cm9kncqotj",
+    "party_type": "2vo9qmbs77",
+    "role": "- Oversees day-to-day project execution.\n- Coordinates communication between stakeholders and project team.\n- Manages project timelines, budget, and resources."
+   },
+   {
+    "email": "yghoul@kcsc.com.jo",
+    "name1": "t8nbu1g5uu",
+    "parent": "MT-2024-12--0028",
+    "parentfield": "attendees",
+    "parenttype": "Meeting",
+    "party": "cnini92duh",
+    "party_type": "2vl19t1u3u",
+    "role": "- Provides overall project direction and funding.\n- Ensures project aligns with business goals.\n- Approves major deliverables and changes."
+   },
    {
     "email": "jibreel.abdeen@focuskm.com",
     "name1": "t6g5549vi0",

@@ -2,52 +2,12 @@
  {
   "docstatus": 0,
   "doctype": "Service Assumptions",
-  "modified": "2024-10-24 12:58:28.499738",
-  "name": "422mrdsses",
-  "parent": "PC-2024-017",
-  "parentfield": "service_assumptions",
-  "parenttype": "Project Charter",
-  "service_assumptions": "Reduction in project setup time by 30% or more across teams."
- },
- {
-  "docstatus": 0,
-  "doctype": "Service Assumptions",
-  "modified": "2024-11-04 11:50:14.752849",
-  "name": "aqr01pujai",
-  "parent": "PC-2024-021",
-  "parentfield": "service_assumptions",
-  "parenttype": "Project Charter",
-  "service_assumptions": "Reduction in project setup time by 30% or more across teams."
- },
- {
-  "docstatus": 0,
-  "doctype": "Service Assumptions",
   "modified": "2024-12-16 10:43:37.578345",
   "name": "a041soc3i5",
   "parent": "PC-2024-022",
   "parentfield": "service_assumptions",
   "parenttype": "Project Charter",
   "service_assumptions": "Clear and effective communication with project stakeholders"
- },
- {
-  "docstatus": 0,
-  "doctype": "Service Assumptions",
-  "modified": "2024-10-24 12:58:28.499738",
-  "name": "422m1vvp5d",
-  "parent": "PC-2024-017",
-  "parentfield": "service_assumptions",
-  "parenttype": "Project Charter",
-  "service_assumptions": "Increased consistency in project documentation across all departments."
- },
- {
-  "docstatus": 0,
-  "doctype": "Service Assumptions",
-  "modified": "2024-11-04 11:50:14.752849",
-  "name": "aqr0h9qo3d",
-  "parent": "PC-2024-021",
-  "parentfield": "service_assumptions",
-  "parenttype": "Project Charter",
-  "service_assumptions": "Increased consistency in project documentation across all departments."
  },
  {
   "docstatus": 0,
@@ -62,26 +22,6 @@
  {
   "docstatus": 0,
   "doctype": "Service Assumptions",
-  "modified": "2024-10-24 12:58:28.499738",
-  "name": "422mfsqdqv",
-  "parent": "PC-2024-017",
-  "parentfield": "service_assumptions",
-  "parenttype": "Project Charter",
-  "service_assumptions": "Successful integration with key project management tools."
- },
- {
-  "docstatus": 0,
-  "doctype": "Service Assumptions",
-  "modified": "2024-11-04 11:50:14.752849",
-  "name": "aqr0djqo8j",
-  "parent": "PC-2024-021",
-  "parentfield": "service_assumptions",
-  "parenttype": "Project Charter",
-  "service_assumptions": "Successful integration with key project management tools."
- },
- {
-  "docstatus": 0,
-  "doctype": "Service Assumptions",
   "modified": "2024-12-16 10:43:37.578345",
   "name": "a041tsbja2",
   "parent": "PC-2024-022",
@@ -92,52 +32,12 @@
  {
   "docstatus": 0,
   "doctype": "Service Assumptions",
-  "modified": "2024-10-24 12:58:28.499738",
-  "name": "422mrkqbgf",
-  "parent": "PC-2024-017",
-  "parentfield": "service_assumptions",
-  "parenttype": "Project Charter",
-  "service_assumptions": "Positive feedback from users regarding ease of use and effectiveness."
- },
- {
-  "docstatus": 0,
-  "doctype": "Service Assumptions",
-  "modified": "2024-11-04 11:50:14.752849",
-  "name": "aqr0a75d0s",
-  "parent": "PC-2024-021",
-  "parentfield": "service_assumptions",
-  "parenttype": "Project Charter",
-  "service_assumptions": "Positive feedback from users regarding ease of use and effectiveness."
- },
- {
-  "docstatus": 0,
-  "doctype": "Service Assumptions",
   "modified": "2024-12-16 10:43:37.578345",
   "name": "a041abq8r2",
   "parent": "PC-2024-022",
   "parentfield": "service_assumptions",
   "parenttype": "Project Charter",
   "service_assumptions": "Clear progress reporting"
- },
- {
-  "docstatus": 0,
-  "doctype": "Service Assumptions",
-  "modified": "2024-10-24 12:58:28.499738",
-  "name": "422mq27via",
-  "parent": "PC-2024-017",
-  "parentfield": "service_assumptions",
-  "parenttype": "Project Charter",
-  "service_assumptions": "Improved resource allocation efficiency across multiple projects."
- },
- {
-  "docstatus": 0,
-  "doctype": "Service Assumptions",
-  "modified": "2024-11-04 11:50:14.752849",
-  "name": "aqr07nqhsf",
-  "parent": "PC-2024-021",
-  "parentfield": "service_assumptions",
-  "parenttype": "Project Charter",
-  "service_assumptions": "Improved resource allocation efficiency across multiple projects."
  },
  {
   "docstatus": 0,

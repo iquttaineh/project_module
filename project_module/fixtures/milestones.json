@@ -2,28 +2,6 @@
  {
   "docstatus": 0,
   "doctype": "Milestones",
-  "estimated_completion_date": "2024-10-13",
-  "milestones": "Project Initiation and Charter Approval",
-  "modified": "2024-10-24 12:58:28.499738",
-  "name": "3fdr403ur9",
-  "parent": "PC-2024-017",
-  "parentfield": "milestones",
-  "parenttype": "Project Charter"
- },
- {
-  "docstatus": 0,
-  "doctype": "Milestones",
-  "estimated_completion_date": "2024-10-13",
-  "milestones": "Project Initiation and Charter Approval",
-  "modified": "2024-11-04 11:50:14.752849",
-  "name": "aqr06m0h5b",
-  "parent": "PC-2024-021",
-  "parentfield": "milestones",
-  "parenttype": "Project Charter"
- },
- {
-  "docstatus": 0,
-  "doctype": "Milestones",
   "estimated_completion_date": "2024-11-27",
   "milestones": "Define Project Screen",
   "modified": "2024-12-16 10:43:37.578345",
@@ -40,28 +18,6 @@
   "modified": "2024-12-08 13:10:51.033233",
   "name": "678t56bpb7",
   "parent": "PC-2024-023",
-  "parentfield": "milestones",
-  "parenttype": "Project Charter"
- },
- {
-  "docstatus": 0,
-  "doctype": "Milestones",
-  "estimated_completion_date": "2024-10-14",
-  "milestones": "Requirements Gathering",
-  "modified": "2024-10-24 12:58:28.499738",
-  "name": "3fdrmjhune",
-  "parent": "PC-2024-017",
-  "parentfield": "milestones",
-  "parenttype": "Project Charter"
- },
- {
-  "docstatus": 0,
-  "doctype": "Milestones",
-  "estimated_completion_date": "2024-10-14",
-  "milestones": "Requirements Gathering",
-  "modified": "2024-11-04 11:50:14.752849",
-  "name": "aqr07ki90f",
-  "parent": "PC-2024-021",
   "parentfield": "milestones",
   "parenttype": "Project Charter"
  },
@@ -90,28 +46,6 @@
  {
   "docstatus": 0,
   "doctype": "Milestones",
-  "estimated_completion_date": "2024-10-14",
-  "milestones": "Application Design and Development",
-  "modified": "2024-10-24 12:58:28.499738",
-  "name": "3fdr1c5115",
-  "parent": "PC-2024-017",
-  "parentfield": "milestones",
-  "parenttype": "Project Charter"
- },
- {
-  "docstatus": 0,
-  "doctype": "Milestones",
-  "estimated_completion_date": "2024-10-14",
-  "milestones": "Application Design and Development",
-  "modified": "2024-11-04 11:50:14.752849",
-  "name": "aqr0rm3a8a",
-  "parent": "PC-2024-021",
-  "parentfield": "milestones",
-  "parenttype": "Project Charter"
- },
- {
-  "docstatus": 0,
-  "doctype": "Milestones",
   "estimated_completion_date": "2024-11-28",
   "milestones": "Generate Task Screen",
   "modified": "2024-12-16 10:43:37.578345",
@@ -128,28 +62,6 @@
   "modified": "2024-12-08 13:10:51.033233",
   "name": "678tcjeemg",
   "parent": "PC-2024-023",
-  "parentfield": "milestones",
-  "parenttype": "Project Charter"
- },
- {
-  "docstatus": 0,
-  "doctype": "Milestones",
-  "estimated_completion_date": "2024-10-20",
-  "milestones": "Testing and QA",
-  "modified": "2024-10-24 12:58:28.499738",
-  "name": "3fdr76v35l",
-  "parent": "PC-2024-017",
-  "parentfield": "milestones",
-  "parenttype": "Project Charter"
- },
- {
-  "docstatus": 0,
-  "doctype": "Milestones",
-  "estimated_completion_date": "2024-10-20",
-  "milestones": "Testing and QA",
-  "modified": "2024-11-04 11:50:14.752849",
-  "name": "aqr0pbdtm5",
-  "parent": "PC-2024-021",
   "parentfield": "milestones",
   "parenttype": "Project Charter"
  },
@@ -178,28 +90,6 @@
  {
   "docstatus": 0,
   "doctype": "Milestones",
-  "estimated_completion_date": "2024-10-20",
-  "milestones": "Integration with Existing Tools",
-  "modified": "2024-10-24 12:58:28.499738",
-  "name": "3fdrjr3k03",
-  "parent": "PC-2024-017",
-  "parentfield": "milestones",
-  "parenttype": "Project Charter"
- },
- {
-  "docstatus": 0,
-  "doctype": "Milestones",
-  "estimated_completion_date": "2024-10-20",
-  "milestones": "Integration with Existing Tools",
-  "modified": "2024-11-04 11:50:14.752849",
-  "name": "aqr0clj9p9",
-  "parent": "PC-2024-021",
-  "parentfield": "milestones",
-  "parenttype": "Project Charter"
- },
- {
-  "docstatus": 0,
-  "doctype": "Milestones",
   "estimated_completion_date": "2024-11-28",
   "milestones": "Notifications on Action List",
   "modified": "2024-12-16 10:43:37.578345",
@@ -211,55 +101,11 @@
  {
   "docstatus": 0,
   "doctype": "Milestones",
-  "estimated_completion_date": "2024-10-30",
-  "milestones": "User Training and Onboarding",
-  "modified": "2024-10-24 12:58:28.499738",
-  "name": "3fdrvhtsub",
-  "parent": "PC-2024-017",
-  "parentfield": "milestones",
-  "parenttype": "Project Charter"
- },
- {
-  "docstatus": 0,
-  "doctype": "Milestones",
-  "estimated_completion_date": "2024-10-30",
-  "milestones": "User Training and Onboarding",
-  "modified": "2024-11-04 11:50:14.752849",
-  "name": "aqr0u0q9cj",
-  "parent": "PC-2024-021",
-  "parentfield": "milestones",
-  "parenttype": "Project Charter"
- },
- {
-  "docstatus": 0,
-  "doctype": "Milestones",
   "estimated_completion_date": "2024-12-01",
   "milestones": "Notification on Progress Status",
   "modified": "2024-12-16 10:43:37.578345",
   "name": "9jc64d4ebj",
   "parent": "PC-2024-022",
-  "parentfield": "milestones",
-  "parenttype": "Project Charter"
- },
- {
-  "docstatus": 0,
-  "doctype": "Milestones",
-  "estimated_completion_date": "2024-10-30",
-  "milestones": "Full Deployment",
-  "modified": "2024-10-24 12:58:28.499738",
-  "name": "3fdrmqp7jk",
-  "parent": "PC-2024-017",
-  "parentfield": "milestones",
-  "parenttype": "Project Charter"
- },
- {
-  "docstatus": 0,
-  "doctype": "Milestones",
-  "estimated_completion_date": "2024-10-30",
-  "milestones": "Full Deployment",
-  "modified": "2024-11-04 11:50:14.752849",
-  "name": "aqr0sni810",
-  "parent": "PC-2024-021",
   "parentfield": "milestones",
   "parenttype": "Project Charter"
  },

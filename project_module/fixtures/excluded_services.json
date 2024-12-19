@@ -2,50 +2,10 @@
  {
   "docstatus": 0,
   "doctype": "Excluded Services",
-  "excluded_services": "Redesign or reconfiguration of existing project management tools.",
-  "modified": "2024-10-24 12:58:28.499738",
-  "name": "2kn8bob0oc",
-  "parent": "PC-2024-017",
-  "parentfield": "excluded_services",
-  "parenttype": "Project Charter"
- },
- {
-  "docstatus": 0,
-  "doctype": "Excluded Services",
-  "excluded_services": "Redesign or reconfiguration of existing project management tools.",
-  "modified": "2024-11-04 11:50:14.752849",
-  "name": "aqr07serq1",
-  "parent": "PC-2024-021",
-  "parentfield": "excluded_services",
-  "parenttype": "Project Charter"
- },
- {
-  "docstatus": 0,
-  "doctype": "Excluded Services",
   "excluded_services": "Financial part related to project",
   "modified": "2024-12-09 11:11:28.443558",
   "name": "9a91el1en8",
   "parent": "PC-2024-022",
-  "parentfield": "excluded_services",
-  "parenttype": "Project Charter"
- },
- {
-  "docstatus": 0,
-  "doctype": "Excluded Services",
-  "excluded_services": "Customization of templates for every unique project without user involvement.",
-  "modified": "2024-10-24 12:58:28.499738",
-  "name": "2kn8gnpnuk",
-  "parent": "PC-2024-017",
-  "parentfield": "excluded_services",
-  "parenttype": "Project Charter"
- },
- {
-  "docstatus": 0,
-  "doctype": "Excluded Services",
-  "excluded_services": "Customization of templates for every unique project without user involvement.",
-  "modified": "2024-11-04 11:50:14.752849",
-  "name": "aqr0sgq6p5",
-  "parent": "PC-2024-021",
   "parentfield": "excluded_services",
   "parenttype": "Project Charter"
  },
