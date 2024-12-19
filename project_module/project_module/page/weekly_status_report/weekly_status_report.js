@@ -316,9 +316,20 @@ function loadProjectDetails(projectName) {
                 fields: ["project_manager"] // Specify the fields you want to retrieve
             },
             callback: function (response) {
+                // console.log(response);
+                const projectManager = response.message[0].project_manager || "N/A"; // Retrieve the project_manager field
+
                 if (response.message && response.message.length > 0) {
-                    const projectManager = response.message[0].project_manager || "N/A"; // Retrieve the project_manager field
-                    document.getElementById("projectManager").textContent = projectManager || "N/A";
+                    var project_manager_name
+                    frappe.db.get_value('Project Members', projectManager, 'member_name')
+                    .then(response => {
+                        project_manager_name = response.message.member_name;
+                        document.getElementById("projectManager").textContent = project_manager_name || "N/A";
+                        // console.log('Project Manager Name:', project_manager_name);
+                    })
+                    .catch(error => {
+                        console.error('Error fetching project manager name:', error);
+                    });
                 } else {
                     console.error("No project found for the specified project name");
                 }

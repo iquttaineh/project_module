@@ -248,5 +248,6 @@ fixtures = [
     "Risks", "Project Budget", "Payment Type", "Activity Cost", "Penalties", 
     "SLA Approval", "SLA Versions", "Validity of Agreement", "Service Performance Metrics", "Conditions of Cancellation", 
     "Excluded Services", "Service Availability", "Service Assumptions", "Service Provider Requirements", "Customer Requirements", 
-    "Service Scope", "Goals and Objectives", "Project Objectives", "Key Deliverables", "Project Scope"
+    "Service Scope", "Goals and Objectives", "Project Objectives", "Key Deliverables", "Project Scope", 
+    "Project", "Task"
 ]

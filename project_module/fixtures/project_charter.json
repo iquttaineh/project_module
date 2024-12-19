@@ -4,8 +4,8 @@
   "approval": [],
   "budget": [
    {
-    "category": "3i3tnd3loa",
-    "estimated_cost": "20000 JD",
+    "category": "3kasqnv0kg",
+    "estimated_cost": "5000 JD",
     "parent": "PC-2024-021",
     "parentfield": "budget",
     "parenttype": "Project Charter"
@@ -18,15 +18,15 @@
     "parenttype": "Project Charter"
    },
    {
-    "category": "3kasqnv0kg",
-    "estimated_cost": "5000 JD",
+    "category": "3kgcjsuio0",
+    "estimated_cost": "2500 JD",
     "parent": "PC-2024-021",
     "parentfield": "budget",
     "parenttype": "Project Charter"
    },
    {
-    "category": "3kgcjsuio0",
-    "estimated_cost": "2500 JD",
+    "category": "3i3tnd3loa",
+    "estimated_cost": "20000 JD",
     "parent": "PC-2024-021",
     "parentfield": "budget",
     "parenttype": "Project Charter"
@@ -41,7 +41,13 @@
   ],
   "business_needbusiness_case": [
    {
-    "business_needbusiness_case": "Increase in Demand for Efficient Project Management Tools.",
+    "business_needbusiness_case": "Improvement of Project Standardization and Consistency.",
+    "parent": "PC-2024-021",
+    "parentfield": "business_needbusiness_case",
+    "parenttype": "Project Charter"
+   },
+   {
+    "business_needbusiness_case": "Enhancement of Collaboration and Transparency.",
     "parent": "PC-2024-021",
     "parentfield": "business_needbusiness_case",
     "parenttype": "Project Charter"
@@ -53,19 +59,7 @@
     "parenttype": "Project Charter"
    },
    {
-    "business_needbusiness_case": "Improvement of Project Standardization and Consistency.",
-    "parent": "PC-2024-021",
-    "parentfield": "business_needbusiness_case",
-    "parenttype": "Project Charter"
-   },
-   {
-    "business_needbusiness_case": "Cost and Resource Optimization.",
-    "parent": "PC-2024-021",
-    "parentfield": "business_needbusiness_case",
-    "parenttype": "Project Charter"
-   },
-   {
-    "business_needbusiness_case": "Enhancement of Collaboration and Transparency.",
+    "business_needbusiness_case": "Increase in Demand for Efficient Project Management Tools.",
     "parent": "PC-2024-021",
     "parentfield": "business_needbusiness_case",
     "parenttype": "Project Charter"
@@ -84,6 +78,12 @@
    },
    {
     "business_needbusiness_case": "Competitive Advantage.",
+    "parent": "PC-2024-021",
+    "parentfield": "business_needbusiness_case",
+    "parenttype": "Project Charter"
+   },
+   {
+    "business_needbusiness_case": "Cost and Resource Optimization.",
     "parent": "PC-2024-021",
     "parentfield": "business_needbusiness_case",
     "parenttype": "Project Charter"
@@ -214,111 +214,11 @@
     "parent": "PC-2024-021",
     "parentfield": "key_stakeholders",
     "parenttype": "Project Charter",
-    "role": "- Provides overall project direction and funding.\n- Ensures project aligns with business goals.\n- Approves major deliverables and changes.",
-    "stakeholder_email": null,
-    "stakeholder_name": "HR-EMP-00001",
-    "stakeholder_party": null,
-    "stakeholder_type": "2vl19t1u3u"
-   },
-   {
-    "parent": "PC-2024-021",
-    "parentfield": "key_stakeholders",
-    "parenttype": "Project Charter",
-    "role": "- Oversees day-to-day project execution.\n- Coordinates communication between stakeholders and project team.\n- Manages project timelines, budget, and resources.",
-    "stakeholder_email": null,
-    "stakeholder_name": "HR-EMP-00004",
-    "stakeholder_party": null,
-    "stakeholder_type": "2vo9qmbs77"
-   },
-   {
-    "parent": "PC-2024-021",
-    "parentfield": "key_stakeholders",
-    "parenttype": "Project Charter",
-    "role": "- Leads the development team in building the application.\n- Ensures technical requirements are met.\n- Provides status updates on development progress.",
-    "stakeholder_email": null,
-    "stakeholder_name": "HR-EMP-00002",
-    "stakeholder_party": null,
-    "stakeholder_type": "2vrnij7ssa"
-   },
-   {
-    "parent": "PC-2024-021",
-    "parentfield": "key_stakeholders",
-    "parenttype": "Project Charter",
-    "role": "- Participate in the requirements gathering phase.\n- Provide feedback during user acceptance testing.\n- Ensure the final application is aligned with daily project management workflows.\n- Use the final application in day-to-day project management tasks.",
-    "stakeholder_email": null,
-    "stakeholder_name": "Bank al Etihad",
-    "stakeholder_party": null,
-    "stakeholder_type": "300ev7jdmr"
-   },
-   {
-    "parent": "PC-2024-021",
-    "parentfield": "key_stakeholders",
-    "parenttype": "Project Charter",
-    "role": "- Provides high-level oversight and guidance for the project.\n- Resolves escalated issues and risks.\n- Reviews progress at key milestones.",
-    "stakeholder_email": null,
-    "stakeholder_name": "HR-EMP-00001",
-    "stakeholder_party": null,
-    "stakeholder_type": "30437uq6ep"
-   },
-   {
-    "parent": "PC-2024-021",
-    "parentfield": "key_stakeholders",
-    "parenttype": "Project Charter",
     "role": "- Manages budget allocation and approves financial spending.\n- Reviews financial performance against the project plan.",
     "stakeholder_email": null,
     "stakeholder_name": "HR-EMP-00002",
     "stakeholder_party": null,
     "stakeholder_type": "309g0qs304"
-   },
-   {
-    "parent": "PC-2024-021",
-    "parentfield": "key_stakeholders",
-    "parenttype": "Project Charter",
-    "role": "- Ensures the application meets the organization's security policies.\n- Reviews and approves security architecture and data handling protocols.",
-    "stakeholder_email": null,
-    "stakeholder_name": "HR-EMP-00002",
-    "stakeholder_party": null,
-    "stakeholder_type": "s38njn60nr"
-   },
-   {
-    "parent": "PC-2024-021",
-    "parentfield": "key_stakeholders",
-    "parenttype": "Project Charter",
-    "role": "- Defines product vision and prioritizes features.\n- Provides acceptance of user stories and application functionality.\n- Ensures that the project delivers value to the end users.",
-    "stakeholder_email": null,
-    "stakeholder_name": "HR-EMP-00003",
-    "stakeholder_party": null,
-    "stakeholder_type": "s3pklgkpa3"
-   },
-   {
-    "parent": "PC-2024-021",
-    "parentfield": "key_stakeholders",
-    "parenttype": "Project Charter",
-    "role": "- Reviews and approves contracts, terms of service, and compliance with legal regulations (e.g., GDPR, CCPA).",
-    "stakeholder_email": null,
-    "stakeholder_name": "HR-EMP-00001",
-    "stakeholder_party": null,
-    "stakeholder_type": "s55aq5r977"
-   },
-   {
-    "parent": "PC-2024-021",
-    "parentfield": "key_stakeholders",
-    "parenttype": "Project Charter",
-    "role": "- Manages the design and implementation of the project’s database.\n- Ensures data integrity, backups, and optimized database performance.",
-    "stakeholder_email": null,
-    "stakeholder_name": "HR-EMP-00002",
-    "stakeholder_party": null,
-    "stakeholder_type": "s70cnnqov3"
-   },
-   {
-    "parent": "PC-2024-021",
-    "parentfield": "key_stakeholders",
-    "parenttype": "Project Charter",
-    "role": "- Develops training materials for end-users.\n- Provides post-implementation support and helps resolve user issues.",
-    "stakeholder_email": null,
-    "stakeholder_name": "HR-EMP-00003",
-    "stakeholder_party": null,
-    "stakeholder_type": "s8o0cdn2kp"
    },
    {
     "parent": "PC-2024-021",
@@ -334,11 +234,111 @@
     "parent": "PC-2024-021",
     "parentfield": "key_stakeholders",
     "parenttype": "Project Charter",
+    "role": "- Manages the design and implementation of the project’s database.\n- Ensures data integrity, backups, and optimized database performance.",
+    "stakeholder_email": null,
+    "stakeholder_name": "HR-EMP-00002",
+    "stakeholder_party": null,
+    "stakeholder_type": "s70cnnqov3"
+   },
+   {
+    "parent": "PC-2024-021",
+    "parentfield": "key_stakeholders",
+    "parenttype": "Project Charter",
+    "role": "- Ensures the application meets the organization's security policies.\n- Reviews and approves security architecture and data handling protocols.",
+    "stakeholder_email": null,
+    "stakeholder_name": "HR-EMP-00002",
+    "stakeholder_party": null,
+    "stakeholder_type": "s38njn60nr"
+   },
+   {
+    "parent": "PC-2024-021",
+    "parentfield": "key_stakeholders",
+    "parenttype": "Project Charter",
+    "role": "- Provides overall project direction and funding.\n- Ensures project aligns with business goals.\n- Approves major deliverables and changes.",
+    "stakeholder_email": null,
+    "stakeholder_name": "HR-EMP-00001",
+    "stakeholder_party": null,
+    "stakeholder_type": "2vl19t1u3u"
+   },
+   {
+    "parent": "PC-2024-021",
+    "parentfield": "key_stakeholders",
+    "parenttype": "Project Charter",
+    "role": "- Leads the development team in building the application.\n- Ensures technical requirements are met.\n- Provides status updates on development progress.",
+    "stakeholder_email": null,
+    "stakeholder_name": "HR-EMP-00002",
+    "stakeholder_party": null,
+    "stakeholder_type": "2vrnij7ssa"
+   },
+   {
+    "parent": "PC-2024-021",
+    "parentfield": "key_stakeholders",
+    "parenttype": "Project Charter",
     "role": "- Provide third-party tools or services used in the application (e.g., APIs for task management, reporting, etc.).\n- Ensure reliable integration and availability of services.",
     "stakeholder_email": null,
     "stakeholder_name": "Bank al Etihad",
     "stakeholder_party": null,
     "stakeholder_type": "s9ms9pj3gh"
+   },
+   {
+    "parent": "PC-2024-021",
+    "parentfield": "key_stakeholders",
+    "parenttype": "Project Charter",
+    "role": "- Develops training materials for end-users.\n- Provides post-implementation support and helps resolve user issues.",
+    "stakeholder_email": null,
+    "stakeholder_name": "HR-EMP-00003",
+    "stakeholder_party": null,
+    "stakeholder_type": "s8o0cdn2kp"
+   },
+   {
+    "parent": "PC-2024-021",
+    "parentfield": "key_stakeholders",
+    "parenttype": "Project Charter",
+    "role": "- Defines product vision and prioritizes features.\n- Provides acceptance of user stories and application functionality.\n- Ensures that the project delivers value to the end users.",
+    "stakeholder_email": null,
+    "stakeholder_name": "HR-EMP-00003",
+    "stakeholder_party": null,
+    "stakeholder_type": "s3pklgkpa3"
+   },
+   {
+    "parent": "PC-2024-021",
+    "parentfield": "key_stakeholders",
+    "parenttype": "Project Charter",
+    "role": "- Provides high-level oversight and guidance for the project.\n- Resolves escalated issues and risks.\n- Reviews progress at key milestones.",
+    "stakeholder_email": null,
+    "stakeholder_name": "HR-EMP-00001",
+    "stakeholder_party": null,
+    "stakeholder_type": "30437uq6ep"
+   },
+   {
+    "parent": "PC-2024-021",
+    "parentfield": "key_stakeholders",
+    "parenttype": "Project Charter",
+    "role": "- Reviews and approves contracts, terms of service, and compliance with legal regulations (e.g., GDPR, CCPA).",
+    "stakeholder_email": null,
+    "stakeholder_name": "HR-EMP-00001",
+    "stakeholder_party": null,
+    "stakeholder_type": "s55aq5r977"
+   },
+   {
+    "parent": "PC-2024-021",
+    "parentfield": "key_stakeholders",
+    "parenttype": "Project Charter",
+    "role": "- Participate in the requirements gathering phase.\n- Provide feedback during user acceptance testing.\n- Ensure the final application is aligned with daily project management workflows.\n- Use the final application in day-to-day project management tasks.",
+    "stakeholder_email": null,
+    "stakeholder_name": "Bank al Etihad",
+    "stakeholder_party": null,
+    "stakeholder_type": "300ev7jdmr"
+   },
+   {
+    "parent": "PC-2024-021",
+    "parentfield": "key_stakeholders",
+    "parenttype": "Project Charter",
+    "role": "- Oversees day-to-day project execution.\n- Coordinates communication between stakeholders and project team.\n- Manages project timelines, budget, and resources.",
+    "stakeholder_email": null,
+    "stakeholder_name": "HR-EMP-00004",
+    "stakeholder_party": null,
+    "stakeholder_type": "2vo9qmbs77"
    }
   ],
   "milestones": [
@@ -574,15 +574,6 @@
   "risk_levels": [],
   "risks": [
    {
-    "impact": "High",
-    "mitigation_strategy": "Provide comprehensive training and easy-to-use interface.",
-    "parent": "PC-2024-021",
-    "parentfield": "risks",
-    "parenttype": "Project Charter",
-    "probability": "Medium",
-    "risk": "Resistance to adoption"
-   },
-   {
     "impact": "Medium",
     "mitigation_strategy": "Ensure thorough testing and collaboration with IT team.",
     "parent": "PC-2024-021",
@@ -611,21 +602,12 @@
    },
    {
     "impact": "High",
-    "mitigation_strategy": "Implement strict change control procedures and stakeholder approval processes.",
+    "mitigation_strategy": "Establish clear contracts with penalties for delays and maintain regular communication with vendors.",
     "parent": "PC-2024-021",
     "parentfield": "risks",
     "parenttype": "Project Charter",
     "probability": "High",
-    "risk": "Scope Creep"
-   },
-   {
-    "impact": "High",
-    "mitigation_strategy": "Conduct thorough technical feasibility assessments before development begins.",
-    "parent": "PC-2024-021",
-    "parentfield": "risks",
-    "parenttype": "Project Charter",
-    "probability": "Medium",
-    "risk": "Technical Challenges"
+    "risk": "Vendor Delays"
    },
    {
     "impact": "Medium",
@@ -638,21 +620,30 @@
    },
    {
     "impact": "High",
-    "mitigation_strategy": "Establish clear contracts with penalties for delays and maintain regular communication with vendors.",
-    "parent": "PC-2024-021",
-    "parentfield": "risks",
-    "parenttype": "Project Charter",
-    "probability": "High",
-    "risk": "Vendor Delays"
-   },
-   {
-    "impact": "High",
     "mitigation_strategy": "Maintain a contingency budget and regularly review project expenses against the budget.",
     "parent": "PC-2024-021",
     "parentfield": "risks",
     "parenttype": "Project Charter",
     "probability": "Medium",
     "risk": "Budget Overruns"
+   },
+   {
+    "impact": "High",
+    "mitigation_strategy": "Provide comprehensive training and easy-to-use interface.",
+    "parent": "PC-2024-021",
+    "parentfield": "risks",
+    "parenttype": "Project Charter",
+    "probability": "Medium",
+    "risk": "Resistance to adoption"
+   },
+   {
+    "impact": "High",
+    "mitigation_strategy": "Conduct thorough technical feasibility assessments before development begins.",
+    "parent": "PC-2024-021",
+    "parentfield": "risks",
+    "parenttype": "Project Charter",
+    "probability": "Medium",
+    "risk": "Technical Challenges"
    },
    {
     "impact": "High",
@@ -671,6 +662,15 @@
     "parenttype": "Project Charter",
     "probability": "High",
     "risk": "Compliance Risks"
+   },
+   {
+    "impact": "High",
+    "mitigation_strategy": "Implement strict change control procedures and stakeholder approval processes.",
+    "parent": "PC-2024-021",
+    "parentfield": "risks",
+    "parenttype": "Project Charter",
+    "probability": "High",
+    "risk": "Scope Creep"
    }
   ],
   "schedule": "2024-10-31",
@@ -958,6 +958,13 @@
     "parenttype": "Project Charter"
    },
    {
+    "category": "3kgcjsuio0",
+    "estimated_cost": "2500 JD",
+    "parent": "PC-2024-017",
+    "parentfield": "budget",
+    "parenttype": "Project Charter"
+   },
+   {
     "category": "3k804sta1m",
     "estimated_cost": "2000 JD",
     "parent": "PC-2024-017",
@@ -972,13 +979,6 @@
     "parenttype": "Project Charter"
    },
    {
-    "category": "3kgcjsuio0",
-    "estimated_cost": "2500 JD",
-    "parent": "PC-2024-017",
-    "parentfield": "budget",
-    "parenttype": "Project Charter"
-   },
-   {
     "category": "3kkte1lp6u",
     "estimated_cost": "1000 JD",
     "parent": "PC-2024-017",
@@ -988,19 +988,19 @@
   ],
   "business_needbusiness_case": [
    {
+    "business_needbusiness_case": "Enhancement of Collaboration and Transparency.",
+    "parent": "PC-2024-017",
+    "parentfield": "business_needbusiness_case",
+    "parenttype": "Project Charter"
+   },
+   {
     "business_needbusiness_case": "Increase in Demand for Efficient Project Management Tools.",
     "parent": "PC-2024-017",
     "parentfield": "business_needbusiness_case",
     "parenttype": "Project Charter"
    },
    {
-    "business_needbusiness_case": "Streamlining Project Creation Processes.",
-    "parent": "PC-2024-017",
-    "parentfield": "business_needbusiness_case",
-    "parenttype": "Project Charter"
-   },
-   {
-    "business_needbusiness_case": "Improvement of Project Standardization and Consistency.",
+    "business_needbusiness_case": "Meeting Regulatory and Compliance Requirements.",
     "parent": "PC-2024-017",
     "parentfield": "business_needbusiness_case",
     "parenttype": "Project Charter"
@@ -1012,7 +1012,7 @@
     "parenttype": "Project Charter"
    },
    {
-    "business_needbusiness_case": "Enhancement of Collaboration and Transparency.",
+    "business_needbusiness_case": "Improvement of Project Standardization and Consistency.",
     "parent": "PC-2024-017",
     "parentfield": "business_needbusiness_case",
     "parenttype": "Project Charter"
@@ -1024,7 +1024,7 @@
     "parenttype": "Project Charter"
    },
    {
-    "business_needbusiness_case": "Meeting Regulatory and Compliance Requirements.",
+    "business_needbusiness_case": "Streamlining Project Creation Processes.",
     "parent": "PC-2024-017",
     "parentfield": "business_needbusiness_case",
     "parenttype": "Project Charter"
@@ -1161,16 +1161,6 @@
     "parent": "PC-2024-017",
     "parentfield": "key_stakeholders",
     "parenttype": "Project Charter",
-    "role": "- Provides overall project direction and funding.\n- Ensures project aligns with business goals.\n- Approves major deliverables and changes.",
-    "stakeholder_email": null,
-    "stakeholder_name": "HR-EMP-00001",
-    "stakeholder_party": null,
-    "stakeholder_type": "2vl19t1u3u"
-   },
-   {
-    "parent": "PC-2024-017",
-    "parentfield": "key_stakeholders",
-    "parenttype": "Project Charter",
     "role": "- Oversees day-to-day project execution.\n- Coordinates communication between stakeholders and project team.\n- Manages project timelines, budget, and resources.",
     "stakeholder_email": null,
     "stakeholder_name": "HR-EMP-00004",
@@ -1191,26 +1181,6 @@
     "parent": "PC-2024-017",
     "parentfield": "key_stakeholders",
     "parenttype": "Project Charter",
-    "role": "- Participate in the requirements gathering phase.\n- Provide feedback during user acceptance testing.\n- Ensure the final application is aligned with daily project management workflows.\n- Use the final application in day-to-day project management tasks.",
-    "stakeholder_email": null,
-    "stakeholder_name": "Bank al Etihad",
-    "stakeholder_party": null,
-    "stakeholder_type": "300ev7jdmr"
-   },
-   {
-    "parent": "PC-2024-017",
-    "parentfield": "key_stakeholders",
-    "parenttype": "Project Charter",
-    "role": "- Provides high-level oversight and guidance for the project.\n- Resolves escalated issues and risks.\n- Reviews progress at key milestones.",
-    "stakeholder_email": null,
-    "stakeholder_name": "HR-EMP-00001",
-    "stakeholder_party": null,
-    "stakeholder_type": "30437uq6ep"
-   },
-   {
-    "parent": "PC-2024-017",
-    "parentfield": "key_stakeholders",
-    "parenttype": "Project Charter",
     "role": "- Manages budget allocation and approves financial spending.\n- Reviews financial performance against the project plan.",
     "stakeholder_email": null,
     "stakeholder_name": "HR-EMP-00002",
@@ -1221,31 +1191,11 @@
     "parent": "PC-2024-017",
     "parentfield": "key_stakeholders",
     "parenttype": "Project Charter",
-    "role": "- Ensures the application meets the organization's security policies.\n- Reviews and approves security architecture and data handling protocols.",
+    "role": "- Participate in the requirements gathering phase.\n- Provide feedback during user acceptance testing.\n- Ensure the final application is aligned with daily project management workflows.\n- Use the final application in day-to-day project management tasks.",
     "stakeholder_email": null,
-    "stakeholder_name": "HR-EMP-00002",
+    "stakeholder_name": "Bank al Etihad",
     "stakeholder_party": null,
-    "stakeholder_type": "s38njn60nr"
-   },
-   {
-    "parent": "PC-2024-017",
-    "parentfield": "key_stakeholders",
-    "parenttype": "Project Charter",
-    "role": "- Defines product vision and prioritizes features.\n- Provides acceptance of user stories and application functionality.\n- Ensures that the project delivers value to the end users.",
-    "stakeholder_email": null,
-    "stakeholder_name": "HR-EMP-00003",
-    "stakeholder_party": null,
-    "stakeholder_type": "s3pklgkpa3"
-   },
-   {
-    "parent": "PC-2024-017",
-    "parentfield": "key_stakeholders",
-    "parenttype": "Project Charter",
-    "role": "- Reviews and approves contracts, terms of service, and compliance with legal regulations (e.g., GDPR, CCPA).",
-    "stakeholder_email": null,
-    "stakeholder_name": "HR-EMP-00001",
-    "stakeholder_party": null,
-    "stakeholder_type": "s55aq5r977"
+    "stakeholder_type": "300ev7jdmr"
    },
    {
     "parent": "PC-2024-017",
@@ -1261,11 +1211,21 @@
     "parent": "PC-2024-017",
     "parentfield": "key_stakeholders",
     "parenttype": "Project Charter",
-    "role": "- Develops training materials for end-users.\n- Provides post-implementation support and helps resolve user issues.",
+    "role": "- Defines product vision and prioritizes features.\n- Provides acceptance of user stories and application functionality.\n- Ensures that the project delivers value to the end users.",
     "stakeholder_email": null,
     "stakeholder_name": "HR-EMP-00003",
     "stakeholder_party": null,
-    "stakeholder_type": "s8o0cdn2kp"
+    "stakeholder_type": "s3pklgkpa3"
+   },
+   {
+    "parent": "PC-2024-017",
+    "parentfield": "key_stakeholders",
+    "parenttype": "Project Charter",
+    "role": "- Ensures the application meets the organization's security policies.\n- Reviews and approves security architecture and data handling protocols.",
+    "stakeholder_email": null,
+    "stakeholder_name": "HR-EMP-00002",
+    "stakeholder_party": null,
+    "stakeholder_type": "s38njn60nr"
    },
    {
     "parent": "PC-2024-017",
@@ -1276,6 +1236,46 @@
     "stakeholder_name": "HR-EMP-00004",
     "stakeholder_party": null,
     "stakeholder_type": "s9f1ja6chm"
+   },
+   {
+    "parent": "PC-2024-017",
+    "parentfield": "key_stakeholders",
+    "parenttype": "Project Charter",
+    "role": "- Provides high-level oversight and guidance for the project.\n- Resolves escalated issues and risks.\n- Reviews progress at key milestones.",
+    "stakeholder_email": null,
+    "stakeholder_name": "HR-EMP-00001",
+    "stakeholder_party": null,
+    "stakeholder_type": "30437uq6ep"
+   },
+   {
+    "parent": "PC-2024-017",
+    "parentfield": "key_stakeholders",
+    "parenttype": "Project Charter",
+    "role": "- Develops training materials for end-users.\n- Provides post-implementation support and helps resolve user issues.",
+    "stakeholder_email": null,
+    "stakeholder_name": "HR-EMP-00003",
+    "stakeholder_party": null,
+    "stakeholder_type": "s8o0cdn2kp"
+   },
+   {
+    "parent": "PC-2024-017",
+    "parentfield": "key_stakeholders",
+    "parenttype": "Project Charter",
+    "role": "- Reviews and approves contracts, terms of service, and compliance with legal regulations (e.g., GDPR, CCPA).",
+    "stakeholder_email": null,
+    "stakeholder_name": "HR-EMP-00001",
+    "stakeholder_party": null,
+    "stakeholder_type": "s55aq5r977"
+   },
+   {
+    "parent": "PC-2024-017",
+    "parentfield": "key_stakeholders",
+    "parenttype": "Project Charter",
+    "role": "- Provides overall project direction and funding.\n- Ensures project aligns with business goals.\n- Approves major deliverables and changes.",
+    "stakeholder_email": null,
+    "stakeholder_name": "HR-EMP-00001",
+    "stakeholder_party": null,
+    "stakeholder_type": "2vl19t1u3u"
    },
    {
     "parent": "PC-2024-017",
@@ -1521,13 +1521,13 @@
   "risk_levels": [],
   "risks": [
    {
-    "impact": "High",
-    "mitigation_strategy": "Provide comprehensive training and easy-to-use interface.",
+    "impact": "Medium",
+    "mitigation_strategy": "Keep templates simple and allow for customization.",
     "parent": "PC-2024-017",
     "parentfield": "risks",
     "parenttype": "Project Charter",
-    "probability": "Medium",
-    "risk": "Resistance to adoption"
+    "probability": "Low",
+    "risk": "Overly complex templates"
    },
    {
     "impact": "Medium",
@@ -1537,15 +1537,6 @@
     "parenttype": "Project Charter",
     "probability": "High",
     "risk": "Delays in system integration"
-   },
-   {
-    "impact": "Medium",
-    "mitigation_strategy": "Keep templates simple and allow for customization.",
-    "parent": "PC-2024-017",
-    "parentfield": "risks",
-    "parenttype": "Project Charter",
-    "probability": "Low",
-    "risk": "Overly complex templates"
    },
    {
     "impact": "High",
@@ -1558,12 +1549,30 @@
    },
    {
     "impact": "High",
+    "mitigation_strategy": "Provide comprehensive training and easy-to-use interface.",
+    "parent": "PC-2024-017",
+    "parentfield": "risks",
+    "parenttype": "Project Charter",
+    "probability": "Medium",
+    "risk": "Resistance to adoption"
+   },
+   {
+    "impact": "High",
     "mitigation_strategy": "Implement strict change control procedures and stakeholder approval processes.",
     "parent": "PC-2024-017",
     "parentfield": "risks",
     "parenttype": "Project Charter",
     "probability": "High",
     "risk": "Scope Creep"
+   },
+   {
+    "impact": "High",
+    "mitigation_strategy": "Maintain a contingency budget and regularly review project expenses against the budget.",
+    "parent": "PC-2024-017",
+    "parentfield": "risks",
+    "parenttype": "Project Charter",
+    "probability": "Medium",
+    "risk": "Budget Overruns"
    },
    {
     "impact": "High",
@@ -1575,15 +1584,6 @@
     "risk": "Technical Challenges"
    },
    {
-    "impact": "Medium",
-    "mitigation_strategy": "Cross-train team members and maintain a resource pool for flexibility.",
-    "parent": "PC-2024-017",
-    "parentfield": "risks",
-    "parenttype": "Project Charter",
-    "probability": "Medium",
-    "risk": "Resource Availability"
-   },
-   {
     "impact": "High",
     "mitigation_strategy": "Establish clear contracts with penalties for delays and maintain regular communication with vendors.",
     "parent": "PC-2024-017",
@@ -1593,13 +1593,13 @@
     "risk": "Vendor Delays"
    },
    {
-    "impact": "High",
-    "mitigation_strategy": "Maintain a contingency budget and regularly review project expenses against the budget.",
+    "impact": "Medium",
+    "mitigation_strategy": "Cross-train team members and maintain a resource pool for flexibility.",
     "parent": "PC-2024-017",
     "parentfield": "risks",
     "parenttype": "Project Charter",
     "probability": "Medium",
-    "risk": "Budget Overruns"
+    "risk": "Resource Availability"
    },
    {
     "impact": "High",
@@ -1988,8 +1988,8 @@
     "parenttype": "Project Charter"
    },
    {
-    "category": "3k804sta1m",
-    "estimated_cost": "1000",
+    "category": "3kgcjsuio0",
+    "estimated_cost": "500",
     "parent": "PC-2024-022",
     "parentfield": "budget",
     "parenttype": "Project Charter"
@@ -2002,15 +2002,15 @@
     "parenttype": "Project Charter"
    },
    {
-    "category": "3kgcjsuio0",
+    "category": "3kkte1lp6u",
     "estimated_cost": "500",
     "parent": "PC-2024-022",
     "parentfield": "budget",
     "parenttype": "Project Charter"
    },
    {
-    "category": "3kkte1lp6u",
-    "estimated_cost": "500",
+    "category": "3k804sta1m",
+    "estimated_cost": "1000",
     "parent": "PC-2024-022",
     "parentfield": "budget",
     "parenttype": "Project Charter"
@@ -2056,13 +2056,13 @@
     "parenttype": "Project Charter"
    },
    {
-    "excluded_services": "Integration with other project management and planning systems",
+    "excluded_services": "HR and payroll integration ",
     "parent": "PC-2024-022",
     "parentfield": "excluded_services",
     "parenttype": "Project Charter"
    },
    {
-    "excluded_services": "HR and payroll integration ",
+    "excluded_services": "Integration with other project management and planning systems",
     "parent": "PC-2024-022",
     "parentfield": "excluded_services",
     "parenttype": "Project Charter"
@@ -2083,41 +2083,11 @@
     "parent": "PC-2024-022",
     "parentfield": "key_stakeholders",
     "parenttype": "Project Charter",
-    "role": "- Provides overall project direction and funding.\n- Ensures project aligns with business goals.\n- Approves major deliverables and changes.",
-    "stakeholder_email": "samer.jabari@focuskm.com",
-    "stakeholder_name": "t7nsht1j4k",
-    "stakeholder_party": "cm9kncqotj",
-    "stakeholder_type": "2vl19t1u3u"
-   },
-   {
-    "parent": "PC-2024-022",
-    "parentfield": "key_stakeholders",
-    "parenttype": "Project Charter",
-    "role": "- Provides overall project direction and funding.\n- Ensures project aligns with business goals.\n- Approves major deliverables and changes.",
-    "stakeholder_email": "yghoul@kcsc.com.jo",
-    "stakeholder_name": "t8nbu1g5uu",
-    "stakeholder_party": "cnini92duh",
-    "stakeholder_type": "2vl19t1u3u"
-   },
-   {
-    "parent": "PC-2024-022",
-    "parentfield": "key_stakeholders",
-    "parenttype": "Project Charter",
     "role": "- Oversees day-to-day project execution.\n- Coordinates communication between stakeholders and project team.\n- Manages project timelines, budget, and resources.",
     "stakeholder_email": "jibreel.abdeen@focuskm.com",
     "stakeholder_name": "t6g5549vi0",
     "stakeholder_party": "cm9kncqotj",
     "stakeholder_type": "2vo9qmbs77"
-   },
-   {
-    "parent": "PC-2024-022",
-    "parentfield": "key_stakeholders",
-    "parenttype": "Project Charter",
-    "role": "- Leads the development team in building the application.\n- Ensures technical requirements are met.\n- Provides status updates on development progress.",
-    "stakeholder_email": "ishaq.quttaineh@focuskm.com",
-    "stakeholder_name": "t3kuaolgri",
-    "stakeholder_party": "cm9kncqotj",
-    "stakeholder_type": "2vrnij7ssa"
    },
    {
     "parent": "PC-2024-022",
@@ -2133,11 +2103,41 @@
     "parent": "PC-2024-022",
     "parentfield": "key_stakeholders",
     "parenttype": "Project Charter",
+    "role": "- Provides overall project direction and funding.\n- Ensures project aligns with business goals.\n- Approves major deliverables and changes.",
+    "stakeholder_email": "samer.jabari@focuskm.com",
+    "stakeholder_name": "t7nsht1j4k",
+    "stakeholder_party": "cm9kncqotj",
+    "stakeholder_type": "2vl19t1u3u"
+   },
+   {
+    "parent": "PC-2024-022",
+    "parentfield": "key_stakeholders",
+    "parenttype": "Project Charter",
     "role": "- Addresses any technical risks and resource allocation concerns.",
     "stakeholder_email": "nasser@kcsc.com.jo",
     "stakeholder_name": "ta4bgo7qk2",
     "stakeholder_party": "cnini92duh",
     "stakeholder_type": "ht6ga6s09v"
+   },
+   {
+    "parent": "PC-2024-022",
+    "parentfield": "key_stakeholders",
+    "parenttype": "Project Charter",
+    "role": "- Leads the development team in building the application.\n- Ensures technical requirements are met.\n- Provides status updates on development progress.",
+    "stakeholder_email": "ishaq.quttaineh@focuskm.com",
+    "stakeholder_name": "t3kuaolgri",
+    "stakeholder_party": "cm9kncqotj",
+    "stakeholder_type": "2vrnij7ssa"
+   },
+   {
+    "parent": "PC-2024-022",
+    "parentfield": "key_stakeholders",
+    "parenttype": "Project Charter",
+    "role": "- Provides overall project direction and funding.\n- Ensures project aligns with business goals.\n- Approves major deliverables and changes.",
+    "stakeholder_email": "yghoul@kcsc.com.jo",
+    "stakeholder_name": "t8nbu1g5uu",
+    "stakeholder_party": "cnini92duh",
+    "stakeholder_type": "2vl19t1u3u"
    }
   ],
   "milestones": [
@@ -2226,7 +2226,7 @@
     "parenttype": "Project Charter"
    }
   ],
-  "modified": "2024-12-09 11:11:28.443558",
+  "modified": "2024-12-16 10:43:37.578345",
   "name": "PC-2024-022",
   "next_review_date": null,
   "payment_plan": [],
@@ -2424,30 +2424,21 @@
    },
    {
     "impact": "High",
-    "mitigation_strategy": "Management inforcement and tracking on by daily",
-    "parent": "PC-2024-022",
-    "parentfield": "risks",
-    "parenttype": "Project Charter",
-    "probability": "High",
-    "risk": "Resistance to adopt and usage of system"
-   },
-   {
-    "impact": "High",
-    "mitigation_strategy": "Workshop with frappe team. and training of data security.",
-    "parent": "PC-2024-022",
-    "parentfield": "risks",
-    "parenttype": "Project Charter",
-    "probability": "High",
-    "risk": "Data security "
-   },
-   {
-    "impact": "High",
     "mitigation_strategy": "Workshop with technical team, readjust the plan",
     "parent": "PC-2024-022",
     "parentfield": "risks",
     "parenttype": "Project Charter",
     "probability": "High",
     "risk": "Delay on completion of required tasks"
+   },
+   {
+    "impact": "High",
+    "mitigation_strategy": "Management inforcement and tracking on by daily",
+    "parent": "PC-2024-022",
+    "parentfield": "risks",
+    "parenttype": "Project Charter",
+    "probability": "High",
+    "risk": "Resistance to adopt and usage of system"
    },
    {
     "impact": "Medium",
@@ -2457,6 +2448,15 @@
     "parenttype": "Project Charter",
     "probability": "Medium",
     "risk": "Short availability of resources "
+   },
+   {
+    "impact": "High",
+    "mitigation_strategy": "Workshop with frappe team. and training of data security.",
+    "parent": "PC-2024-022",
+    "parentfield": "risks",
+    "parenttype": "Project Charter",
+    "probability": "High",
+    "risk": "Data security "
    }
   ],
   "schedule": "2024-11-27",

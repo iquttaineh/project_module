@@ -478,7 +478,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-12-09 11:00:56.894044",
+ "modified": "2024-12-16 10:04:34.574298",
  "modified_by": "Administrator",
  "module": "Project Module",
  "name": "Project Charter",
@@ -498,6 +498,7 @@
    "write": 1
   }
  ],
+ "search_fields": "project_title",
  "show_name_in_global_search": 1,
  "sort_field": "creation",
  "sort_order": "DESC",
