@@ -54,6 +54,17 @@
     "parenttype": "Meeting",
     "priority": "Medium",
     "responsible_party": "cm9kncqotj"
+   },
+   {
+    "action": "Action 1",
+    "description": "lshds uihfiush fiifihdsuifiudsh fudshfsdfdsghgchgchjjj",
+    "expected_completion_date": "2024-11-27",
+    "milestone": "TASK-2024-00027",
+    "parent": "MT-2024-12--0026",
+    "parentfield": "actions",
+    "parenttype": "Meeting",
+    "priority": "Medium",
+    "responsible_party": "cm9kncqotj"
    }
   ],
   "attendees": [],
@@ -78,6 +89,39 @@
  },
  {
   "actions": [
+   {
+    "action": "Fix Send Email Dialog",
+    "description": "Override Send Email button function to load participants' emails into the \"To\" field.",
+    "expected_completion_date": "2024-12-03",
+    "milestone": "TASK-2024-00027",
+    "parent": "MT-2024-12--0028",
+    "parentfield": "actions",
+    "parenttype": "Meeting",
+    "priority": "Medium",
+    "responsible_party": "cm9kncqotj"
+   },
+   {
+    "action": "Email MOM",
+    "description": null,
+    "expected_completion_date": "2024-12-03",
+    "milestone": "TASK-2024-00027",
+    "parent": "MT-2024-12--0028",
+    "parentfield": "actions",
+    "parenttype": "Meeting",
+    "priority": "Medium",
+    "responsible_party": "cm9kncqotj"
+   },
+   {
+    "action": "Fix Naming of Milestone",
+    "description": "Correct the Naming Field in the view.",
+    "expected_completion_date": "2024-12-03",
+    "milestone": "TASK-2024-00027",
+    "parent": "MT-2024-12--0028",
+    "parentfield": "actions",
+    "parenttype": "Meeting",
+    "priority": "Medium",
+    "responsible_party": "cm9kncqotj"
+   },
    {
     "action": "Fix Send Email Dialog",
     "description": "Override Send Email button function to load participants' emails into the \"To\" field.",

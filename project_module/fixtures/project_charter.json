@@ -357,8 +357,8 @@
     "parenttype": "Project Charter"
    },
    {
-    "estimated_completion_date": "2024-10-14",
-    "milestones": "Application Design and Development",
+    "estimated_completion_date": "2024-10-20",
+    "milestones": "Integration with Existing Tools",
     "parent": "PC-2024-021",
     "parentfield": "milestones",
     "parenttype": "Project Charter"
@@ -371,15 +371,8 @@
     "parenttype": "Project Charter"
    },
    {
-    "estimated_completion_date": "2024-10-20",
-    "milestones": "Integration with Existing Tools",
-    "parent": "PC-2024-021",
-    "parentfield": "milestones",
-    "parenttype": "Project Charter"
-   },
-   {
-    "estimated_completion_date": "2024-10-30",
-    "milestones": "User Training and Onboarding",
+    "estimated_completion_date": "2024-10-14",
+    "milestones": "Application Design and Development",
     "parent": "PC-2024-021",
     "parentfield": "milestones",
     "parenttype": "Project Charter"
@@ -387,6 +380,13 @@
    {
     "estimated_completion_date": "2024-10-30",
     "milestones": "Full Deployment",
+    "parent": "PC-2024-021",
+    "parentfield": "milestones",
+    "parenttype": "Project Charter"
+   },
+   {
+    "estimated_completion_date": "2024-10-30",
+    "milestones": "User Training and Onboarding",
     "parent": "PC-2024-021",
     "parentfield": "milestones",
     "parenttype": "Project Charter"
@@ -408,28 +408,6 @@
     "payment_type": "uo6ma8am8o"
    },
    {
-    "description_of_deliverable": "Delivery of finalized requirement specification document, user stories, and acceptance criteria.",
-    "parent": "PC-2024-021",
-    "parentfield": "payment_plan",
-    "parenttype": "Project Charter",
-    "payment_against": "pd4slbvn9d",
-    "payment_amount": "15000 JD",
-    "payment_due_date": "1 month after project start",
-    "payment_percentage": "15%",
-    "payment_type": "uo6ma8am8o"
-   },
-   {
-    "description_of_deliverable": "Completion of wireframes, user interface design prototypes, and approval from key stakeholders.",
-    "parent": "PC-2024-021",
-    "parentfield": "payment_plan",
-    "parenttype": "Project Charter",
-    "payment_against": "pd85bbipr3",
-    "payment_amount": "10000 JD",
-    "payment_due_date": "2 months after project start",
-    "payment_percentage": "10%",
-    "payment_type": "uo2fsapj2b"
-   },
-   {
     "description_of_deliverable": "Completion of backend and frontend core features, including project template creation, user authentication, and roles.",
     "parent": "PC-2024-021",
     "parentfield": "payment_plan",
@@ -439,6 +417,28 @@
     "payment_due_date": "4 months after project start",
     "payment_percentage": "20%",
     "payment_type": "uo2fsapj2b"
+   },
+   {
+    "description_of_deliverable": "Successful completion of system and integration testing, user acceptance testing (UAT) started, and bug fixes applied.",
+    "parent": "PC-2024-021",
+    "parentfield": "payment_plan",
+    "parenttype": "Project Charter",
+    "payment_against": "pdlrb0ouq9",
+    "payment_amount": "10000 JD",
+    "payment_due_date": "6 months after project start",
+    "payment_percentage": "10%",
+    "payment_type": "uo6ma8am8o"
+   },
+   {
+    "description_of_deliverable": "Delivery of finalized requirement specification document, user stories, and acceptance criteria.",
+    "parent": "PC-2024-021",
+    "parentfield": "payment_plan",
+    "parenttype": "Project Charter",
+    "payment_against": "pd4slbvn9d",
+    "payment_amount": "15000 JD",
+    "payment_due_date": "1 month after project start",
+    "payment_percentage": "15%",
+    "payment_type": "uo6ma8am8o"
    },
    {
     "description_of_deliverable": "Completion of advanced functionalities like reporting, collaboration tools, and project management features.",
@@ -452,15 +452,15 @@
     "payment_type": "uo2fsapj2b"
    },
    {
-    "description_of_deliverable": "Successful completion of system and integration testing, user acceptance testing (UAT) started, and bug fixes applied.",
+    "description_of_deliverable": "Completion of wireframes, user interface design prototypes, and approval from key stakeholders.",
     "parent": "PC-2024-021",
     "parentfield": "payment_plan",
     "parenttype": "Project Charter",
-    "payment_against": "pdlrb0ouq9",
+    "payment_against": "pd85bbipr3",
     "payment_amount": "10000 JD",
-    "payment_due_date": "6 months after project start",
+    "payment_due_date": "2 months after project start",
     "payment_percentage": "10%",
-    "payment_type": "uo6ma8am8o"
+    "payment_type": "uo2fsapj2b"
    },
    {
     "description_of_deliverable": "Deployment of the application in production environment and completion of all user training and documentation.",
@@ -495,13 +495,13 @@
     "parent": "PC-2024-021",
     "parentfield": "project_objectives",
     "parenttype": "Project Charter",
-    "project_objectives": "Automate project setup."
+    "project_objectives": "Integrate seamlessly with existing project management tools."
    },
    {
     "parent": "PC-2024-021",
     "parentfield": "project_objectives",
     "parenttype": "Project Charter",
-    "project_objectives": "Reduce project setup time."
+    "project_objectives": "Automate project setup."
    },
    {
     "parent": "PC-2024-021",
@@ -513,13 +513,13 @@
     "parent": "PC-2024-021",
     "parentfield": "project_objectives",
     "parenttype": "Project Charter",
-    "project_objectives": "Improve alignment with organizational goals."
+    "project_objectives": "Reduce project setup time."
    },
    {
     "parent": "PC-2024-021",
     "parentfield": "project_objectives",
     "parenttype": "Project Charter",
-    "project_objectives": "Integrate seamlessly with existing project management tools."
+    "project_objectives": "Improve alignment with organizational goals."
    },
    {
     "parent": "PC-2024-021",
@@ -685,13 +685,7 @@
     "parent": "PC-2024-021",
     "parentfield": "service_assumptions",
     "parenttype": "Project Charter",
-    "service_assumptions": "Increased consistency in project documentation across all departments."
-   },
-   {
-    "parent": "PC-2024-021",
-    "parentfield": "service_assumptions",
-    "parenttype": "Project Charter",
-    "service_assumptions": "Successful integration with key project management tools."
+    "service_assumptions": "Improved resource allocation efficiency across multiple projects."
    },
    {
     "parent": "PC-2024-021",
@@ -703,7 +697,13 @@
     "parent": "PC-2024-021",
     "parentfield": "service_assumptions",
     "parenttype": "Project Charter",
-    "service_assumptions": "Improved resource allocation efficiency across multiple projects."
+    "service_assumptions": "Successful integration with key project management tools."
+   },
+   {
+    "parent": "PC-2024-021",
+    "parentfield": "service_assumptions",
+    "parenttype": "Project Charter",
+    "service_assumptions": "Increased consistency in project documentation across all departments."
    }
   ],
   "service_availability": [],
@@ -714,13 +714,13 @@
   "sla_type": "",
   "steering_committee_review_members": [
    {
-    "member_name": "HR-EMP-00001",
+    "member_name": "HR-EMP-00004",
     "parent": "PC-2024-021",
     "parentfield": "steering_committee_review_members",
     "parenttype": "Project Charter",
     "party": null,
     "party_type": null,
-    "role": "2vl19t1u3u"
+    "role": "s8gu82ou22"
    },
    {
     "member_name": "HR-EMP-00004",
@@ -730,15 +730,6 @@
     "party": null,
     "party_type": null,
     "role": "2vo9qmbs77"
-   },
-   {
-    "member_name": "HR-EMP-00004",
-    "parent": "PC-2024-021",
-    "parentfield": "steering_committee_review_members",
-    "parenttype": "Project Charter",
-    "party": null,
-    "party_type": null,
-    "role": "htorta5apo"
    },
    {
     "member_name": "HR-EMP-00002",
@@ -768,22 +759,13 @@
     "role": "s8u7bq95kq"
    },
    {
-    "member_name": "HR-EMP-00004",
+    "member_name": "HR-EMP-00001",
     "parent": "PC-2024-021",
     "parentfield": "steering_committee_review_members",
     "parenttype": "Project Charter",
     "party": null,
     "party_type": null,
-    "role": "s8gu82ou22"
-   },
-   {
-    "member_name": "HR-EMP-00004",
-    "parent": "PC-2024-021",
-    "parentfield": "steering_committee_review_members",
-    "parenttype": "Project Charter",
-    "party": null,
-    "party_type": null,
-    "role": "s28rg2a68e"
+    "role": "2vl19t1u3u"
    },
    {
     "member_name": "Bank al Etihad",
@@ -793,18 +775,27 @@
     "party": null,
     "party_type": null,
     "role": "300ev7jdmr"
-   }
-  ],
-  "team_monthly_status_review_members": [
+   },
    {
     "member_name": "HR-EMP-00004",
     "parent": "PC-2024-021",
-    "parentfield": "team_monthly_status_review_members",
+    "parentfield": "steering_committee_review_members",
     "parenttype": "Project Charter",
     "party": null,
     "party_type": null,
-    "role": "2vo9qmbs77"
+    "role": "htorta5apo"
    },
+   {
+    "member_name": "HR-EMP-00004",
+    "parent": "PC-2024-021",
+    "parentfield": "steering_committee_review_members",
+    "parenttype": "Project Charter",
+    "party": null,
+    "party_type": null,
+    "role": "s28rg2a68e"
+   }
+  ],
+  "team_monthly_status_review_members": [
    {
     "member_name": "HR-EMP-00002",
     "parent": "PC-2024-021",
@@ -815,6 +806,33 @@
     "role": "2vrnij7ssa"
    },
    {
+    "member_name": "HR-EMP-00002",
+    "parent": "PC-2024-021",
+    "parentfield": "team_monthly_status_review_members",
+    "parenttype": "Project Charter",
+    "party": null,
+    "party_type": null,
+    "role": "309g0qs304"
+   },
+   {
+    "member_name": "HR-EMP-00002",
+    "parent": "PC-2024-021",
+    "parentfield": "team_monthly_status_review_members",
+    "parenttype": "Project Charter",
+    "party": null,
+    "party_type": null,
+    "role": "s6q4hd8mvr"
+   },
+   {
+    "member_name": "HR-EMP-00004",
+    "parent": "PC-2024-021",
+    "parentfield": "team_monthly_status_review_members",
+    "parenttype": "Project Charter",
+    "party": null,
+    "party_type": null,
+    "role": "2vo9qmbs77"
+   },
+   {
     "member_name": "HR-EMP-00004",
     "parent": "PC-2024-021",
     "parentfield": "team_monthly_status_review_members",
@@ -822,6 +840,15 @@
     "party": null,
     "party_type": null,
     "role": "s28rg2a68e"
+   },
+   {
+    "member_name": "HR-EMP-00002",
+    "parent": "PC-2024-021",
+    "parentfield": "team_monthly_status_review_members",
+    "parenttype": "Project Charter",
+    "party": null,
+    "party_type": null,
+    "role": "s75ktjugr2"
    },
    {
     "member_name": "HR-EMP-00003",
@@ -840,33 +867,6 @@
     "party": null,
     "party_type": null,
     "role": "s3gq2enkld"
-   },
-   {
-    "member_name": "HR-EMP-00002",
-    "parent": "PC-2024-021",
-    "parentfield": "team_monthly_status_review_members",
-    "parenttype": "Project Charter",
-    "party": null,
-    "party_type": null,
-    "role": "s6q4hd8mvr"
-   },
-   {
-    "member_name": "HR-EMP-00002",
-    "parent": "PC-2024-021",
-    "parentfield": "team_monthly_status_review_members",
-    "parenttype": "Project Charter",
-    "party": null,
-    "party_type": null,
-    "role": "s75ktjugr2"
-   },
-   {
-    "member_name": "HR-EMP-00002",
-    "parent": "PC-2024-021",
-    "parentfield": "team_monthly_status_review_members",
-    "parenttype": "Project Charter",
-    "party": null,
-    "party_type": null,
-    "role": "309g0qs304"
    },
    {
     "member_name": "HR-EMP-00004",
@@ -880,22 +880,13 @@
   ],
   "team_weekly_status_review_members": [
    {
-    "member_name": "HR-EMP-00004",
-    "parent": "PC-2024-021",
-    "parentfield": "team_weekly_status_review_members",
-    "parenttype": "Project Charter",
-    "party": null,
-    "party_type": null,
-    "role": "2vo9qmbs77"
-   },
-   {
     "member_name": "HR-EMP-00002",
     "parent": "PC-2024-021",
     "parentfield": "team_weekly_status_review_members",
     "parenttype": "Project Charter",
     "party": null,
     "party_type": null,
-    "role": "2vrnij7ssa"
+    "role": "s6q4hd8mvr"
    },
    {
     "member_name": "HR-EMP-00004",
@@ -905,15 +896,6 @@
     "party": null,
     "party_type": null,
     "role": "s28rg2a68e"
-   },
-   {
-    "member_name": "HR-EMP-00003",
-    "parent": "PC-2024-021",
-    "parentfield": "team_weekly_status_review_members",
-    "parenttype": "Project Charter",
-    "party": null,
-    "party_type": null,
-    "role": "s1tb2gpin1"
    },
    {
     "member_name": "HR-EMP-00004",
@@ -931,7 +913,16 @@
     "parenttype": "Project Charter",
     "party": null,
     "party_type": null,
-    "role": "s6q4hd8mvr"
+    "role": "2vrnij7ssa"
+   },
+   {
+    "member_name": "HR-EMP-00004",
+    "parent": "PC-2024-021",
+    "parentfield": "team_weekly_status_review_members",
+    "parenttype": "Project Charter",
+    "party": null,
+    "party_type": null,
+    "role": "2vo9qmbs77"
    },
    {
     "member_name": "HR-EMP-00002",
@@ -941,6 +932,15 @@
     "party": null,
     "party_type": null,
     "role": "s75ktjugr2"
+   },
+   {
+    "member_name": "HR-EMP-00003",
+    "parent": "PC-2024-021",
+    "parentfield": "team_weekly_status_review_members",
+    "parenttype": "Project Charter",
+    "party": null,
+    "party_type": null,
+    "role": "s1tb2gpin1"
    }
   ],
   "validity_of_agreement": [],
@@ -1290,22 +1290,15 @@
   ],
   "milestones": [
    {
-    "estimated_completion_date": "2024-10-13",
-    "milestones": "Project Initiation and Charter Approval",
-    "parent": "PC-2024-017",
-    "parentfield": "milestones",
-    "parenttype": "Project Charter"
-   },
-   {
-    "estimated_completion_date": "2024-10-14",
-    "milestones": "Requirements Gathering",
-    "parent": "PC-2024-017",
-    "parentfield": "milestones",
-    "parenttype": "Project Charter"
-   },
-   {
     "estimated_completion_date": "2024-10-14",
     "milestones": "Application Design and Development",
+    "parent": "PC-2024-017",
+    "parentfield": "milestones",
+    "parenttype": "Project Charter"
+   },
+   {
+    "estimated_completion_date": "2024-10-13",
+    "milestones": "Project Initiation and Charter Approval",
     "parent": "PC-2024-017",
     "parentfield": "milestones",
     "parenttype": "Project Charter"
@@ -1325,8 +1318,8 @@
     "parenttype": "Project Charter"
    },
    {
-    "estimated_completion_date": "2024-10-30",
-    "milestones": "User Training and Onboarding",
+    "estimated_completion_date": "2024-10-14",
+    "milestones": "Requirements Gathering",
     "parent": "PC-2024-017",
     "parentfield": "milestones",
     "parenttype": "Project Charter"
@@ -1337,6 +1330,13 @@
     "parent": "PC-2024-017",
     "parentfield": "milestones",
     "parenttype": "Project Charter"
+   },
+   {
+    "estimated_completion_date": "2024-10-30",
+    "milestones": "User Training and Onboarding",
+    "parent": "PC-2024-017",
+    "parentfield": "milestones",
+    "parenttype": "Project Charter"
    }
   ],
   "modified": "2024-10-24 12:58:28.499738",
@@ -1344,14 +1344,25 @@
   "next_review_date": null,
   "payment_plan": [
    {
-    "description_of_deliverable": "Completion of project charter, detailed project plan, and resource allocation.",
+    "description_of_deliverable": "Deployment of the application in production environment and completion of all user training and documentation.",
     "parent": "PC-2024-017",
     "parentfield": "payment_plan",
     "parenttype": "Project Charter",
-    "payment_against": "pc8q4b5iac",
-    "payment_amount": "20000 JD",
-    "payment_due_date": "Upon signing the contract",
-    "payment_percentage": "20%",
+    "payment_against": "pdqsjqeq26",
+    "payment_amount": "10000 JD",
+    "payment_due_date": "Upon project go-live (7 months)",
+    "payment_percentage": "10%",
+    "payment_type": "uo6ma8am8o"
+   },
+   {
+    "description_of_deliverable": "Successful completion of system and integration testing, user acceptance testing (UAT) started, and bug fixes applied.",
+    "parent": "PC-2024-017",
+    "parentfield": "payment_plan",
+    "parenttype": "Project Charter",
+    "payment_against": "pdlrb0ouq9",
+    "payment_amount": "10000 JD",
+    "payment_due_date": "6 months after project start",
+    "payment_percentage": "10%",
     "payment_type": "uo6ma8am8o"
    },
    {
@@ -1363,6 +1374,39 @@
     "payment_amount": "15000 JD",
     "payment_due_date": "1 month after project start",
     "payment_percentage": "15%",
+    "payment_type": "uo6ma8am8o"
+   },
+   {
+    "description_of_deliverable": "Completion of 1-month post-launch support, including monitoring and addressing any critical issues.",
+    "parent": "PC-2024-017",
+    "parentfield": "payment_plan",
+    "parenttype": "Project Charter",
+    "payment_against": "pdund1kkvj",
+    "payment_amount": "5000 JD",
+    "payment_due_date": "1 month after go-live",
+    "payment_percentage": "5%",
+    "payment_type": "uo6ma8am8o"
+   },
+   {
+    "description_of_deliverable": "Completion of advanced functionalities like reporting, collaboration tools, and project management features.",
+    "parent": "PC-2024-017",
+    "parentfield": "payment_plan",
+    "parenttype": "Project Charter",
+    "payment_against": "pdhfcehced",
+    "payment_amount": "15000 JD",
+    "payment_due_date": "5 months after project start",
+    "payment_percentage": "15%",
+    "payment_type": "uo2fsapj2b"
+   },
+   {
+    "description_of_deliverable": "Completion of project charter, detailed project plan, and resource allocation.",
+    "parent": "PC-2024-017",
+    "parentfield": "payment_plan",
+    "parenttype": "Project Charter",
+    "payment_against": "pc8q4b5iac",
+    "payment_amount": "20000 JD",
+    "payment_due_date": "Upon signing the contract",
+    "payment_percentage": "20%",
     "payment_type": "uo6ma8am8o"
    },
    {
@@ -1386,50 +1430,6 @@
     "payment_due_date": "4 months after project start",
     "payment_percentage": "20%",
     "payment_type": "uo2fsapj2b"
-   },
-   {
-    "description_of_deliverable": "Completion of advanced functionalities like reporting, collaboration tools, and project management features.",
-    "parent": "PC-2024-017",
-    "parentfield": "payment_plan",
-    "parenttype": "Project Charter",
-    "payment_against": "pdhfcehced",
-    "payment_amount": "15000 JD",
-    "payment_due_date": "5 months after project start",
-    "payment_percentage": "15%",
-    "payment_type": "uo2fsapj2b"
-   },
-   {
-    "description_of_deliverable": "Successful completion of system and integration testing, user acceptance testing (UAT) started, and bug fixes applied.",
-    "parent": "PC-2024-017",
-    "parentfield": "payment_plan",
-    "parenttype": "Project Charter",
-    "payment_against": "pdlrb0ouq9",
-    "payment_amount": "10000 JD",
-    "payment_due_date": "6 months after project start",
-    "payment_percentage": "10%",
-    "payment_type": "uo6ma8am8o"
-   },
-   {
-    "description_of_deliverable": "Deployment of the application in production environment and completion of all user training and documentation.",
-    "parent": "PC-2024-017",
-    "parentfield": "payment_plan",
-    "parenttype": "Project Charter",
-    "payment_against": "pdqsjqeq26",
-    "payment_amount": "10000 JD",
-    "payment_due_date": "Upon project go-live (7 months)",
-    "payment_percentage": "10%",
-    "payment_type": "uo6ma8am8o"
-   },
-   {
-    "description_of_deliverable": "Completion of 1-month post-launch support, including monitoring and addressing any critical issues.",
-    "parent": "PC-2024-017",
-    "parentfield": "payment_plan",
-    "parenttype": "Project Charter",
-    "payment_against": "pdund1kkvj",
-    "payment_amount": "5000 JD",
-    "payment_due_date": "1 month after go-live",
-    "payment_percentage": "5%",
-    "payment_type": "uo6ma8am8o"
    }
   ],
   "penalties": [],
@@ -1442,25 +1442,7 @@
     "parent": "PC-2024-017",
     "parentfield": "project_objectives",
     "parenttype": "Project Charter",
-    "project_objectives": "Automate project setup."
-   },
-   {
-    "parent": "PC-2024-017",
-    "parentfield": "project_objectives",
-    "parenttype": "Project Charter",
-    "project_objectives": "Reduce project setup time."
-   },
-   {
-    "parent": "PC-2024-017",
-    "parentfield": "project_objectives",
-    "parenttype": "Project Charter",
     "project_objectives": "Ensure consistent project structure."
-   },
-   {
-    "parent": "PC-2024-017",
-    "parentfield": "project_objectives",
-    "parenttype": "Project Charter",
-    "project_objectives": "Improve alignment with organizational goals."
    },
    {
     "parent": "PC-2024-017",
@@ -1472,7 +1454,25 @@
     "parent": "PC-2024-017",
     "parentfield": "project_objectives",
     "parenttype": "Project Charter",
+    "project_objectives": "Automate project setup."
+   },
+   {
+    "parent": "PC-2024-017",
+    "parentfield": "project_objectives",
+    "parenttype": "Project Charter",
     "project_objectives": "Enhance resource utilization."
+   },
+   {
+    "parent": "PC-2024-017",
+    "parentfield": "project_objectives",
+    "parenttype": "Project Charter",
+    "project_objectives": "Improve alignment with organizational goals."
+   },
+   {
+    "parent": "PC-2024-017",
+    "parentfield": "project_objectives",
+    "parenttype": "Project Charter",
+    "project_objectives": "Reduce project setup time."
    }
   ],
   "project_purpose": "The purpose of the Project Generator Application is to streamline the process of creating project plans across departments by automating the project initiation process. The application will enable users to quickly generate consistent, well-structured project plans based on predefined templates, ensuring alignment with business goals and reducing setup time. This will improve project efficiency, reduce inconsistencies, and optimize resource allocation.",
@@ -1626,12 +1626,6 @@
     "parent": "PC-2024-017",
     "parentfield": "service_assumptions",
     "parenttype": "Project Charter",
-    "service_assumptions": "Reduction in project setup time by 30% or more across teams."
-   },
-   {
-    "parent": "PC-2024-017",
-    "parentfield": "service_assumptions",
-    "parenttype": "Project Charter",
     "service_assumptions": "Increased consistency in project documentation across all departments."
    },
    {
@@ -1644,13 +1638,19 @@
     "parent": "PC-2024-017",
     "parentfield": "service_assumptions",
     "parenttype": "Project Charter",
-    "service_assumptions": "Positive feedback from users regarding ease of use and effectiveness."
+    "service_assumptions": "Improved resource allocation efficiency across multiple projects."
    },
    {
     "parent": "PC-2024-017",
     "parentfield": "service_assumptions",
     "parenttype": "Project Charter",
-    "service_assumptions": "Improved resource allocation efficiency across multiple projects."
+    "service_assumptions": "Reduction in project setup time by 30% or more across teams."
+   },
+   {
+    "parent": "PC-2024-017",
+    "parentfield": "service_assumptions",
+    "parenttype": "Project Charter",
+    "service_assumptions": "Positive feedback from users regarding ease of use and effectiveness."
    }
   ],
   "service_availability": [],
@@ -1661,13 +1661,49 @@
   "sla_type": "",
   "steering_committee_review_members": [
    {
+    "member_name": "HR-EMP-00004",
+    "parent": "PC-2024-017",
+    "parentfield": "steering_committee_review_members",
+    "parenttype": "Project Charter",
+    "party": null,
+    "party_type": null,
+    "role": "s28rg2a68e"
+   },
+   {
     "member_name": "HR-EMP-00001",
     "parent": "PC-2024-017",
     "parentfield": "steering_committee_review_members",
     "parenttype": "Project Charter",
     "party": null,
     "party_type": null,
-    "role": "2vl19t1u3u"
+    "role": "s8u7bq95kq"
+   },
+   {
+    "member_name": "HR-EMP-00002",
+    "parent": "PC-2024-017",
+    "parentfield": "steering_committee_review_members",
+    "parenttype": "Project Charter",
+    "party": null,
+    "party_type": null,
+    "role": "309g0qs304"
+   },
+   {
+    "member_name": "HR-EMP-00004",
+    "parent": "PC-2024-017",
+    "parentfield": "steering_committee_review_members",
+    "parenttype": "Project Charter",
+    "party": null,
+    "party_type": null,
+    "role": "s8gu82ou22"
+   },
+   {
+    "member_name": "Bank al Etihad",
+    "parent": "PC-2024-017",
+    "parentfield": "steering_committee_review_members",
+    "parenttype": "Project Charter",
+    "party": null,
+    "party_type": null,
+    "role": "300ev7jdmr"
    },
    {
     "member_name": "HR-EMP-00004",
@@ -1697,52 +1733,43 @@
     "role": "ht6ga6s09v"
    },
    {
-    "member_name": "HR-EMP-00002",
-    "parent": "PC-2024-017",
-    "parentfield": "steering_committee_review_members",
-    "parenttype": "Project Charter",
-    "party": null,
-    "party_type": null,
-    "role": "309g0qs304"
-   },
-   {
     "member_name": "HR-EMP-00001",
     "parent": "PC-2024-017",
     "parentfield": "steering_committee_review_members",
     "parenttype": "Project Charter",
     "party": null,
     "party_type": null,
-    "role": "s8u7bq95kq"
+    "role": "2vl19t1u3u"
+   }
+  ],
+  "team_monthly_status_review_members": [
+   {
+    "member_name": "HR-EMP-00002",
+    "parent": "PC-2024-017",
+    "parentfield": "team_monthly_status_review_members",
+    "parenttype": "Project Charter",
+    "party": null,
+    "party_type": null,
+    "role": "s75ktjugr2"
    },
    {
     "member_name": "HR-EMP-00004",
     "parent": "PC-2024-017",
-    "parentfield": "steering_committee_review_members",
+    "parentfield": "team_monthly_status_review_members",
     "parenttype": "Project Charter",
     "party": null,
     "party_type": null,
     "role": "s8gu82ou22"
    },
    {
-    "member_name": "HR-EMP-00004",
+    "member_name": "HR-EMP-00003",
     "parent": "PC-2024-017",
-    "parentfield": "steering_committee_review_members",
+    "parentfield": "team_monthly_status_review_members",
     "parenttype": "Project Charter",
     "party": null,
     "party_type": null,
-    "role": "s28rg2a68e"
+    "role": "s1tb2gpin1"
    },
-   {
-    "member_name": "Bank al Etihad",
-    "parent": "PC-2024-017",
-    "parentfield": "steering_committee_review_members",
-    "parenttype": "Project Charter",
-    "party": null,
-    "party_type": null,
-    "role": "300ev7jdmr"
-   }
-  ],
-  "team_monthly_status_review_members": [
    {
     "member_name": "HR-EMP-00004",
     "parent": "PC-2024-017",
@@ -1768,16 +1795,7 @@
     "parenttype": "Project Charter",
     "party": null,
     "party_type": null,
-    "role": "s28rg2a68e"
-   },
-   {
-    "member_name": "HR-EMP-00003",
-    "parent": "PC-2024-017",
-    "parentfield": "team_monthly_status_review_members",
-    "parenttype": "Project Charter",
-    "party": null,
-    "party_type": null,
-    "role": "s1tb2gpin1"
+    "role": "s3gq2enkld"
    },
    {
     "member_name": "HR-EMP-00004",
@@ -1786,7 +1804,7 @@
     "parenttype": "Project Charter",
     "party": null,
     "party_type": null,
-    "role": "s3gq2enkld"
+    "role": "s28rg2a68e"
    },
    {
     "member_name": "HR-EMP-00002",
@@ -1804,25 +1822,7 @@
     "parenttype": "Project Charter",
     "party": null,
     "party_type": null,
-    "role": "s75ktjugr2"
-   },
-   {
-    "member_name": "HR-EMP-00002",
-    "parent": "PC-2024-017",
-    "parentfield": "team_monthly_status_review_members",
-    "parenttype": "Project Charter",
-    "party": null,
-    "party_type": null,
     "role": "309g0qs304"
-   },
-   {
-    "member_name": "HR-EMP-00004",
-    "parent": "PC-2024-017",
-    "parentfield": "team_monthly_status_review_members",
-    "parenttype": "Project Charter",
-    "party": null,
-    "party_type": null,
-    "role": "s8gu82ou22"
    }
   ],
   "team_weekly_status_review_members": [
@@ -1833,7 +1833,7 @@
     "parenttype": "Project Charter",
     "party": null,
     "party_type": null,
-    "role": "2vo9qmbs77"
+    "role": "s3gq2enkld"
    },
    {
     "member_name": "HR-EMP-00002",
@@ -1845,13 +1845,13 @@
     "role": "2vrnij7ssa"
    },
    {
-    "member_name": "HR-EMP-00004",
+    "member_name": "HR-EMP-00002",
     "parent": "PC-2024-017",
     "parentfield": "team_weekly_status_review_members",
     "parenttype": "Project Charter",
     "party": null,
     "party_type": null,
-    "role": "s28rg2a68e"
+    "role": "s75ktjugr2"
    },
    {
     "member_name": "HR-EMP-00003",
@@ -1869,7 +1869,7 @@
     "parenttype": "Project Charter",
     "party": null,
     "party_type": null,
-    "role": "s3gq2enkld"
+    "role": "s28rg2a68e"
    },
    {
     "member_name": "HR-EMP-00002",
@@ -1881,13 +1881,13 @@
     "role": "s6q4hd8mvr"
    },
    {
-    "member_name": "HR-EMP-00002",
+    "member_name": "HR-EMP-00004",
     "parent": "PC-2024-017",
     "parentfield": "team_weekly_status_review_members",
     "parenttype": "Project Charter",
     "party": null,
     "party_type": null,
-    "role": "s75ktjugr2"
+    "role": "2vo9qmbs77"
    }
   ],
   "validity_of_agreement": [],
@@ -1923,15 +1923,15 @@
     "parenttype": "Project Charter"
    },
    {
-    "estimated_completion_date": "2024-11-29",
-    "milestones": "milestone 2",
+    "estimated_completion_date": "2024-11-30",
+    "milestones": "milestone 3",
     "parent": "PC-2024-023",
     "parentfield": "milestones",
     "parenttype": "Project Charter"
    },
    {
-    "estimated_completion_date": "2024-11-30",
-    "milestones": "milestone 3",
+    "estimated_completion_date": "2024-11-29",
+    "milestones": "milestone 2",
     "parent": "PC-2024-023",
     "parentfield": "milestones",
     "parenttype": "Project Charter"
@@ -2142,15 +2142,8 @@
   ],
   "milestones": [
    {
-    "estimated_completion_date": "2024-11-27",
-    "milestones": "Define Project Screen",
-    "parent": "PC-2024-022",
-    "parentfield": "milestones",
-    "parenttype": "Project Charter"
-   },
-   {
-    "estimated_completion_date": "2024-11-27",
-    "milestones": "Define Charter Screen ",
+    "estimated_completion_date": "2024-12-01",
+    "milestones": "Notification on Progress Status",
     "parent": "PC-2024-022",
     "parentfield": "milestones",
     "parenttype": "Project Charter"
@@ -2163,22 +2156,8 @@
     "parenttype": "Project Charter"
    },
    {
-    "estimated_completion_date": "2024-11-28",
-    "milestones": "Minutes of Meeting Screen",
-    "parent": "PC-2024-022",
-    "parentfield": "milestones",
-    "parenttype": "Project Charter"
-   },
-   {
-    "estimated_completion_date": "2024-11-28",
-    "milestones": "Notifications on Action List",
-    "parent": "PC-2024-022",
-    "parentfield": "milestones",
-    "parenttype": "Project Charter"
-   },
-   {
-    "estimated_completion_date": "2024-12-01",
-    "milestones": "Notification on Progress Status",
+    "estimated_completion_date": "2024-12-05",
+    "milestones": "Prepare documentation ",
     "parent": "PC-2024-022",
     "parentfield": "milestones",
     "parenttype": "Project Charter"
@@ -2191,8 +2170,22 @@
     "parenttype": "Project Charter"
    },
    {
-    "estimated_completion_date": "2024-12-05",
-    "milestones": "Prepare documentation ",
+    "estimated_completion_date": "2024-12-15",
+    "milestones": "Go live ",
+    "parent": "PC-2024-022",
+    "parentfield": "milestones",
+    "parenttype": "Project Charter"
+   },
+   {
+    "estimated_completion_date": "2024-11-28",
+    "milestones": "Notifications on Action List",
+    "parent": "PC-2024-022",
+    "parentfield": "milestones",
+    "parenttype": "Project Charter"
+   },
+   {
+    "estimated_completion_date": "2024-11-27",
+    "milestones": "Define Project Screen",
     "parent": "PC-2024-022",
     "parentfield": "milestones",
     "parenttype": "Project Charter"
@@ -2212,15 +2205,22 @@
     "parenttype": "Project Charter"
    },
    {
-    "estimated_completion_date": "2024-12-10",
-    "milestones": "Issue Beta version",
+    "estimated_completion_date": "2024-11-27",
+    "milestones": "Define Charter Screen ",
     "parent": "PC-2024-022",
     "parentfield": "milestones",
     "parenttype": "Project Charter"
    },
    {
-    "estimated_completion_date": "2024-12-15",
-    "milestones": "Go live ",
+    "estimated_completion_date": "2024-11-28",
+    "milestones": "Minutes of Meeting Screen",
+    "parent": "PC-2024-022",
+    "parentfield": "milestones",
+    "parenttype": "Project Charter"
+   },
+   {
+    "estimated_completion_date": "2024-12-10",
+    "milestones": "Issue Beta version",
     "parent": "PC-2024-022",
     "parentfield": "milestones",
     "parenttype": "Project Charter"
@@ -2240,55 +2240,7 @@
     "parent": "PC-2024-022",
     "parentfield": "project_objectives",
     "parenttype": "Project Charter",
-    "project_objectives": "Define a project on the tool"
-   },
-   {
-    "parent": "PC-2024-022",
-    "parentfield": "project_objectives",
-    "parenttype": "Project Charter",
     "project_objectives": "Add stakeholders and communication contacts"
-   },
-   {
-    "parent": "PC-2024-022",
-    "parentfield": "project_objectives",
-    "parenttype": "Project Charter",
-    "project_objectives": "Create project charter"
-   },
-   {
-    "parent": "PC-2024-022",
-    "parentfield": "project_objectives",
-    "parenttype": "Project Charter",
-    "project_objectives": "Go through the project charter approval process"
-   },
-   {
-    "parent": "PC-2024-022",
-    "parentfield": "project_objectives",
-    "parenttype": "Project Charter",
-    "project_objectives": "Create Milestones and project plan"
-   },
-   {
-    "parent": "PC-2024-022",
-    "parentfield": "project_objectives",
-    "parenttype": "Project Charter",
-    "project_objectives": "create minutes of meeting using the tool, create actions and follow up action list"
-   },
-   {
-    "parent": "PC-2024-022",
-    "parentfield": "project_objectives",
-    "parenttype": "Project Charter",
-    "project_objectives": "create weekly status report"
-   },
-   {
-    "parent": "PC-2024-022",
-    "parentfield": "project_objectives",
-    "parenttype": "Project Charter",
-    "project_objectives": "update progress on the project "
-   },
-   {
-    "parent": "PC-2024-022",
-    "parentfield": "project_objectives",
-    "parenttype": "Project Charter",
-    "project_objectives": "show the updated status and completion report"
    },
    {
     "parent": "PC-2024-022",
@@ -2300,7 +2252,55 @@
     "parent": "PC-2024-022",
     "parentfield": "project_objectives",
     "parenttype": "Project Charter",
+    "project_objectives": "create weekly status report"
+   },
+   {
+    "parent": "PC-2024-022",
+    "parentfield": "project_objectives",
+    "parenttype": "Project Charter",
+    "project_objectives": "create minutes of meeting using the tool, create actions and follow up action list"
+   },
+   {
+    "parent": "PC-2024-022",
+    "parentfield": "project_objectives",
+    "parenttype": "Project Charter",
+    "project_objectives": "Go through the project charter approval process"
+   },
+   {
+    "parent": "PC-2024-022",
+    "parentfield": "project_objectives",
+    "parenttype": "Project Charter",
     "project_objectives": "Adjust and tune "
+   },
+   {
+    "parent": "PC-2024-022",
+    "parentfield": "project_objectives",
+    "parenttype": "Project Charter",
+    "project_objectives": "update progress on the project "
+   },
+   {
+    "parent": "PC-2024-022",
+    "parentfield": "project_objectives",
+    "parenttype": "Project Charter",
+    "project_objectives": "Create Milestones and project plan"
+   },
+   {
+    "parent": "PC-2024-022",
+    "parentfield": "project_objectives",
+    "parenttype": "Project Charter",
+    "project_objectives": "show the updated status and completion report"
+   },
+   {
+    "parent": "PC-2024-022",
+    "parentfield": "project_objectives",
+    "parenttype": "Project Charter",
+    "project_objectives": "Create project charter"
+   },
+   {
+    "parent": "PC-2024-022",
+    "parentfield": "project_objectives",
+    "parenttype": "Project Charter",
+    "project_objectives": "Define a project on the tool"
    }
   ],
   "project_purpose": "We are testing the output of the development efforts and sniff the market need. the testing of the module shall collect the user and manager feedback and make sure that the module is implementable and can satisfy a portion of the client needs. ",
@@ -2360,6 +2360,19 @@
   "proposal": 0,
   "risk_levels": [
    {
+    "customer_escalate_to": "r6ig51v9f3",
+    "customer_party_name": null,
+    "parent": "PC-2024-022",
+    "parentfield": "risk_levels",
+    "parenttype": "Project Charter",
+    "resolve_time_hours": 24.0,
+    "response_time_hours": 4.0,
+    "risk_description": "Significant impact; major service disruption requiring immediate attention.",
+    "risk_level": "r7gu2bucs0",
+    "service_provider_escalate_to": "r7bqpfdu2d",
+    "service_provider_party_name": null
+   },
+   {
     "customer_escalate_to": "qut2s9qias",
     "customer_party_name": null,
     "parent": "PC-2024-022",
@@ -2383,19 +2396,6 @@
     "risk_description": "Moderate impact; minor service disruption, but workaround available.",
     "risk_level": "r5phr75mr1",
     "service_provider_escalate_to": "r5hdhgp6tv",
-    "service_provider_party_name": null
-   },
-   {
-    "customer_escalate_to": "r6ig51v9f3",
-    "customer_party_name": null,
-    "parent": "PC-2024-022",
-    "parentfield": "risk_levels",
-    "parenttype": "Project Charter",
-    "resolve_time_hours": 24.0,
-    "response_time_hours": 4.0,
-    "risk_description": "Significant impact; major service disruption requiring immediate attention.",
-    "risk_level": "r7gu2bucs0",
-    "service_provider_escalate_to": "r7bqpfdu2d",
     "service_provider_party_name": null
    },
    {
@@ -2465,19 +2465,7 @@
     "parent": "PC-2024-022",
     "parentfield": "service_assumptions",
     "parenttype": "Project Charter",
-    "service_assumptions": "Clear and effective communication with project stakeholders"
-   },
-   {
-    "parent": "PC-2024-022",
-    "parentfield": "service_assumptions",
-    "parenttype": "Project Charter",
-    "service_assumptions": "Clear project scope"
-   },
-   {
-    "parent": "PC-2024-022",
-    "parentfield": "service_assumptions",
-    "parenttype": "Project Charter",
-    "service_assumptions": "Successfully generate project charter and place approval process"
+    "service_assumptions": "Generate action list on the project, during the project lifecycle"
    },
    {
     "parent": "PC-2024-022",
@@ -2489,13 +2477,25 @@
     "parent": "PC-2024-022",
     "parentfield": "service_assumptions",
     "parenttype": "Project Charter",
-    "service_assumptions": "Generate action list on the project, during the project lifecycle"
+    "service_assumptions": "Clear and effective communication with project stakeholders"
    },
    {
     "parent": "PC-2024-022",
     "parentfield": "service_assumptions",
     "parenttype": "Project Charter",
     "service_assumptions": "Generate risk list on the project, during the project lifecycle"
+   },
+   {
+    "parent": "PC-2024-022",
+    "parentfield": "service_assumptions",
+    "parenttype": "Project Charter",
+    "service_assumptions": "Successfully generate project charter and place approval process"
+   },
+   {
+    "parent": "PC-2024-022",
+    "parentfield": "service_assumptions",
+    "parenttype": "Project Charter",
+    "service_assumptions": "Clear project scope"
    }
   ],
   "service_availability": [],
@@ -2506,31 +2506,13 @@
   "sla_type": "",
   "steering_committee_review_members": [
    {
-    "member_name": "t6g5549vi0",
+    "member_name": "t7nsht1j4k",
     "parent": "PC-2024-022",
     "parentfield": "steering_committee_review_members",
     "parenttype": "Project Charter",
     "party": "cm9kncqotj",
-    "party_type": "2vo9qmbs77",
-    "role": "- Oversees day-to-day project execution.\n- Coordinates communication between stakeholders and project team.\n- Manages project timelines, budget, and resources."
-   },
-   {
-    "member_name": "t8386p5ho2",
-    "parent": "PC-2024-022",
-    "parentfield": "steering_committee_review_members",
-    "parenttype": "Project Charter",
-    "party": "cm9kncqotj",
-    "party_type": "ht6ga6s09v",
-    "role": "- Addresses any technical risks and resource allocation concerns."
-   },
-   {
-    "member_name": "t3kuaolgri",
-    "parent": "PC-2024-022",
-    "parentfield": "steering_committee_review_members",
-    "parenttype": "Project Charter",
-    "party": "cm9kncqotj",
-    "party_type": "2vrnij7ssa",
-    "role": "- Leads the development team in building the application.\n- Ensures technical requirements are met.\n- Provides status updates on development progress."
+    "party_type": "2vl19t1u3u",
+    "role": "- Provides overall project direction and funding.\n- Ensures project aligns with business goals.\n- Approves major deliverables and changes."
    },
    {
     "member_name": "t8nbu1g5uu",
@@ -2542,15 +2524,6 @@
     "role": "- Provides overall project direction and funding.\n- Ensures project aligns with business goals.\n- Approves major deliverables and changes."
    },
    {
-    "member_name": "t7nsht1j4k",
-    "parent": "PC-2024-022",
-    "parentfield": "steering_committee_review_members",
-    "parenttype": "Project Charter",
-    "party": "cm9kncqotj",
-    "party_type": "2vl19t1u3u",
-    "role": "- Provides overall project direction and funding.\n- Ensures project aligns with business goals.\n- Approves major deliverables and changes."
-   },
-   {
     "member_name": "ta4bgo7qk2",
     "parent": "PC-2024-022",
     "parentfield": "steering_committee_review_members",
@@ -2558,18 +2531,36 @@
     "party": "cnini92duh",
     "party_type": "ht6ga6s09v",
     "role": "- Addresses any technical risks and resource allocation concerns."
-   }
-  ],
-  "team_monthly_status_review_members": [
+   },
+   {
+    "member_name": "t3kuaolgri",
+    "parent": "PC-2024-022",
+    "parentfield": "steering_committee_review_members",
+    "parenttype": "Project Charter",
+    "party": "cm9kncqotj",
+    "party_type": "2vrnij7ssa",
+    "role": "- Leads the development team in building the application.\n- Ensures technical requirements are met.\n- Provides status updates on development progress."
+   },
    {
     "member_name": "t6g5549vi0",
     "parent": "PC-2024-022",
-    "parentfield": "team_monthly_status_review_members",
+    "parentfield": "steering_committee_review_members",
     "parenttype": "Project Charter",
     "party": "cm9kncqotj",
     "party_type": "2vo9qmbs77",
     "role": "- Oversees day-to-day project execution.\n- Coordinates communication between stakeholders and project team.\n- Manages project timelines, budget, and resources."
    },
+   {
+    "member_name": "t8386p5ho2",
+    "parent": "PC-2024-022",
+    "parentfield": "steering_committee_review_members",
+    "parenttype": "Project Charter",
+    "party": "cm9kncqotj",
+    "party_type": "ht6ga6s09v",
+    "role": "- Addresses any technical risks and resource allocation concerns."
+   }
+  ],
+  "team_monthly_status_review_members": [
    {
     "member_name": "t8386p5ho2",
     "parent": "PC-2024-022",
@@ -2587,6 +2578,15 @@
     "party": "cm9kncqotj",
     "party_type": "2vrnij7ssa",
     "role": "- Leads the development team in building the application.\n- Ensures technical requirements are met.\n- Provides status updates on development progress."
+   },
+   {
+    "member_name": "t6g5549vi0",
+    "parent": "PC-2024-022",
+    "parentfield": "team_monthly_status_review_members",
+    "parenttype": "Project Charter",
+    "party": "cm9kncqotj",
+    "party_type": "2vo9qmbs77",
+    "role": "- Oversees day-to-day project execution.\n- Coordinates communication between stakeholders and project team.\n- Manages project timelines, budget, and resources."
    },
    {
     "member_name": "t8nbu1g5uu",
@@ -2600,15 +2600,6 @@
   ],
   "team_weekly_status_review_members": [
    {
-    "member_name": "t6g5549vi0",
-    "parent": "PC-2024-022",
-    "parentfield": "team_weekly_status_review_members",
-    "parenttype": "Project Charter",
-    "party": "cm9kncqotj",
-    "party_type": "2vo9qmbs77",
-    "role": "- Oversees day-to-day project execution.\n- Coordinates communication between stakeholders and project team.\n- Manages project timelines, budget, and resources."
-   },
-   {
     "member_name": "t8386p5ho2",
     "parent": "PC-2024-022",
     "parentfield": "team_weekly_status_review_members",
@@ -2625,6 +2616,15 @@
     "party": "cm9kncqotj",
     "party_type": "2vrnij7ssa",
     "role": "- Leads the development team in building the application.\n- Ensures technical requirements are met.\n- Provides status updates on development progress."
+   },
+   {
+    "member_name": "t6g5549vi0",
+    "parent": "PC-2024-022",
+    "parentfield": "team_weekly_status_review_members",
+    "parenttype": "Project Charter",
+    "party": "cm9kncqotj",
+    "party_type": "2vo9qmbs77",
+    "role": "- Oversees day-to-day project execution.\n- Coordinates communication between stakeholders and project team.\n- Manages project timelines, budget, and resources."
    }
   ],
   "validity_of_agreement": [],
