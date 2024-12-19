@@ -9,22 +9,22 @@
   "is_online": 0,
   "meeting_agenda": "fgfdgf",
   "meeting_arranged_by": "t3kuaolgri",
-  "modified": "2024-12-19 10:28:54.318349",
+  "modified": "2024-12-19 11:48:04.920882",
   "name": "MS-2024-12--0029",
   "participants": [
    {
-    "email": "ishaq.quttaineh@focuskm.com",
-    "name1": "ishaq",
+    "email": "jibreel.abdeen@focuskm.com",
+    "name1": "t6g5549vi0",
     "parent": "MS-2024-12--0029",
     "parentfield": "participants",
     "parenttype": "Meeting Schedule",
     "party": "cm9kncqotj",
-    "party_type": "2vrnij7ssa",
-    "role": "- Leads the development team in building the application.\n- Ensures technical requirements are met.\n- Provides status updates on development progress."
+    "party_type": "2vo9qmbs77",
+    "role": "- Oversees day-to-day project execution.\n- Coordinates communication between stakeholders and project team.\n- Manages project timelines, budget, and resources."
    },
    {
     "email": "ishaq.quttaineh@focuskm.com",
-    "name1": "ishaq",
+    "name1": "t3kuaolgri",
     "parent": "MS-2024-12--0029",
     "parentfield": "participants",
     "parenttype": "Meeting Schedule",
@@ -50,7 +50,7 @@
   "is_online": 1,
   "meeting_agenda": "Discuss Progress in Implementation Project Module and specify next actions.",
   "meeting_arranged_by": "t3kuaolgri",
-  "modified": "2024-12-19 10:29:03.788212",
+  "modified": "2024-12-19 11:49:23.064270",
   "name": "MS-2024-12--0027",
   "participants": [
    {
@@ -102,56 +102,6 @@
     "party": "cm9kncqotj",
     "party_type": "2vrnij7ssa",
     "role": "- Leads the development team in building the application.\n- Ensures technical requirements are met.\n- Provides status updates on development progress."
-   },
-   {
-    "email": "jibreel.abdeen@focuskm.com",
-    "name1": "t6g5549vi0",
-    "parent": "MS-2024-12--0027",
-    "parentfield": "participants",
-    "parenttype": "Meeting Schedule",
-    "party": "cm9kncqotj",
-    "party_type": "2vo9qmbs77",
-    "role": "- Oversees day-to-day project execution.\n- Coordinates communication between stakeholders and project team.\n- Manages project timelines, budget, and resources."
-   },
-   {
-    "email": "rami.quttaineh@focuskm.com",
-    "name1": "t8386p5ho2",
-    "parent": "MS-2024-12--0027",
-    "parentfield": "participants",
-    "parenttype": "Meeting Schedule",
-    "party": "cm9kncqotj",
-    "party_type": "ht6ga6s09v",
-    "role": "- Addresses any technical risks and resource allocation concerns."
-   },
-   {
-    "email": "ishaq.quttaineh@focuskm.com",
-    "name1": "t3kuaolgri",
-    "parent": "MS-2024-12--0027",
-    "parentfield": "participants",
-    "parenttype": "Meeting Schedule",
-    "party": "cm9kncqotj",
-    "party_type": "2vrnij7ssa",
-    "role": "- Leads the development team in building the application.\n- Ensures technical requirements are met.\n- Provides status updates on development progress."
-   },
-   {
-    "email": "yghoul@kcsc.com.jo",
-    "name1": "t8nbu1g5uu",
-    "parent": "MS-2024-12--0027",
-    "parentfield": "participants",
-    "parenttype": "Meeting Schedule",
-    "party": "cnini92duh",
-    "party_type": "2vl19t1u3u",
-    "role": "- Provides overall project direction and funding.\n- Ensures project aligns with business goals.\n- Approves major deliverables and changes."
-   },
-   {
-    "email": "samer.jabari@focuskm.com",
-    "name1": "t7nsht1j4k",
-    "parent": "MS-2024-12--0027",
-    "parentfield": "participants",
-    "parenttype": "Meeting Schedule",
-    "party": "cm9kncqotj",
-    "party_type": "2vl19t1u3u",
-    "role": "- Provides overall project direction and funding.\n- Ensures project aligns with business goals.\n- Approves major deliverables and changes."
    }
   ],
   "party": "Focus KCSC Allaiance",

@@ -50,22 +50,6 @@
  {
   "docstatus": 0,
   "doctype": "Project Members",
-  "email": "ishaq.quttaineh@focuskm.com",
-  "job_title": "Senior Developer",
-  "member_name": "Ishaq Quttaineh",
-  "mobile_no": "0795607722",
-  "modified": "2024-12-05 12:38:49.478428",
-  "name": "t3kuaolgri",
-  "party": "cm9kncqotj",
-  "party_type": "2vrnij7ssa",
-  "phone": "065544978",
-  "project": "PROJ-0001",
-  "role__responsibility": "- Leads the development team in building the application.\n- Ensures technical requirements are met.\n- Provides status updates on development progress.",
-  "user_link": "ishaq.quttaineh@focuskm.com"
- },
- {
-  "docstatus": 0,
-  "doctype": "Project Members",
   "email": "yghoul@kcsc.com.jo",
   "job_title": "CEO",
   "member_name": "Yasser Ghoul",
@@ -94,5 +78,21 @@
   "project": "PROJ-0001",
   "role__responsibility": "- Oversees day-to-day project execution.\n- Coordinates communication between stakeholders and project team.\n- Manages project timelines, budget, and resources.",
   "user_link": "jibreel.abdeen@focuskm.com"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Project Members",
+  "email": "ishaq.quttaineh@focuskm.com",
+  "job_title": "Senior Developer",
+  "member_name": "Ishaq Quttaineh",
+  "mobile_no": "0795607722",
+  "modified": "2024-12-05 12:38:49.478428",
+  "name": "t3kuaolgri",
+  "party": "cm9kncqotj",
+  "party_type": "2vrnij7ssa",
+  "phone": "065544978",
+  "project": "PROJ-0001",
+  "role__responsibility": "- Leads the development team in building the application.\n- Ensures technical requirements are met.\n- Provides status updates on development progress.",
+  "user_link": "ishaq.quttaineh@focuskm.com"
  }
 ]

@@ -13,7 +13,7 @@
   "customer_requirements": [],
   "docstatus": 0,
   "doctype": "Project Charter",
-  "duration": null,
+  "duration": "70",
   "effective_date": null,
   "excluded_services": [],
   "goals_and_objectives": [],
@@ -30,14 +30,14 @@
    },
    {
     "estimated_completion_date": "2024-11-30",
-    "milestones": "milestone 3",
+    "milestones": "milestone 2",
     "parent": "PC-2024-023",
     "parentfield": "milestones",
     "parenttype": "Project Charter"
    },
    {
     "estimated_completion_date": "2024-11-29",
-    "milestones": "milestone 2",
+    "milestones": "milestone 3",
     "parent": "PC-2024-023",
     "parentfield": "milestones",
     "parenttype": "Project Charter"
@@ -50,7 +50,7 @@
     "parenttype": "Project Charter"
    }
   ],
-  "modified": "2024-12-08 13:10:51.033233",
+  "modified": "2024-12-19 11:57:20.611390",
   "name": "PC-2024-023",
   "next_review_date": null,
   "payment_plan": [],
@@ -332,7 +332,7 @@
     "parenttype": "Project Charter"
    }
   ],
-  "modified": "2024-12-16 10:43:37.578345",
+  "modified": "2024-12-19 11:56:21.278657",
   "name": "PC-2024-022",
   "next_review_date": null,
   "payment_plan": [],

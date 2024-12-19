@@ -2,47 +2,17 @@
  {
   "docstatus": 0,
   "doctype": "Project Scope",
-  "modified": "2024-12-16 10:43:37.578345",
-  "name": "9a91narupo",
+  "modified": "2024-12-19 11:56:21.278657",
+  "name": "9a912j4eb2",
   "parent": "PC-2024-022",
   "parentfield": "project_scope",
   "parenttype": "Project Charter",
-  "project_scope": "Define a project and milestones"
+  "project_scope": "escalation plan"
  },
  {
   "docstatus": 0,
   "doctype": "Project Scope",
-  "modified": "2024-12-16 10:43:37.578345",
-  "name": "9a91tv42t2",
-  "parent": "PC-2024-022",
-  "parentfield": "project_scope",
-  "parenttype": "Project Charter",
-  "project_scope": "Define stakeholders and communication plan"
- },
- {
-  "docstatus": 0,
-  "doctype": "Project Scope",
-  "modified": "2024-12-16 10:43:37.578345",
-  "name": "9a91f1alhn",
-  "parent": "PC-2024-022",
-  "parentfield": "project_scope",
-  "parenttype": "Project Charter",
-  "project_scope": "Record minutes and action lists "
- },
- {
-  "docstatus": 0,
-  "doctype": "Project Scope",
-  "modified": "2024-12-16 10:43:37.578345",
-  "name": "9a91mocfgq",
-  "parent": "PC-2024-022",
-  "parentfield": "project_scope",
-  "parenttype": "Project Charter",
-  "project_scope": "Send notification for action owners"
- },
- {
-  "docstatus": 0,
-  "doctype": "Project Scope",
-  "modified": "2024-12-16 10:43:37.578345",
+  "modified": "2024-12-19 11:56:21.278657",
   "name": "9a91atgk0v",
   "parent": "PC-2024-022",
   "parentfield": "project_scope",
@@ -52,7 +22,17 @@
  {
   "docstatus": 0,
   "doctype": "Project Scope",
-  "modified": "2024-12-16 10:43:37.578345",
+  "modified": "2024-12-19 11:56:21.278657",
+  "name": "9a91f1alhn",
+  "parent": "PC-2024-022",
+  "parentfield": "project_scope",
+  "parenttype": "Project Charter",
+  "project_scope": "Record minutes and action lists "
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Project Scope",
+  "modified": "2024-12-19 11:56:21.278657",
   "name": "9a91j300kr",
   "parent": "PC-2024-022",
   "parentfield": "project_scope",
@@ -62,21 +42,41 @@
  {
   "docstatus": 0,
   "doctype": "Project Scope",
-  "modified": "2024-12-16 10:43:37.578345",
+  "modified": "2024-12-19 11:56:21.278657",
+  "name": "9a91mocfgq",
+  "parent": "PC-2024-022",
+  "parentfield": "project_scope",
+  "parenttype": "Project Charter",
+  "project_scope": "Send notification for action owners"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Project Scope",
+  "modified": "2024-12-19 11:56:21.278657",
+  "name": "9a91narupo",
+  "parent": "PC-2024-022",
+  "parentfield": "project_scope",
+  "parenttype": "Project Charter",
+  "project_scope": "Define a project and milestones"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Project Scope",
+  "modified": "2024-12-19 11:56:21.278657",
+  "name": "9a91tv42t2",
+  "parent": "PC-2024-022",
+  "parentfield": "project_scope",
+  "parenttype": "Project Charter",
+  "project_scope": "Define stakeholders and communication plan"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Project Scope",
+  "modified": "2024-12-19 11:56:21.278657",
   "name": "9a91v920ad",
   "parent": "PC-2024-022",
   "parentfield": "project_scope",
   "parenttype": "Project Charter",
   "project_scope": "report risks "
- },
- {
-  "docstatus": 0,
-  "doctype": "Project Scope",
-  "modified": "2024-12-16 10:43:37.578345",
-  "name": "9a912j4eb2",
-  "parent": "PC-2024-022",
-  "parentfield": "project_scope",
-  "parenttype": "Project Charter",
-  "project_scope": "escalation plan"
  }
 ]

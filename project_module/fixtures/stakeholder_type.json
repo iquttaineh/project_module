@@ -138,70 +138,6 @@
  {
   "docstatus": 0,
   "doctype": "Stakeholder Type",
-  "modified": "2024-12-05 10:41:29.859436",
-  "name": "qut2s9qias",
-  "roleresponsibility": "- Provide timely and professional responses to customer inquiries.\n- Resolve customer issues effectively through various communication channels (email, chat, phone).\n- Collaborate with internal teams to escalate and resolve complex issues.",
-  "stakeholder_type": "Customer Support"
- },
- {
-  "docstatus": 0,
-  "doctype": "Stakeholder Type",
-  "modified": "2024-12-05 10:44:32.329153",
-  "name": "r0m321cf1r",
-  "roleresponsibility": "- Serve as the first point of contact for IT-related issues and inquiries.\n- Log and track support requests in the ticketing system.\n- Escalate unresolved issues to appropriate teams.",
-  "stakeholder_type": "Support Desk"
- },
- {
-  "docstatus": 0,
-  "doctype": "Stakeholder Type",
-  "modified": "2024-12-05 10:51:49.357057",
-  "name": "r4ulgg5gdq",
-  "roleresponsibility": "- Build and maintain strong client relationships.\n- Identify growth opportunities and drive sales.\n- Resolve client issues promptly and effectively.",
-  "stakeholder_type": "Account Manager"
- },
- {
-  "docstatus": 0,
-  "doctype": "Stakeholder Type",
-  "modified": "2024-12-05 10:52:49.301906",
-  "name": "r5hdhgp6tv",
-  "roleresponsibility": "- Ensure efficient day-to-day business operations.\n- Monitor and optimize workflows and processes.\n- Collaborate with teams to achieve organizational goals.",
-  "stakeholder_type": "Operations Team"
- },
- {
-  "docstatus": 0,
-  "doctype": "Stakeholder Type",
-  "modified": "2024-12-05 10:54:35.255254",
-  "name": "r6ig51v9f3",
-  "roleresponsibility": "- Oversee operations and performance in the assigned region.\n- Lead and support teams to achieve sales and growth targets.\n- Analyze regional market trends and implement strategic plans.",
-  "stakeholder_type": "Regional Manager"
- },
- {
-  "docstatus": 0,
-  "doctype": "Stakeholder Type",
-  "modified": "2024-12-05 10:55:56.243339",
-  "name": "r7bqpfdu2d",
-  "roleresponsibility": "- Manage and resolve high-priority customer escalations effectively.\n- Coordinate with teams to identify root causes and implement solutions.\n- Ensure timely communication and satisfaction for all stakeholders.",
-  "stakeholder_type": "Escalation Manager"
- },
- {
-  "docstatus": 0,
-  "doctype": "Stakeholder Type",
-  "modified": "2024-12-05 10:57:58.486344",
-  "name": "r8i0tbdr2q",
-  "roleresponsibility": "- Advocate for the customer’s strategic needs within the organization.\n- Provide guidance and support for key project decisions and outcomes.\n- Build and maintain strong relationships with senior stakeholders.",
-  "stakeholder_type": "Executive Sponsor"
- },
- {
-  "docstatus": 0,
-  "doctype": "Stakeholder Type",
-  "modified": "2024-12-05 11:00:27.550693",
-  "name": "ra0jp7aat9",
-  "roleresponsibility": "- Develop and implement strategic goals to drive organizational success.\n- Oversee and align departmental operations with company objectives.\n- Lead decision-making and provide guidance to executive teams.",
-  "stakeholder_type": "Senior Management"
- },
- {
-  "docstatus": 0,
-  "doctype": "Stakeholder Type",
   "modified": "2024-10-21 14:09:31.842022",
   "name": "300ev7jdmr",
   "roleresponsibility": "- Participate in the requirements gathering phase.\n- Provide feedback during user acceptance testing.\n- Ensure the final application is aligned with daily project management workflows.\n- Use the final application in day-to-day project management tasks.",
@@ -266,18 +202,74 @@
  {
   "docstatus": 0,
   "doctype": "Stakeholder Type",
-  "modified": "2024-10-22 09:52:30.451703",
-  "name": "ht6ga6s09v",
-  "roleresponsibility": "- Addresses any technical risks and resource allocation concerns.",
-  "stakeholder_type": "IT Director"
+  "modified": "2024-12-05 10:41:29.859436",
+  "name": "qut2s9qias",
+  "roleresponsibility": "- Provide timely and professional responses to customer inquiries.\n- Resolve customer issues effectively through various communication channels (email, chat, phone).\n- Collaborate with internal teams to escalate and resolve complex issues.",
+  "stakeholder_type": "Customer Support"
  },
  {
   "docstatus": 0,
   "doctype": "Stakeholder Type",
-  "modified": "2024-10-21 13:59:56.220934",
-  "name": "2vl19t1u3u",
-  "roleresponsibility": "- Provides overall project direction and funding.\n- Ensures project aligns with business goals.\n- Approves major deliverables and changes.",
-  "stakeholder_type": "Project Sponsor"
+  "modified": "2024-12-05 10:44:32.329153",
+  "name": "r0m321cf1r",
+  "roleresponsibility": "- Serve as the first point of contact for IT-related issues and inquiries.\n- Log and track support requests in the ticketing system.\n- Escalate unresolved issues to appropriate teams.",
+  "stakeholder_type": "Support Desk"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Stakeholder Type",
+  "modified": "2024-12-05 10:51:49.357057",
+  "name": "r4ulgg5gdq",
+  "roleresponsibility": "- Build and maintain strong client relationships.\n- Identify growth opportunities and drive sales.\n- Resolve client issues promptly and effectively.",
+  "stakeholder_type": "Account Manager"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Stakeholder Type",
+  "modified": "2024-12-05 10:52:49.301906",
+  "name": "r5hdhgp6tv",
+  "roleresponsibility": "- Ensure efficient day-to-day business operations.\n- Monitor and optimize workflows and processes.\n- Collaborate with teams to achieve organizational goals.",
+  "stakeholder_type": "Operations Team"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Stakeholder Type",
+  "modified": "2024-12-05 10:54:35.255254",
+  "name": "r6ig51v9f3",
+  "roleresponsibility": "- Oversee operations and performance in the assigned region.\n- Lead and support teams to achieve sales and growth targets.\n- Analyze regional market trends and implement strategic plans.",
+  "stakeholder_type": "Regional Manager"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Stakeholder Type",
+  "modified": "2024-12-05 10:55:56.243339",
+  "name": "r7bqpfdu2d",
+  "roleresponsibility": "- Manage and resolve high-priority customer escalations effectively.\n- Coordinate with teams to identify root causes and implement solutions.\n- Ensure timely communication and satisfaction for all stakeholders.",
+  "stakeholder_type": "Escalation Manager"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Stakeholder Type",
+  "modified": "2024-12-05 10:57:58.486344",
+  "name": "r8i0tbdr2q",
+  "roleresponsibility": "- Advocate for the customer’s strategic needs within the organization.\n- Provide guidance and support for key project decisions and outcomes.\n- Build and maintain strong relationships with senior stakeholders.",
+  "stakeholder_type": "Executive Sponsor"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Stakeholder Type",
+  "modified": "2024-12-05 11:00:27.550693",
+  "name": "ra0jp7aat9",
+  "roleresponsibility": "- Develop and implement strategic goals to drive organizational success.\n- Oversee and align departmental operations with company objectives.\n- Lead decision-making and provide guidance to executive teams.",
+  "stakeholder_type": "Senior Management"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Stakeholder Type",
+  "modified": "2024-10-22 09:52:30.451703",
+  "name": "ht6ga6s09v",
+  "roleresponsibility": "- Addresses any technical risks and resource allocation concerns.",
+  "stakeholder_type": "IT Director"
  },
  {
   "docstatus": 0,
@@ -294,5 +286,13 @@
   "name": "2vo9qmbs77",
   "roleresponsibility": "- Oversees day-to-day project execution.\n- Coordinates communication between stakeholders and project team.\n- Manages project timelines, budget, and resources.",
   "stakeholder_type": "Project Manager"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Stakeholder Type",
+  "modified": "2024-10-21 13:59:56.220934",
+  "name": "2vl19t1u3u",
+  "roleresponsibility": "- Provides overall project direction and funding.\n- Ensures project aligns with business goals.\n- Approves major deliverables and changes.",
+  "stakeholder_type": "Project Sponsor"
  }
 ]
