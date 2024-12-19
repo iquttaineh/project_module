@@ -83,7 +83,8 @@
    "in_list_view": 1,
    "in_standard_filter": 1,
    "label": "Responsible Party",
-   "options": "Stakeholder Party"
+   "options": "Stakeholder Party",
+   "reqd": 1
   },
   {
    "fieldname": "responsible_party_justification",
@@ -110,7 +111,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-12-03 16:42:50.829327",
+ "modified": "2024-12-19 09:52:19.377429",
  "modified_by": "Administrator",
  "module": "Project Module",
  "name": "Issues Log",
