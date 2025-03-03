@@ -10,6 +10,7 @@ class ProjectCharter(Document):
             # Safely access fields
             project_title = self.project_title.strip() if self.project_title else None
             task_subject = milestone.milestones.strip() if milestone.milestones else None
+            expected_start_date = milestone.estimated_starting_date
             expected_end_date = milestone.estimated_completion_date
 
             if task_subject and expected_end_date:
@@ -19,9 +20,10 @@ class ProjectCharter(Document):
 					FROM `tabTask` 
 					WHERE subject = %s 
 					AND project = %s 
+                    AND exp_start_date = %s 
 					AND exp_end_date = %s 
 					AND status = %s
-				""", (task_subject, project_title, expected_end_date, "Pending Review"))
+				""", (task_subject, project_title, expected_start_date, expected_end_date, "Pending Review"))
 
                 
                 if not existing_task:
@@ -31,6 +33,7 @@ class ProjectCharter(Document):
                         "project": project_title,  # Link the Task to the Project
                         "subject": task_subject,  # Set the Task Subject
                         "status": "Pending Review",  # Set status to Pending Review
+                        "exp_start_date": expected_start_date,  # Set the Expected Start Date
                         "exp_end_date": expected_end_date,  # Set the Expected End Date
                         "is_group": 1,  # Mark as Group Task
                         "is_milestone": 1  # Mark as Milestone Task

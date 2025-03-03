@@ -3,8 +3,8 @@ from frappe.utils import add_months, flt, date_diff, add_days
 from datetime import timedelta
 from datetime import datetime
 
-@frappe.whitelist()
-def create_risk():
+# @frappe.whitelist()
+# def create_risk():
     # for milestone in self.milestones:
     #     # Safely access fields
     #     project_title = self.project_title.strip() if self.project_title else None

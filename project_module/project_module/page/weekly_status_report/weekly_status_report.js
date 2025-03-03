@@ -16,89 +16,100 @@ frappe.pages['weekly-status-report'].on_page_load = function (wrapper) {
 
     <body>
         <div class="dashboard">
-            <h2 style="color:rgb(38, 172, 217);padding-bottom:15px;">Weekly Status Report (WSR)</h2>
+            <h2 id="ReportHeader" style="color:rgb(38, 172, 217);padding-bottom:15px;text-align:center;text-decoration: underline;">Weekly Status Report (WSR)</h2>
             
-            <div class="dropdown">
-                <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Select a project...
-                </button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="projectSelect">
-                    <input type="text" class="form-control" id="dropdownFilter" placeholder="Search..." onkeyup="filterProjects()" style="margin: 5px; width: 95%;">
-                    <!-- Project items will be appended here -->
-                    
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <!-- Dropdown Menu on the Left -->
+                <div>
+                    <div class="dropdown">
+                        <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Select a project...
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="projectSelect">
+                            <input type="text" class="form-control" id="dropdownFilter" placeholder="Search..." onkeyup="filterProjects()" style="margin: 5px; width: 95%;">
+                            <!-- Project items will be appended here -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Buttons on the Right -->
+                <div>
+                    <button id="exportPDF" class="btn btn-secondary">Export as PDF</button>
+                    <button id="exportImage" class="btn btn-secondary">Export as Image</button>
+                    <button id="sendEmail" class="btn btn-secondary">Send Email</button>
                 </div>
             </div>
 
             <br>
 
             <!-- Project Info Table -->
-            <h4 style="display: inline-block;">Project Information</h4>
-            <span style="float: right; color:orange;">
-                <span style="color:#004d66;">From: </span>
+            <h4 id="project-information" style="display: inline-block;">Project Information</h4>
+            <span id="date-container" style="float: right; color:orange;">
+                <span id="first-day" style="color:#004d66;">From: </span>
                 <span id="firstDay" style="font-weight:bold;"></span>
-                <span style="color:#004d66;">To: </span>
+                <span id="last-day" style="color:#004d66;">To: </span>
                 <span id="lastDay" style="font-weight:bold;"></span>
             </span>
 
-            <table class="project_info">
+            <table id="project-info" class="project_info">
                 <tbody>
                     <tr style="background-color: #ecf0f1;"
                         onmouseover="this.style.backgroundColor='#0047AB'" 
                         onmouseout="this.style.backgroundColor='#ecf0f1'"
                     >
-                        <td style="width: 50%;"><b>Project Name: </b><span id="projectName"></span></td>
-                        <td style="width: 50%;"><b>Project Manager Name: </b><span id="projectManager"></span></td>
+                        <td id="td-project-name" style="width: 50%;"><b><label id="lbl-project-name">Project Name: </label></b><span id="projectName"></span></td>
+                        <td id="td-project-manager" style="width: 50%;"><b><label id="lbl-project-manager">Project Manager Name: </label></b><span id="projectManager"></span></td>
                     </tr>
                     <tr style="background-color: #ecf0f1;"
                         onmouseover="this.style.backgroundColor='#0047AB'" 
                         onmouseout="this.style.backgroundColor='#ecf0f1'"
                     >
-                        <td style="width: 50%;"><b>Customer Name: </b><span id="customerName"></span></td>
-                        <td style="width: 50%;"><b>Expected End Date: </b><span id="expectedEndDate"></span></td>
+                        <td id="td-customer-name" style="width: 50%;"><b><label id="lbl-customer-name">Customer Name: </label></b><span id="customerName"></span></td>
+                        <td id="td-end-date" style="width: 50%;"><b><label id="lbl-end-date">Expected End Date: </label></b><span id="expectedEndDate"></span></td>
                     </tr>
                     <tr style="background-color: #ecf0f1;"
                         onmouseover="this.style.backgroundColor='#0047AB'" 
                         onmouseout="this.style.backgroundColor='#ecf0f1'"
                     >
-                        <td style="width: 50%;"><b>Project Status: </b><span id="projectStatus"></span></td>
-                        <td style="width: 50%;"><b>% Completed: </b><span id="completionPercentage"></span></td>
+                        <td id="td-project-status" style="width: 50%;"><b><label id="lbl-project-status">Project Status: </label></b><span id="projectStatus"></span></td>
+                        <td id="td-completed" style="width: 50%;"><b><label id="lbl-completed">% Completed: </label></b><span id="completionPercentage"></span></td>
                     </tr>
                 </tbody>
             </table>
 
             <!-- Header -->
-            <h4>Priority Overview</h4>
+            <h4 id="priority-overview">Priority Overview</h4>
             <!-- Stats -->
             <div class="stats">
                 <div class="stat-item">
                     <h3 id="urgent" style="color:red;">0</h3>
-                    <p>Urgent</p>
+                    <p id="lbl-urgent">Urgent</p>
                 </div>
                 <div class="stat-item">
                     <h3 id="high" style="color:orange;">0</h3>
-                    <p>High</p>
+                    <p id="lbl-high">High</p>
                 </div>
                 <div class="stat-item">
                     <h3 id="medium" style="color:blue;">0</h3>
-                    <p>Medium</p>
+                    <p id="lbl-medium">Medium</p>
                 </div>
                 <div class="stat-item">
                     <h3 id="low" style="color:green;">0</h3>
-                    <p>Low</p>
+                    <p id="lbl-low">Low</p>
                 </div>
             </div>
 
             <!-- Charts -->
             <div class="charts">
                 <div class="chart-item">
-                    <h4>Work Left To Do vs. Time</h4>
+                    <h4 id="lbl-wltdvt">Work Left To Do vs. Time</h4>
                     <canvas id="WorkLeftChart"></canvas>
                 </div>
                 <div class="chart-item">
-                    <h4>Overall Progress</h4>
+                    <h4 id="lbl-op">Overall Progress</h4>
                     <div style="font-size: small; color:gray;">
-                        <p><u><strong>Priority:</strong></u> Urgent, High
-                            | <u><strong>Status:</strong></u> Not Completed, Not Cancelled
+                        <p><u><strong><label id="lbl-conditions-lbl1">Priority:</label></strong></u><label id="lbl-conditions-lbl2"> Urgent, High
+                            | </label><u><strong><label id="lbl-conditions-lbl3">Status:</label></strong></u><label id="lbl-conditions-lbl4"> Not Completed, Not Cancelled</label>
                         </p>
                     </div>
                     <canvas id="progressChart"></canvas>
@@ -106,11 +117,11 @@ frappe.pages['weekly-status-report'].on_page_load = function (wrapper) {
             </div>
             <div class="charts">
                 <div class="chart-item">
-                    <h4>Task Status Distribution</h4>
+                    <h4 id="lbl-tsd">Task Status Distribution</h4>
                     <canvas id="statusChart"></canvas>
                 </div>
                 <div class="chart-item">
-                    <h4>Resource Allocation</h4>
+                    <h4 id="lbl-ra">Resource Allocation</h4>
                     <canvas id="resourceChart"></canvas>
                 </div>
             </div>
@@ -119,56 +130,56 @@ frappe.pages['weekly-status-report'].on_page_load = function (wrapper) {
             <div class="table-container">
                 <!-- Tasks List Table -->
                 <div class="small-table tasks">
-                    <h4 style="color:#004d66;">Tasks List</h4>
+                    <h4 id="lbl-tasks-list" style="color:#004d66;">Tasks List</h4>
                     <table>
                         <thead>
                             <tr>
-                                <th style="height: 50px; text-align: center;">Task</th>
-                                <th>Priority</th>
-                                <th>Expected End Date</th>
-                                <th>% Completed</th>
+                                <th id="th-tasks-task" style="height: 50px; text-align: center;">Task</th>
+                                <th id="th-tasks-priority">Priority</th>
+                                <th id="th-tasks-end-date">Expected End Date</th>
+                                <th id="th-tasks-completed">% Completed</th>
                             </tr>
                         </thead>
                         <tbody>
                         </tbody>
                     </table>
-                    <button class="expand-button" onclick="toggleRows(this)">Show More</button>
+                    <button id="btn-tasks-more" class="expand-button" onclick="toggleRows(this)">Show More</button>
                 </div>
 
                 <!-- Risks Log Table -->
                 <div class="small-table risks">
-                    <h4 style="color:#004d66;">Risks Log</h4>
+                    <h4 id="lbl-risks-log" style="color:#004d66;">Risks Log</h4>
                     <table>
                         <thead>
                             <tr>
-                                <th style="height: 50px; text-align: center;">Date</th>
-                                <th>Risk</th>
-                                <th>Priority</th>
-                                <th>Status</th>
+                                <th id="th-risks-date" style="height: 50px; text-align: center;">Date</th>
+                                <th id="th-risks-risk">Risk</th>
+                                <th id="th-risks-priority">Priority</th>
+                                <th id="th-risks-status">Status</th>
                             </tr>
                         </thead>
                         <tbody>
                         </tbody>
                     </table>
-                    <button class="expand-button" onclick="toggleRows(this)">Show More</button>
+                    <button id="btn-risks-more" class="expand-button" onclick="toggleRows(this)">Show More</button>
                 </div>
 
                 <!-- Issues Log Table -->
                 <div class="small-table issues">
-                    <h4 style="color:#004d66;">Issues Log</h4>
+                    <h4 id="lbl-issues-log" style="color:#004d66;">Issues Log</h4>
                     <table>
                         <thead>
                             <tr>
-                                <th style="height: 50px; text-align: center;">Date</th>
-                                <th>Issue</th>
-                                <th>Priority</th>
-                                <th>Status</th>
+                                <th id="th-issues-date" style="height: 50px; text-align: center;">Date</th>
+                                <th id="th-issues-issue">Issue</th>
+                                <th id="th-issues-priority">Priority</th>
+                                <th id="th-issues-status">Status</th>
                             </tr>
                         </thead>
                         <tbody>
                         </tbody>
                     </table>
-                    <button class="expand-button" onclick="toggleRows(this)">Show More</button>
+                    <button id="btn-issues-more" class="expand-button" onclick="toggleRows(this)">Show More</button>
                 </div>
             </div>
         </div>
@@ -178,13 +189,183 @@ frappe.pages['weekly-status-report'].on_page_load = function (wrapper) {
 
     page.body.html(html_context);
 
+    // // Attach event listeners after inserting HTML content
+    // document.querySelector('.btn-secondary[onclick="exportToPDF()"]').addEventListener('click', exportToPDF);
+    // document.querySelector('.btn-secondary[onclick="exportToImage()"]').addEventListener('click', exportToImage);
+
+    if (frappe.boot.lang === 'ar') {
+        document.body.style.direction = 'rtl';
+        document.body.style.fontFamily = "Tahoma";
+
+        // let dashboards = document.getElementsByClassName('dashboard');
+        // for (let i = 0; i < dashboards.length; i++) {
+        //     dashboards[i].style.textAlign = 'right';
+        // }
+
+        document.getElementById('project-information').style.float = 'right';
+        document.getElementById('date-container').style.float = 'left';
+
+        document.getElementById('td-project-name').style.textAlign = 'right';
+        document.getElementById('td-project-manager').style.textAlign = 'right';
+        document.getElementById('td-customer-name').style.textAlign = 'right';
+        document.getElementById('td-end-date').style.textAlign = 'right';
+        document.getElementById('td-project-status').style.textAlign = 'right';
+        document.getElementById('td-completed').style.textAlign = 'right';
+
+        document.getElementById('ReportHeader').innerText = "تقرير الحالة الأسبوعي (WSR)";
+    
+        document.getElementById('dropdownMenuButton').innerText = "اختر مشروع...";
+
+        document.getElementById('exportPDF').innerText = "تصدير إلى PDF";
+        document.getElementById('exportImage').innerText = "تصدير إلى صورة";
+        document.getElementById('sendEmail').innerText = "إرسال بريد إلكتروني";
+
+        document.getElementById('project-information').innerText = "معلومات المشروع";
+        document.getElementById('first-day').innerText = "من: ";
+        document.getElementById('last-day').innerText = "إلى: ";
+
+        document.getElementById('lbl-project-name').innerText = "إسم المشروع: ";
+        document.getElementById('lbl-project-manager').innerText = "مدير المشروع: ";
+        document.getElementById('lbl-customer-name').innerText = "إسم العميل: ";
+        document.getElementById('lbl-end-date').innerText = "تاريخ انتهاء المشروع: ";
+        document.getElementById('lbl-project-status').innerText = "حالة المشروع: ";
+        document.getElementById('lbl-completed').innerText = "% اكتمال المشروع: ";
+
+        document.getElementById('priority-overview').innerText = "نظرة عامة على الأولويات";
+        document.getElementById('lbl-urgent').innerText = "حرجة";
+        document.getElementById('lbl-high').innerText = "مرتفعة";
+        document.getElementById('lbl-medium').innerText = "متوسطة";
+        document.getElementById('lbl-low').innerText = "منخفضة";
+
+        document.getElementById('lbl-wltdvt').innerText = "العمل المتبقي للقيام به مقابل الوقت";
+        document.getElementById('lbl-op').innerText = "التقدم الشامل";
+        document.getElementById('lbl-tsd').innerText = "توزيع المهمات حسب الحالة";
+        document.getElementById('lbl-ra').innerText = "توزيع الموارد";
+
+        document.getElementById('lbl-conditions-lbl1').innerText = "الأولوية:";
+        document.getElementById('lbl-conditions-lbl2').innerText = " حرجة، مرتفعة | ";
+        document.getElementById('lbl-conditions-lbl3').innerText = "الحالة:";
+        document.getElementById('lbl-conditions-lbl4').innerText = " غير مكتملة، غير ملغية";
+
+        document.getElementById('lbl-tasks-list').innerText = "قائمة المهام";
+        document.getElementById('lbl-risks-log').innerText = "سجل المخاطر";
+        document.getElementById('lbl-issues-log').innerText = "سجل المشكلات";
+
+        document.getElementById('th-tasks-task').innerText = "المهمة";
+        document.getElementById('th-tasks-priority').innerText = "الأولوية";
+        document.getElementById('th-tasks-end-date').innerText = "التاريخ المتوقع للإنتهاء";
+        document.getElementById('th-tasks-completed').innerText = "% الإكتمال";
+
+        document.getElementById('th-risks-date').innerText = "التاريخ";
+        document.getElementById('th-risks-risk').innerText = "الخطر";
+        document.getElementById('th-risks-priority').innerText = "الأولوية";
+        document.getElementById('th-risks-status').innerText = "الحالة";
+
+        document.getElementById('th-issues-date').innerText = "التاريخ";
+        document.getElementById('th-issues-issue').innerText = "المشكلة";
+        document.getElementById('th-issues-priority').innerText = "الأولوية";
+        document.getElementById('th-issues-status').innerText = "الحالة";
+        
+        document.getElementById('btn-tasks-more').innerText = "عرض المزيد";
+        document.getElementById('btn-risks-more').innerText = "عرض المزيد";
+        document.getElementById('btn-issues-more').innerText = "عرض المزيد";
+    } else {
+        document.body.style.direction = 'ltr';
+        document.getElementById('project-information').style.float = 'left';
+        document.getElementById('date-container').style.float = 'right';
+    };
+
+    // Set translations using frappe._()
+    // document.getElementById('ReportHeader').innerText = frappe._("Weekly Status Report (WSR)");
+    
+    // document.getElementById('dropdownMenuButton').innerText = frappe._("Select a project...");
+
+    // document.getElementById('exportPDF').innerText = frappe._("Weekly Status Report (WSR)");
+    // document.getElementById('exportImage').innerText = frappe._("Export as Image");
+    // document.getElementById('sendEmail').innerText = frappe._("Send Email");
+
+    // document.getElementById('project-information').innerText = frappe._("Project Information");
+    // document.getElementById('firstDay').innerText = frappe._("From: ");
+    // document.getElementById('lastDay').innerText = frappe._("To: ");
+
+    // document.getElementById('projectName').innerText = frappe._("Project Name: ");
+    // document.getElementById('projectManager').innerText = frappe._("Project Manager Name: ");
+    // document.getElementById('customerName').innerText = frappe._("Customer Name: ");
+    // document.getElementById('expectedEndDate').innerText = frappe._("Expected End Date: ");
+    // document.getElementById('projectStatus').innerText = frappe._("Project Status: ");
+    // document.getElementById('completionPercentage').innerText = frappe._("% Completed: ");
+
+    // document.getElementById('priority-overview').innerText = frappe._("");
+
+    // frappe.call({
+    //     method: "frappe.translate.get_translations",
+    //     args: {
+    //         lang: "ar"
+    //     },
+    //     callback: function(r) {
+    //         console.log(r.message);
+    //         document.getElementById("ReportHeader").innerHTML = __(r.message["Weekly Status Report (WSR)"]);
+    //     }
+    // });   
+
+
+    document.getElementById('exportPDF').addEventListener('click', exportToPDF);
+    document.getElementById('exportImage').addEventListener('click', exportToImage);
+    document.getElementById('sendEmail').addEventListener('click', sendEmail);
+
     // Get current week's start and end dates
     function getCurrentWeekDates() {
+        // if (frappe.boot.lang === 'ar') {
+        //     document.body.style.direction = 'rtl';
+        //     document.body.style.textAlign = 'right';
+        // } else {
+        //     document.body.style.direction = 'ltr';
+        //     document.body.style.textAlign = 'left';
+        // }
+
+        // frappe.call({
+        //     method: "frappe.client.get_doc",
+        //     args: {
+        //         doctype: "Translation",
+        //         fields: ["language", "source_text", "translated_text"],
+        //     },
+        //     callback: function(r) {
+        //         console.log(r.message.as_dict);
+        //         // document.getElementById("ReportHeader").innerHTML = __(r.message[2]["source_text"]);
+        //     }
+        // });  
+
+        // frappe.call({
+        //     method: "frappe.client.get_list",
+        //     args: {
+        //         doctype: "Translation", // Example doctype
+        //         fields: ["language", "source_text", "translated_text"],
+        //         // filters: [["status", "=", "Active"]], // Optional filter
+        //         // limit_page_length: 10 // Limit results
+        //     },
+        //     callback: function(response) {
+        //         let data = response.message; // Contains the list of dictionaries
+
+        //         console.log(data);
+        
+        //         // if (data) {
+        //         //     // Iterate through the list
+        //         //     data.forEach(item => {
+        //         //         console.log("Name: " + item.name);
+        //         //         console.log("Email: " + item.email_id);
+        //         //     });
+        //         // } else {
+        //         //     console.log("No data found");
+        //         // }
+        //     }
+        // });
+        
+
         const today = new Date();
 
         // Calculate the first day of the current week (Sunday as the start of the week)
         const firstDay = new Date(today);
-        firstDay.setDate(today.getDate() - today.getDay()); // Set to Sunday
+        firstDay.setDate(today.getDate() - today.getDay()); // Set to Sunday. getDay() returns: 0 = Sunday, 1 = Monday, ..., 6 = Saturday
 
         // Calculate the last day of the current week (Saturday)
         const lastDay = new Date(firstDay);
@@ -204,13 +385,178 @@ frappe.pages['weekly-status-report'].on_page_load = function (wrapper) {
     // Call the function to set dates
     getCurrentWeekDates();
 
+    function showAllRows() {
+        const expandButtons = document.querySelectorAll('.expand-button');
+        expandButtons.forEach(button => {
+            const rows = button.previousElementSibling.querySelectorAll('.hidden-rows');
+            rows.forEach(row => row.style.display = 'table-row');
+            if (frappe.boot.lang === 'ar') {
+                button.textContent = 'إظهار أقل';
+            } else {
+                button.textContent = 'Show Less';
+            };
+        });
+    }
+
+    async function exportToPDF() {
+        // Ensure all rows are visible
+        showAllRows();
+    
+        const element = document.querySelector('.dashboard'); // Target element
+    
+        // Temporarily adjust element style to ensure the full content is rendered
+        const originalHeight = element.style.height;
+        element.style.height = 'auto';
+    
+        // Use html-to-image to capture the full scrollable content
+        htmlToImage.toPng(element, {
+            width: element.scrollWidth,  // Full width of the element
+            height: element.scrollHeight // Full height of the element
+        })
+        .then(dataUrl => {
+            const { jsPDF } = window.jspdf; // Import jsPDF
+    
+            // Create a new PDF document
+            const pdf = new jsPDF({
+                orientation: 'portrait', // Change to 'landscape' if needed
+                unit: 'px', // Use pixels for better scaling
+                format: [element.scrollWidth, element.scrollHeight] // Match size dynamically
+            });
+    
+            // Add the captured image to the PDF
+            pdf.addImage(dataUrl, 'PNG', 0, 0, element.scrollWidth, element.scrollHeight);
+    
+            // Save the PDF
+            pdf.save('Weekly_Status_Report.pdf');
+    
+            // Restore original height
+            element.style.height = originalHeight;
+        })
+        .catch(err => {
+            console.error('Error exporting PDF:', err); // Log errors
+            element.style.height = originalHeight; // Restore height on error
+        });
+    }        
+
+    function exportToImage() {
+        // Ensure all rows are visible
+        showAllRows();
+    
+        htmlToImage.toPng(document.querySelector('.dashboard'))
+            .then(dataUrl => {
+                const link = document.createElement('a');
+                link.href = dataUrl;
+                link.download = 'Weekly_Status_Report.png';
+                link.click();
+        });
+    }
+
+    function sendEmail() {
+        // Ensure all rows are visible
+        showAllRows();
+    
+        // Get project details
+        const projectName = document.getElementById('projectName').textContent || "N/A";
+        const fromDate = document.getElementById('firstDay').textContent || "N/A";
+        const toDate = document.getElementById('lastDay').textContent || "N/A";
+    
+        // Generate the image using html-to-image
+        htmlToImage.toPng(document.querySelector('.dashboard'))
+            .then(dataUrl => {
+                // Prepare email content with image embedded
+                const emailSubject = `Weekly Status Report - ${projectName}`;
+                const emailBody = `
+                    <p>Please find the Weekly Status Report attached.</p>
+                    <p><strong>From:</strong> ${fromDate} <strong>To:</strong> ${toDate}<br><br></p>
+                    <p><strong>Snapshot:</strong></p>
+                    <p><img src="${dataUrl}" style="max-width: 100%; height: auto;" /></p>
+                `;
+    
+                // Send email using frappe CommunicationComposer
+                new frappe.views.CommunicationComposer({
+                    subject: emailSubject,
+                    message: emailBody,
+                });
+            })
+            .catch(err => {
+                console.error('Error generating image:', err);
+            });
+    }   
+    
+    // function sendEmail() {
+    //     // Ensure all rows are visible
+    //     showAllRows();
+       
+    //     // Capture the dashboard as an image
+    //     // const element = document.querySelector('.dashboard'); // Capture the dashboard div
+    //     // html2canvas(element, { scale: 2 }).then(canvas => {
+    //         // Convert the captured image to a Data URL
+    //         // const imgData = canvas.toDataURL('image/jpeg');
+    
+    //         // // Prepare the file as base64 content
+    //         // const fileContent = imgData.split(',')[1]; // Base64 data
+    //         // const fileName = 'Weekly_Status_Report.jpeg';
+    
+    //     // Get email details dynamically
+    //     const projectName = document.getElementById('projectName').textContent || "N/A";
+    //     const fromDate = document.getElementById('firstDay').textContent || "N/A";
+    //     const toDate = document.getElementById('lastDay').textContent || "N/A";
+
+    //     const emailSubject = `Weekly Status Report - ${projectName}`;
+    //     const emailBody = `
+    //         <p>Please find the Weekly Status Report attached.</p>
+    //         <p><strong>From:</strong> ${fromDate} <strong>To:</strong> ${toDate}<br><br></p>
+    //     `;
+
+    //     new frappe.views.CommunicationComposer({
+    //         subject: emailSubject,
+    //         message: emailBody,
+    //     });
+    
+    //         // // Call the Python function to upload and attach the file
+    //         // frappe.call({
+    //         //     method: "project_module.api.task.upload_file", // frappe-bench/apps/erpnext/erpnext/api/task.py
+    //         //     args: {
+    //         //         file_name: fileName,
+    //         //         file_content: fileContent,
+    //         //         subject: emailSubject,
+    //         //         message: emailBody
+    //         //     },
+    //         //     callback: function (response) {
+    //         //         if (response.message && response.message.status === "success") {
+    //         //             // Open ERPNext Email Dialog with attachment using file_id
+    //         //             new frappe.views.CommunicationComposer({
+    //         //                 subject: response.message.subject,
+    //         //                 recipients: '',
+    //         //                 attach_document: true,
+    //         //                 attachments: [
+    //         //                     {
+    //         //                         file_url: response.message.file_url, // Use file_url for debugging visibility
+    //         //                         file_id: response.message.file_id,   // Attach using file_id for backend compatibility
+    //         //                         folder: response.message.folder
+    //         //                     }
+    //         //                 ],
+    //         //                 message: response.message.message,
+    //         //             });
+    //         //         } else {
+    //         //             frappe.msgprint(__('Failed to upload or attach the file.'));
+    //         //         }
+    //         //     },
+    //         //     error: function () {
+    //         //         frappe.msgprint(__('Failed to communicate with the server.'));
+    //         //     }
+    //         // });
+    //     // });
+    // }
+
     function loadProjects() {
         frappe.call({
             method: "frappe.client.get_list",
             args: {
                 doctype: "Project",
                 filters: {
-                    owner: frappe.session.user,
+                    // owner: frappe.session.user,
+                    company: frappe.defaults.get_default("company"), // Fetches the user's default company
                 },
                 fields: ["name", "project_name", "customer", "expected_end_date", "status", "percent_complete"],
             },
@@ -737,11 +1083,25 @@ function toggleRows(button) {
     const rows = button.previousElementSibling.querySelectorAll('.hidden-rows');
     rows.forEach(row => row.style.display = row.style.display === 'table-row' ? 'none' : 'table-row');
 
-    if (button.textContent === 'Show More') {
-        button.textContent = 'Show Less';
+    // if (button.textContent === 'Show More') {
+    //     button.textContent = 'Show Less';
+    // } else {
+    //     button.textContent = 'Show More';
+    // }
+
+    if (frappe.boot.lang === 'ar') {
+        if (button.textContent === 'عرض المزيد') {
+            button.textContent = 'إظهار أقل';
+        } else {
+            button.textContent = 'عرض المزيد';
+        }
     } else {
-        button.textContent = 'Show More';
-    }
+        if (button.textContent === 'Show More') {
+            button.textContent = 'Show Less';
+        } else {
+            button.textContent = 'Show More';
+        }
+    };
 }
 
 // // Create Chart
@@ -772,12 +1132,14 @@ function createWorkLeftChart(labels, data, chartType, chartName){
         workLeftchart.destroy();
     }
 
+    let wltdvtChartLabel = frappe.boot.lang === 'ar' ? 'النسبة المتبقية (%)' : 'Percentage Left (%)';
+
     workLeftchart = new Chart(Ctx, {
         type: chartType,
         data: {
             labels: labels,
             datasets: [{
-                label: 'Percentage Left (%)',
+                label: wltdvtChartLabel,
                 data: data,
                 backgroundColor: 'rgba(54, 162, 235, 0.6)',
                 borderColor: 'rgba(54, 162, 235, 1)',
@@ -785,6 +1147,15 @@ function createWorkLeftChart(labels, data, chartType, chartName){
             }]
         },
         options: {
+            plugins: {
+                legend: {
+                    labels: {
+                        font: {
+                            family: 'Tahoma'
+                        }
+                    }
+                }
+            },
             scales: {
                 x: {
                     title: {
@@ -816,12 +1187,14 @@ function createProgressChart(labels, data, chartType, chartName){
         progressChart.destroy();
     }
 
+    let opChartLabel = frappe.boot.lang === 'ar' ? '% الإكتمال' : '% Completed';
+
     progressChart = new Chart(Ctx, {
         type: chartType,
         data: {
             labels: labels,
             datasets: [{
-                label: '% Completed',
+                label: opChartLabel,
                 data: data,
                 backgroundColor: 'rgba(255, 206, 86, 0.6)',
                 borderColor: 'rgba(255, 206, 86, 1)',
@@ -829,6 +1202,15 @@ function createProgressChart(labels, data, chartType, chartName){
             }]
         },
         options: {
+            plugins: {
+                legend: {
+                    labels: {
+                        font: {
+                            family: 'Tahoma'
+                        }
+                    }
+                }
+            },
             indexAxis: 'y',
             scales: {
                 x: {
@@ -877,12 +1259,14 @@ function createResourceChart(labels, data, chartType, chartName){
         resourceChart.destroy();
     }
 
+    let raChartLabel = frappe.boot.lang === 'ar' ? 'عدد المهام' : 'Number of Tasks';
+
     resourceChart = new Chart(Ctx, {
         type: chartType,
         data: {
             labels: labels,
             datasets: [{
-                label: 'Number of Tasks',
+                label: raChartLabel,
                 data: data,
                 backgroundColor: 'rgba(75, 192, 192, 0.6)',
                 borderColor: 'rgba(54, 162, 235, 1)',
@@ -890,6 +1274,15 @@ function createResourceChart(labels, data, chartType, chartName){
             }]
         },
         options: {
+            plugins: {
+                legend: {
+                    labels: {
+                        font: {
+                            family: 'Tahoma'
+                        }
+                    }
+                }
+            },
             scales: {
                 y: {
                     beginAtZero: true

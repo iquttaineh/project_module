@@ -75,7 +75,8 @@
   "review_meetings_section",
   "team_weekly_status_review_members",
   "team_monthly_status_review_members",
-  "steering_committee_review_members"
+  "steering_committee_review_members",
+  "amended_from"
  ],
  "fields": [
   {
@@ -420,7 +421,7 @@
   {
    "fieldname": "risks_levels_section",
    "fieldtype": "Section Break",
-   "label": "Risks Levels"
+   "label": "SLA Risks Levels"
   },
   {
    "fieldname": "project_manager_signature",
@@ -474,11 +475,22 @@
    "fieldtype": "Data",
    "label": "Duration",
    "reqd": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Project Charter",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
   }
  ],
  "index_web_pages_for_search": 1,
+ "is_submittable": 1,
  "links": [],
- "modified": "2024-12-16 10:04:34.574298",
+ "modified": "2024-12-22 11:23:42.223886",
  "modified_by": "Administrator",
  "module": "Project Module",
  "name": "Project Charter",

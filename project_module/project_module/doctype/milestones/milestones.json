@@ -8,6 +8,7 @@
  "field_order": [
   "milestones",
   "column_break_iqdw",
+  "estimated_starting_date",
   "estimated_completion_date"
  ],
  "fields": [
@@ -28,12 +29,19 @@
    "in_list_view": 1,
    "label": "Estimated Completion Date",
    "reqd": 1
+  },
+  {
+   "fieldname": "estimated_starting_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Estimated Starting Date",
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2024-10-20 15:35:00.908005",
+ "modified": "2024-12-22 11:00:41.325502",
  "modified_by": "Administrator",
  "module": "Project Module",
  "name": "Milestones",

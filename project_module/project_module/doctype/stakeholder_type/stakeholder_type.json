@@ -1,5 +1,6 @@
 {
  "actions": [],
+ "allow_import": 1,
  "allow_rename": 1,
  "creation": "2024-10-20 15:07:18.327617",
  "doctype": "DocType",
@@ -33,7 +34,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-10-22 09:58:43.091018",
+ "modified": "2025-02-09 16:15:57.697120",
  "modified_by": "Administrator",
  "module": "Project Module",
  "name": "Stakeholder Type",

@@ -16,7 +16,13 @@ app_include_css = "/MyPage/wsr_styles.css"
 app_include_js = [
     "https://cdn.jsdelivr.net/npm/chart.js",
     "https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js",
-    "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js",
+    "https://cdn.jsdelivr.net/npm/frappe-gantt@0.5.0/dist/frappe-gantt.min.js",
+    "https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js",
+    "https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js",
+    "https://cdn.jsdelivr.net/npm/html-to-image@1.11.11/dist/html-to-image.min.js",
+    # "https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js",
+    "https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"
     ]
 
 # include js, css files in header of web template
@@ -240,14 +246,14 @@ web_include_css = "/MyPage/wsr_styles.css"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
-fixtures = [
-    "Project Charter", "Meeting", "Meeting Schedule", "Attendees", "Members", 
-    "Project Members", "Stakeholders", "Risk Levels Child", "Risk Levels", "Issues Log", 
-    "Risks Log", "Actions", "Constraints", "Business Need", "Stakeholder Party", 
-    "Payment Plan", "Stakeholder Type", "Payment Against", "Project Budget Category", "Milestones", 
-    "Risks", "Project Budget", "Payment Type", "Activity Cost", "Penalties", 
-    "SLA Approval", "SLA Versions", "Validity of Agreement", "Service Performance Metrics", "Conditions of Cancellation", 
-    "Excluded Services", "Service Availability", "Service Assumptions", "Service Provider Requirements", "Customer Requirements", 
-    "Service Scope", "Goals and Objectives", "Project Objectives", "Key Deliverables", "Project Scope", 
-    "Project", "Task"
-]
+# fixtures = [
+#     "Project Charter", "Meeting", "Meeting Schedule", "Attendees", "Members", 
+#     "Project Members", "Stakeholders", "Risk Levels Child", "Risk Levels", "Issues Log", 
+#     "Risks Log", "Actions", "Constraints", "Business Need", "Stakeholder Party", 
+#     "Payment Plan", "Stakeholder Type", "Payment Against", "Project Budget Category", "Milestones", 
+#     "Risks", "Project Budget", "Payment Type", "Activity Cost", "Penalties", 
+#     "SLA Approval", "SLA Versions", "Validity of Agreement", "Service Performance Metrics", "Conditions of Cancellation", 
+#     "Excluded Services", "Service Availability", "Service Assumptions", "Service Provider Requirements", "Customer Requirements", 
+#     "Service Scope", "Goals and Objectives", "Project Objectives", "Key Deliverables", "Project Scope", 
+#     "Project", "Task"
+# ]
