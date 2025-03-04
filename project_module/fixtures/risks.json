@@ -1,0 +1,67 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Risks",
+  "impact": "High",
+  "mitigation_strategy": "Board meeting",
+  "modified": "2024-12-22 11:33:01.708878",
+  "name": "9quh45bsia",
+  "parent": "PC-2024-022",
+  "parentfield": "risks",
+  "parenttype": "Project Charter",
+  "probability": "High",
+  "risk": "Filled to engage stakeholder"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Risks",
+  "impact": "High",
+  "mitigation_strategy": "Workshop with technical team, readjust the plan",
+  "modified": "2024-12-22 11:33:01.708878",
+  "name": "9quhagkugp",
+  "parent": "PC-2024-022",
+  "parentfield": "risks",
+  "parenttype": "Project Charter",
+  "probability": "High",
+  "risk": "Delay on completion of required tasks"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Risks",
+  "impact": "High",
+  "mitigation_strategy": "Management inforcement and tracking on by daily",
+  "modified": "2024-12-22 11:33:01.708878",
+  "name": "9quhi0rk6b",
+  "parent": "PC-2024-022",
+  "parentfield": "risks",
+  "parenttype": "Project Charter",
+  "probability": "High",
+  "risk": "Resistance to adopt and usage of system"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Risks",
+  "impact": "Medium",
+  "mitigation_strategy": "Train additional team members",
+  "modified": "2024-12-22 11:33:01.708878",
+  "name": "9quhj6rm9e",
+  "parent": "PC-2024-022",
+  "parentfield": "risks",
+  "parenttype": "Project Charter",
+  "probability": "Medium",
+  "risk": "Short availability of resources "
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Risks",
+  "impact": "High",
+  "mitigation_strategy": "Workshop with frappe team. and training of data security.",
+  "modified": "2024-12-22 11:33:01.708878",
+  "name": "9quhn0rp5c",
+  "parent": "PC-2024-022",
+  "parentfield": "risks",
+  "parenttype": "Project Charter",
+  "probability": "High",
+  "risk": "Data security "
+ }
+]

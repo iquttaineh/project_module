@@ -1,0 +1,16 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Payment Type",
+  "modified": "2024-10-20 11:18:28.698410",
+  "name": "uo2fsapj2b",
+  "payment_type": "Progress"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Payment Type",
+  "modified": "2024-10-20 11:18:42.213778",
+  "name": "uo6ma8am8o",
+  "payment_type": "Fixed"
+ }
+]

@@ -1,0 +1,759 @@
+[
+ {
+  "agreement_overview": null,
+  "amended_from": null,
+  "approval": [],
+  "budget": [],
+  "business_needbusiness_case": [],
+  "company_logo": "/private/files/Focus-Logo.png",
+  "conditions_of_cancellation": [],
+  "constraints": [],
+  "contract": 0,
+  "creation_date": "2024-11-28",
+  "customer_logo": null,
+  "customer_requirements": [],
+  "docstatus": 0,
+  "doctype": "Project Charter",
+  "duration": "70",
+  "effective_date": null,
+  "excluded_services": [],
+  "goals_and_objectives": [],
+  "initial_budget": "1000",
+  "key_deliverables": [],
+  "key_stakeholders": [],
+  "milestones": [
+   {
+    "estimated_completion_date": "2024-11-28",
+    "estimated_starting_date": null,
+    "milestones": "milestone 1",
+    "parent": "PC-2024-023",
+    "parentfield": "milestones",
+    "parenttype": "Project Charter"
+   },
+   {
+    "estimated_completion_date": "2024-11-30",
+    "estimated_starting_date": null,
+    "milestones": "milestone 2",
+    "parent": "PC-2024-023",
+    "parentfield": "milestones",
+    "parenttype": "Project Charter"
+   },
+   {
+    "estimated_completion_date": "2024-11-29",
+    "estimated_starting_date": null,
+    "milestones": "milestone 3",
+    "parent": "PC-2024-023",
+    "parentfield": "milestones",
+    "parenttype": "Project Charter"
+   },
+   {
+    "estimated_completion_date": "2024-11-30",
+    "estimated_starting_date": null,
+    "milestones": "milestone 4",
+    "parent": "PC-2024-023",
+    "parentfield": "milestones",
+    "parenttype": "Project Charter"
+   }
+  ],
+  "modified": "2024-12-19 11:57:20.611390",
+  "name": "PC-2024-023",
+  "next_review_date": null,
+  "payment_plan": [],
+  "penalties": [],
+  "periodic_review": "Once Every Two Years",
+  "previous_review_date": null,
+  "project_manager": "t6g5549vi0",
+  "project_manager_signature": null,
+  "project_objectives": [],
+  "project_purpose": "aaaaa",
+  "project_scope": [],
+  "project_sponsor": "t8nbu1g5uu",
+  "project_sponsor_signature": null,
+  "project_title": "PROJ-0001",
+  "proposal": 0,
+  "risk_levels": [],
+  "risks": [],
+  "schedule": "2024-11-30",
+  "service_assumptions": [],
+  "service_availability": [],
+  "service_performance_metrics": [],
+  "service_provider_requirements": [],
+  "service_scope": [],
+  "sla_stakeholders": [],
+  "sla_type": "",
+  "steering_committee_review_members": [],
+  "team_monthly_status_review_members": [],
+  "team_weekly_status_review_members": [],
+  "validity_of_agreement": [],
+  "version": [],
+  "workflow_state": null
+ },
+ {
+  "agreement_overview": null,
+  "amended_from": null,
+  "approval": [],
+  "budget": [
+   {
+    "category": "3i3tnd3loa",
+    "estimated_cost": "3000",
+    "parent": "PC-2024-022",
+    "parentfield": "budget",
+    "parenttype": "Project Charter"
+   },
+   {
+    "category": "3kgcjsuio0",
+    "estimated_cost": "500",
+    "parent": "PC-2024-022",
+    "parentfield": "budget",
+    "parenttype": "Project Charter"
+   },
+   {
+    "category": "3kasqnv0kg",
+    "estimated_cost": "0",
+    "parent": "PC-2024-022",
+    "parentfield": "budget",
+    "parenttype": "Project Charter"
+   },
+   {
+    "category": "3kkte1lp6u",
+    "estimated_cost": "500",
+    "parent": "PC-2024-022",
+    "parentfield": "budget",
+    "parenttype": "Project Charter"
+   },
+   {
+    "category": "3k804sta1m",
+    "estimated_cost": "1000",
+    "parent": "PC-2024-022",
+    "parentfield": "budget",
+    "parenttype": "Project Charter"
+   }
+  ],
+  "business_needbusiness_case": [
+   {
+    "business_needbusiness_case": "Project was developed based on business requirement to create a SAS business case.",
+    "parent": "PC-2024-022",
+    "parentfield": "business_needbusiness_case",
+    "parenttype": "Project Charter"
+   }
+  ],
+  "company_logo": "/private/files/Focus-Logo.png",
+  "conditions_of_cancellation": [],
+  "constraints": [
+   {
+    "constraints": "Time to market constrains: fail to test and be ready to market behind the beginning of the year may affect the ",
+    "parent": "PC-2024-022",
+    "parentfield": "constraints",
+    "parenttype": "Project Charter"
+   },
+   {
+    "constraints": "Technology constrains: require to be multicompany cloud solution. fail to host and operate for multiclient will limit the success.",
+    "parent": "PC-2024-022",
+    "parentfield": "constraints",
+    "parenttype": "Project Charter"
+   }
+  ],
+  "contract": 0,
+  "creation_date": "2024-11-27",
+  "customer_logo": "/private/files/EALB2.jpg",
+  "customer_requirements": [],
+  "docstatus": 0,
+  "doctype": "Project Charter",
+  "duration": "365",
+  "effective_date": null,
+  "excluded_services": [
+   {
+    "excluded_services": "Financial part related to project",
+    "parent": "PC-2024-022",
+    "parentfield": "excluded_services",
+    "parenttype": "Project Charter"
+   },
+   {
+    "excluded_services": "HR and payroll integration ",
+    "parent": "PC-2024-022",
+    "parentfield": "excluded_services",
+    "parenttype": "Project Charter"
+   },
+   {
+    "excluded_services": "Integration with other project management and planning systems",
+    "parent": "PC-2024-022",
+    "parentfield": "excluded_services",
+    "parenttype": "Project Charter"
+   }
+  ],
+  "goals_and_objectives": [],
+  "initial_budget": "5000",
+  "key_deliverables": [
+   {
+    "key_deliverables": "Project Module App suites for subscription business model",
+    "parent": "PC-2024-022",
+    "parentfield": "key_deliverables",
+    "parenttype": "Project Charter"
+   }
+  ],
+  "key_stakeholders": [
+   {
+    "parent": "PC-2024-022",
+    "parentfield": "key_stakeholders",
+    "parenttype": "Project Charter",
+    "role": "- Oversees day-to-day project execution.\n- Coordinates communication between stakeholders and project team.\n- Manages project timelines, budget, and resources.",
+    "stakeholder_email": "jibreel.abdeen@focuskm.com",
+    "stakeholder_name": "t6g5549vi0",
+    "stakeholder_party": "cm9kncqotj",
+    "stakeholder_type": "2vo9qmbs77"
+   },
+   {
+    "parent": "PC-2024-022",
+    "parentfield": "key_stakeholders",
+    "parenttype": "Project Charter",
+    "role": "- Addresses any technical risks and resource allocation concerns.",
+    "stakeholder_email": "rami.quttaineh@focuskm.com",
+    "stakeholder_name": "t8386p5ho2",
+    "stakeholder_party": "cm9kncqotj",
+    "stakeholder_type": "ht6ga6s09v"
+   },
+   {
+    "parent": "PC-2024-022",
+    "parentfield": "key_stakeholders",
+    "parenttype": "Project Charter",
+    "role": "- Provides overall project direction and funding.\n- Ensures project aligns with business goals.\n- Approves major deliverables and changes.",
+    "stakeholder_email": "samer.jabari@focuskm.com",
+    "stakeholder_name": "t7nsht1j4k",
+    "stakeholder_party": "cm9kncqotj",
+    "stakeholder_type": "2vl19t1u3u"
+   },
+   {
+    "parent": "PC-2024-022",
+    "parentfield": "key_stakeholders",
+    "parenttype": "Project Charter",
+    "role": "- Addresses any technical risks and resource allocation concerns.",
+    "stakeholder_email": "nasser@kcsc.com.jo",
+    "stakeholder_name": "ta4bgo7qk2",
+    "stakeholder_party": "cnini92duh",
+    "stakeholder_type": "ht6ga6s09v"
+   },
+   {
+    "parent": "PC-2024-022",
+    "parentfield": "key_stakeholders",
+    "parenttype": "Project Charter",
+    "role": "- Leads the development team in building the application.\n- Ensures technical requirements are met.\n- Provides status updates on development progress.",
+    "stakeholder_email": "ishaq.quttaineh@focuskm.com",
+    "stakeholder_name": "t3kuaolgri",
+    "stakeholder_party": "cm9kncqotj",
+    "stakeholder_type": "2vrnij7ssa"
+   },
+   {
+    "parent": "PC-2024-022",
+    "parentfield": "key_stakeholders",
+    "parenttype": "Project Charter",
+    "role": "- Provides overall project direction and funding.\n- Ensures project aligns with business goals.\n- Approves major deliverables and changes.",
+    "stakeholder_email": "yghoul@kcsc.com.jo",
+    "stakeholder_name": "t8nbu1g5uu",
+    "stakeholder_party": "cnini92duh",
+    "stakeholder_type": "2vl19t1u3u"
+   }
+  ],
+  "milestones": [
+   {
+    "estimated_completion_date": "2024-12-01",
+    "estimated_starting_date": "2024-11-01",
+    "milestones": "Notification on Progress Status",
+    "parent": "PC-2024-022",
+    "parentfield": "milestones",
+    "parenttype": "Project Charter"
+   },
+   {
+    "estimated_completion_date": "2024-11-28",
+    "estimated_starting_date": "2024-11-20",
+    "milestones": "Generate Task Screen",
+    "parent": "PC-2024-022",
+    "parentfield": "milestones",
+    "parenttype": "Project Charter"
+   },
+   {
+    "estimated_completion_date": "2024-12-05",
+    "estimated_starting_date": "2024-11-06",
+    "milestones": "Prepare documentation ",
+    "parent": "PC-2024-022",
+    "parentfield": "milestones",
+    "parenttype": "Project Charter"
+   },
+   {
+    "estimated_completion_date": "2024-12-04",
+    "estimated_starting_date": "2024-11-02",
+    "milestones": "Generate reports and dashboards",
+    "parent": "PC-2024-022",
+    "parentfield": "milestones",
+    "parenttype": "Project Charter"
+   },
+   {
+    "estimated_completion_date": "2024-12-15",
+    "estimated_starting_date": "2024-12-10",
+    "milestones": "Go live ",
+    "parent": "PC-2024-022",
+    "parentfield": "milestones",
+    "parenttype": "Project Charter"
+   },
+   {
+    "estimated_completion_date": "2024-11-28",
+    "estimated_starting_date": "2024-11-25",
+    "milestones": "Notifications on Action List",
+    "parent": "PC-2024-022",
+    "parentfield": "milestones",
+    "parenttype": "Project Charter"
+   },
+   {
+    "estimated_completion_date": "2024-11-27",
+    "estimated_starting_date": "2024-11-26",
+    "milestones": "Define Project Screen",
+    "parent": "PC-2024-022",
+    "parentfield": "milestones",
+    "parenttype": "Project Charter"
+   },
+   {
+    "estimated_completion_date": "2024-12-08",
+    "estimated_starting_date": "2024-12-06",
+    "milestones": "Prepare onboarding module",
+    "parent": "PC-2024-022",
+    "parentfield": "milestones",
+    "parenttype": "Project Charter"
+   },
+   {
+    "estimated_completion_date": "2024-12-09",
+    "estimated_starting_date": "2024-12-05",
+    "milestones": "Check security and authorization and data segregation",
+    "parent": "PC-2024-022",
+    "parentfield": "milestones",
+    "parenttype": "Project Charter"
+   },
+   {
+    "estimated_completion_date": "2024-11-27",
+    "estimated_starting_date": "2024-11-24",
+    "milestones": "Define Charter Screen ",
+    "parent": "PC-2024-022",
+    "parentfield": "milestones",
+    "parenttype": "Project Charter"
+   },
+   {
+    "estimated_completion_date": "2024-11-28",
+    "estimated_starting_date": "2024-11-25",
+    "milestones": "Minutes of Meeting Screen",
+    "parent": "PC-2024-022",
+    "parentfield": "milestones",
+    "parenttype": "Project Charter"
+   },
+   {
+    "estimated_completion_date": "2024-12-10",
+    "estimated_starting_date": "2024-12-09",
+    "milestones": "Issue Beta version",
+    "parent": "PC-2024-022",
+    "parentfield": "milestones",
+    "parenttype": "Project Charter"
+   }
+  ],
+  "modified": "2024-12-22 11:33:01.708878",
+  "name": "PC-2024-022",
+  "next_review_date": null,
+  "payment_plan": [],
+  "penalties": [],
+  "periodic_review": "Once Every Two Years",
+  "previous_review_date": null,
+  "project_manager": "t6g5549vi0",
+  "project_manager_signature": "data:image/png;base64,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",
+  "project_objectives": [
+   {
+    "parent": "PC-2024-022",
+    "parentfield": "project_objectives",
+    "parenttype": "Project Charter",
+    "project_objectives": "Add stakeholders and communication contacts"
+   },
+   {
+    "parent": "PC-2024-022",
+    "parentfield": "project_objectives",
+    "parenttype": "Project Charter",
+    "project_objectives": "Define the gaps and take notes"
+   },
+   {
+    "parent": "PC-2024-022",
+    "parentfield": "project_objectives",
+    "parenttype": "Project Charter",
+    "project_objectives": "create weekly status report"
+   },
+   {
+    "parent": "PC-2024-022",
+    "parentfield": "project_objectives",
+    "parenttype": "Project Charter",
+    "project_objectives": "create minutes of meeting using the tool, create actions and follow up action list"
+   },
+   {
+    "parent": "PC-2024-022",
+    "parentfield": "project_objectives",
+    "parenttype": "Project Charter",
+    "project_objectives": "Go through the project charter approval process"
+   },
+   {
+    "parent": "PC-2024-022",
+    "parentfield": "project_objectives",
+    "parenttype": "Project Charter",
+    "project_objectives": "Adjust and tune "
+   },
+   {
+    "parent": "PC-2024-022",
+    "parentfield": "project_objectives",
+    "parenttype": "Project Charter",
+    "project_objectives": "update progress on the project "
+   },
+   {
+    "parent": "PC-2024-022",
+    "parentfield": "project_objectives",
+    "parenttype": "Project Charter",
+    "project_objectives": "Create Milestones and project plan"
+   },
+   {
+    "parent": "PC-2024-022",
+    "parentfield": "project_objectives",
+    "parenttype": "Project Charter",
+    "project_objectives": "show the updated status and completion report"
+   },
+   {
+    "parent": "PC-2024-022",
+    "parentfield": "project_objectives",
+    "parenttype": "Project Charter",
+    "project_objectives": "Create project charter"
+   },
+   {
+    "parent": "PC-2024-022",
+    "parentfield": "project_objectives",
+    "parenttype": "Project Charter",
+    "project_objectives": "Define a project on the tool"
+   }
+  ],
+  "project_purpose": "We are testing the output of the development efforts and sniff the market need. the testing of the module shall collect the user and manager feedback and make sure that the module is implementable and can satisfy a portion of the client needs. ",
+  "project_scope": [
+   {
+    "parent": "PC-2024-022",
+    "parentfield": "project_scope",
+    "parenttype": "Project Charter",
+    "project_scope": "escalation plan"
+   },
+   {
+    "parent": "PC-2024-022",
+    "parentfield": "project_scope",
+    "parenttype": "Project Charter",
+    "project_scope": "Generate reports and weekly status report"
+   },
+   {
+    "parent": "PC-2024-022",
+    "parentfield": "project_scope",
+    "parenttype": "Project Charter",
+    "project_scope": "Record minutes and action lists "
+   },
+   {
+    "parent": "PC-2024-022",
+    "parentfield": "project_scope",
+    "parenttype": "Project Charter",
+    "project_scope": "Allow project manager to update completion status"
+   },
+   {
+    "parent": "PC-2024-022",
+    "parentfield": "project_scope",
+    "parenttype": "Project Charter",
+    "project_scope": "Send notification for action owners"
+   },
+   {
+    "parent": "PC-2024-022",
+    "parentfield": "project_scope",
+    "parenttype": "Project Charter",
+    "project_scope": "Define a project and milestones"
+   },
+   {
+    "parent": "PC-2024-022",
+    "parentfield": "project_scope",
+    "parenttype": "Project Charter",
+    "project_scope": "Define stakeholders and communication plan"
+   },
+   {
+    "parent": "PC-2024-022",
+    "parentfield": "project_scope",
+    "parenttype": "Project Charter",
+    "project_scope": "report risks "
+   }
+  ],
+  "project_sponsor": "t8nbu1g5uu",
+  "project_sponsor_signature": "data:image/png;base64,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",
+  "project_title": "PROJ-0003",
+  "proposal": 0,
+  "risk_levels": [
+   {
+    "customer_escalate_to": "r6ig51v9f3",
+    "customer_party_name": null,
+    "parent": "PC-2024-022",
+    "parentfield": "risk_levels",
+    "parenttype": "Project Charter",
+    "resolve_time_hours": 24.0,
+    "response_time_hours": 4.0,
+    "risk_description": "Significant impact; major service disruption requiring immediate attention.",
+    "risk_level": "r7gu2bucs0",
+    "service_provider_escalate_to": "r7bqpfdu2d",
+    "service_provider_party_name": null
+   },
+   {
+    "customer_escalate_to": "qut2s9qias",
+    "customer_party_name": null,
+    "parent": "PC-2024-022",
+    "parentfield": "risk_levels",
+    "parenttype": "Project Charter",
+    "resolve_time_hours": 72.0,
+    "response_time_hours": 24.0,
+    "risk_description": "Minimal impact; does not disrupt services significantly.",
+    "risk_level": "r0tklcrcl7",
+    "service_provider_escalate_to": "r0m321cf1r",
+    "service_provider_party_name": null
+   },
+   {
+    "customer_escalate_to": "r4ulgg5gdq",
+    "customer_party_name": null,
+    "parent": "PC-2024-022",
+    "parentfield": "risk_levels",
+    "parenttype": "Project Charter",
+    "resolve_time_hours": 48.0,
+    "response_time_hours": 12.0,
+    "risk_description": "Moderate impact; minor service disruption, but workaround available.",
+    "risk_level": "r5phr75mr1",
+    "service_provider_escalate_to": "r5hdhgp6tv",
+    "service_provider_party_name": null
+   },
+   {
+    "customer_escalate_to": "r8i0tbdr2q",
+    "customer_party_name": null,
+    "parent": "PC-2024-022",
+    "parentfield": "risk_levels",
+    "parenttype": "Project Charter",
+    "resolve_time_hours": 4.0,
+    "response_time_hours": 1.0,
+    "risk_description": "Severe impact; complete service failure or security breach.",
+    "risk_level": "ra4gojjimk",
+    "service_provider_escalate_to": "ra0jp7aat9",
+    "service_provider_party_name": null
+   }
+  ],
+  "risks": [
+   {
+    "impact": "High",
+    "mitigation_strategy": "Board meeting",
+    "parent": "PC-2024-022",
+    "parentfield": "risks",
+    "parenttype": "Project Charter",
+    "probability": "High",
+    "risk": "Filled to engage stakeholder"
+   },
+   {
+    "impact": "High",
+    "mitigation_strategy": "Workshop with technical team, readjust the plan",
+    "parent": "PC-2024-022",
+    "parentfield": "risks",
+    "parenttype": "Project Charter",
+    "probability": "High",
+    "risk": "Delay on completion of required tasks"
+   },
+   {
+    "impact": "High",
+    "mitigation_strategy": "Management inforcement and tracking on by daily",
+    "parent": "PC-2024-022",
+    "parentfield": "risks",
+    "parenttype": "Project Charter",
+    "probability": "High",
+    "risk": "Resistance to adopt and usage of system"
+   },
+   {
+    "impact": "Medium",
+    "mitigation_strategy": "Train additional team members",
+    "parent": "PC-2024-022",
+    "parentfield": "risks",
+    "parenttype": "Project Charter",
+    "probability": "Medium",
+    "risk": "Short availability of resources "
+   },
+   {
+    "impact": "High",
+    "mitigation_strategy": "Workshop with frappe team. and training of data security.",
+    "parent": "PC-2024-022",
+    "parentfield": "risks",
+    "parenttype": "Project Charter",
+    "probability": "High",
+    "risk": "Data security "
+   }
+  ],
+  "schedule": "2024-11-27",
+  "service_assumptions": [
+   {
+    "parent": "PC-2024-022",
+    "parentfield": "service_assumptions",
+    "parenttype": "Project Charter",
+    "service_assumptions": "Generate action list on the project, during the project lifecycle"
+   },
+   {
+    "parent": "PC-2024-022",
+    "parentfield": "service_assumptions",
+    "parenttype": "Project Charter",
+    "service_assumptions": "Clear progress reporting"
+   },
+   {
+    "parent": "PC-2024-022",
+    "parentfield": "service_assumptions",
+    "parenttype": "Project Charter",
+    "service_assumptions": "Clear and effective communication with project stakeholders"
+   },
+   {
+    "parent": "PC-2024-022",
+    "parentfield": "service_assumptions",
+    "parenttype": "Project Charter",
+    "service_assumptions": "Generate risk list on the project, during the project lifecycle"
+   },
+   {
+    "parent": "PC-2024-022",
+    "parentfield": "service_assumptions",
+    "parenttype": "Project Charter",
+    "service_assumptions": "Successfully generate project charter and place approval process"
+   },
+   {
+    "parent": "PC-2024-022",
+    "parentfield": "service_assumptions",
+    "parenttype": "Project Charter",
+    "service_assumptions": "Clear project scope"
+   }
+  ],
+  "service_availability": [],
+  "service_performance_metrics": [],
+  "service_provider_requirements": [],
+  "service_scope": [],
+  "sla_stakeholders": [],
+  "sla_type": "",
+  "steering_committee_review_members": [
+   {
+    "member_name": "t7nsht1j4k",
+    "parent": "PC-2024-022",
+    "parentfield": "steering_committee_review_members",
+    "parenttype": "Project Charter",
+    "party": "cm9kncqotj",
+    "party_type": "2vl19t1u3u",
+    "role": "- Provides overall project direction and funding.\n- Ensures project aligns with business goals.\n- Approves major deliverables and changes."
+   },
+   {
+    "member_name": "t8nbu1g5uu",
+    "parent": "PC-2024-022",
+    "parentfield": "steering_committee_review_members",
+    "parenttype": "Project Charter",
+    "party": "cnini92duh",
+    "party_type": "2vl19t1u3u",
+    "role": "- Provides overall project direction and funding.\n- Ensures project aligns with business goals.\n- Approves major deliverables and changes."
+   },
+   {
+    "member_name": "ta4bgo7qk2",
+    "parent": "PC-2024-022",
+    "parentfield": "steering_committee_review_members",
+    "parenttype": "Project Charter",
+    "party": "cnini92duh",
+    "party_type": "ht6ga6s09v",
+    "role": "- Addresses any technical risks and resource allocation concerns."
+   },
+   {
+    "member_name": "t3kuaolgri",
+    "parent": "PC-2024-022",
+    "parentfield": "steering_committee_review_members",
+    "parenttype": "Project Charter",
+    "party": "cm9kncqotj",
+    "party_type": "2vrnij7ssa",
+    "role": "- Leads the development team in building the application.\n- Ensures technical requirements are met.\n- Provides status updates on development progress."
+   },
+   {
+    "member_name": "t6g5549vi0",
+    "parent": "PC-2024-022",
+    "parentfield": "steering_committee_review_members",
+    "parenttype": "Project Charter",
+    "party": "cm9kncqotj",
+    "party_type": "2vo9qmbs77",
+    "role": "- Oversees day-to-day project execution.\n- Coordinates communication between stakeholders and project team.\n- Manages project timelines, budget, and resources."
+   },
+   {
+    "member_name": "t8386p5ho2",
+    "parent": "PC-2024-022",
+    "parentfield": "steering_committee_review_members",
+    "parenttype": "Project Charter",
+    "party": "cm9kncqotj",
+    "party_type": "ht6ga6s09v",
+    "role": "- Addresses any technical risks and resource allocation concerns."
+   }
+  ],
+  "team_monthly_status_review_members": [
+   {
+    "member_name": "t8386p5ho2",
+    "parent": "PC-2024-022",
+    "parentfield": "team_monthly_status_review_members",
+    "parenttype": "Project Charter",
+    "party": "cm9kncqotj",
+    "party_type": "ht6ga6s09v",
+    "role": "- Addresses any technical risks and resource allocation concerns."
+   },
+   {
+    "member_name": "t3kuaolgri",
+    "parent": "PC-2024-022",
+    "parentfield": "team_monthly_status_review_members",
+    "parenttype": "Project Charter",
+    "party": "cm9kncqotj",
+    "party_type": "2vrnij7ssa",
+    "role": "- Leads the development team in building the application.\n- Ensures technical requirements are met.\n- Provides status updates on development progress."
+   },
+   {
+    "member_name": "t6g5549vi0",
+    "parent": "PC-2024-022",
+    "parentfield": "team_monthly_status_review_members",
+    "parenttype": "Project Charter",
+    "party": "cm9kncqotj",
+    "party_type": "2vo9qmbs77",
+    "role": "- Oversees day-to-day project execution.\n- Coordinates communication between stakeholders and project team.\n- Manages project timelines, budget, and resources."
+   },
+   {
+    "member_name": "t8nbu1g5uu",
+    "parent": "PC-2024-022",
+    "parentfield": "team_monthly_status_review_members",
+    "parenttype": "Project Charter",
+    "party": "cnini92duh",
+    "party_type": "2vl19t1u3u",
+    "role": "- Provides overall project direction and funding.\n- Ensures project aligns with business goals.\n- Approves major deliverables and changes."
+   }
+  ],
+  "team_weekly_status_review_members": [
+   {
+    "member_name": "t8386p5ho2",
+    "parent": "PC-2024-022",
+    "parentfield": "team_weekly_status_review_members",
+    "parenttype": "Project Charter",
+    "party": "cm9kncqotj",
+    "party_type": "ht6ga6s09v",
+    "role": "- Addresses any technical risks and resource allocation concerns."
+   },
+   {
+    "member_name": "t3kuaolgri",
+    "parent": "PC-2024-022",
+    "parentfield": "team_weekly_status_review_members",
+    "parenttype": "Project Charter",
+    "party": "cm9kncqotj",
+    "party_type": "2vrnij7ssa",
+    "role": "- Leads the development team in building the application.\n- Ensures technical requirements are met.\n- Provides status updates on development progress."
+   },
+   {
+    "member_name": "t6g5549vi0",
+    "parent": "PC-2024-022",
+    "parentfield": "team_weekly_status_review_members",
+    "parenttype": "Project Charter",
+    "party": "cm9kncqotj",
+    "party_type": "2vo9qmbs77",
+    "role": "- Oversees day-to-day project execution.\n- Coordinates communication between stakeholders and project team.\n- Manages project timelines, budget, and resources."
+   }
+  ],
+  "validity_of_agreement": [],
+  "version": [],
+  "workflow_state": null
+ }
+]

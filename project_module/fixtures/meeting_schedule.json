@@ -1,0 +1,114 @@
+[
+ {
+  "contact_email": "ishaq.quttaineh@focuskm.com",
+  "contact_job_title": "Senior Developer",
+  "contact_mobile_no": "0795607722",
+  "contact_phone": "065544978",
+  "docstatus": 0,
+  "doctype": "Meeting Schedule",
+  "is_online": 0,
+  "meeting_agenda": "fgfdgf",
+  "meeting_arranged_by": "t3kuaolgri",
+  "modified": "2024-12-19 11:48:04.920882",
+  "name": "MS-2024-12--0029",
+  "participants": [
+   {
+    "email": "jibreel.abdeen@focuskm.com",
+    "name1": "t6g5549vi0",
+    "parent": "MS-2024-12--0029",
+    "parentfield": "participants",
+    "parenttype": "Meeting Schedule",
+    "party": "cm9kncqotj",
+    "party_type": "2vo9qmbs77",
+    "role": "- Oversees day-to-day project execution.\n- Coordinates communication between stakeholders and project team.\n- Manages project timelines, budget, and resources."
+   },
+   {
+    "email": "ishaq.quttaineh@focuskm.com",
+    "name1": "t3kuaolgri",
+    "parent": "MS-2024-12--0029",
+    "parentfield": "participants",
+    "parenttype": "Meeting Schedule",
+    "party": "cm9kncqotj",
+    "party_type": "2vrnij7ssa",
+    "role": "- Leads the development team in building the application.\n- Ensures technical requirements are met.\n- Provides status updates on development progress."
+   }
+  ],
+  "party": "Focus KCSC Allaiance",
+  "party_type1": "Customer",
+  "project": "PROJ-0001",
+  "scheduled_from": "2024-12-02 14:00:00",
+  "scheduled_to": "2024-12-02 15:12:45",
+  "venue": "office"
+ },
+ {
+  "contact_email": "ishaq.quttaineh@focuskm.com",
+  "contact_job_title": "Senior Developer",
+  "contact_mobile_no": "0795607722",
+  "contact_phone": "065544978",
+  "docstatus": 0,
+  "doctype": "Meeting Schedule",
+  "is_online": 1,
+  "meeting_agenda": "Discuss Progress in Implementation Project Module and specify next actions.",
+  "meeting_arranged_by": "t3kuaolgri",
+  "modified": "2024-12-19 11:49:23.064270",
+  "name": "MS-2024-12--0027",
+  "participants": [
+   {
+    "email": "samer.jabari@focuskm.com",
+    "name1": "t7nsht1j4k",
+    "parent": "MS-2024-12--0027",
+    "parentfield": "participants",
+    "parenttype": "Meeting Schedule",
+    "party": "cm9kncqotj",
+    "party_type": "2vl19t1u3u",
+    "role": "- Provides overall project direction and funding.\n- Ensures project aligns with business goals.\n- Approves major deliverables and changes."
+   },
+   {
+    "email": "jibreel.abdeen@focuskm.com",
+    "name1": "t6g5549vi0",
+    "parent": "MS-2024-12--0027",
+    "parentfield": "participants",
+    "parenttype": "Meeting Schedule",
+    "party": "cm9kncqotj",
+    "party_type": "2vo9qmbs77",
+    "role": "- Oversees day-to-day project execution.\n- Coordinates communication between stakeholders and project team.\n- Manages project timelines, budget, and resources."
+   },
+   {
+    "email": "rami.quttaineh@focuskm.com",
+    "name1": "t8386p5ho2",
+    "parent": "MS-2024-12--0027",
+    "parentfield": "participants",
+    "parenttype": "Meeting Schedule",
+    "party": "cm9kncqotj",
+    "party_type": "ht6ga6s09v",
+    "role": "- Addresses any technical risks and resource allocation concerns."
+   },
+   {
+    "email": "yghoul@kcsc.com.jo",
+    "name1": "t8nbu1g5uu",
+    "parent": "MS-2024-12--0027",
+    "parentfield": "participants",
+    "parenttype": "Meeting Schedule",
+    "party": "cnini92duh",
+    "party_type": "2vl19t1u3u",
+    "role": "- Provides overall project direction and funding.\n- Ensures project aligns with business goals.\n- Approves major deliverables and changes."
+   },
+   {
+    "email": "ishaq.quttaineh@focuskm.com",
+    "name1": "t3kuaolgri",
+    "parent": "MS-2024-12--0027",
+    "parentfield": "participants",
+    "parenttype": "Meeting Schedule",
+    "party": "cm9kncqotj",
+    "party_type": "2vrnij7ssa",
+    "role": "- Leads the development team in building the application.\n- Ensures technical requirements are met.\n- Provides status updates on development progress."
+   }
+  ],
+  "party": "Focus KCSC Allaiance",
+  "party_type1": "Customer",
+  "project": "PROJ-0003",
+  "scheduled_from": "2024-12-02 14:00:00",
+  "scheduled_to": "2024-12-02 15:30:00",
+  "venue": "Online (Meeting link to be provided)"
+ }
+]

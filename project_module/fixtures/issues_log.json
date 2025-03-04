@@ -1,0 +1,19 @@
+[
+ {
+  "creation_date": "2024-12-09",
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Issues Log",
+  "expected_end_date": null,
+  "mitigation_plan__action": null,
+  "modified": "2024-12-19 12:25:13.315843",
+  "name": "e05tb6979m",
+  "priority": "Low",
+  "project": "PROJ-0003",
+  "responsible_party": "cm9kncqotj",
+  "responsible_party_justification": null,
+  "status": "Open",
+  "subject": "Fix Naming of Milestone",
+  "task_related": "TASK-2024-00130"
+ }
+]

@@ -1,0 +1,164 @@
+[
+ {
+  "actions": [
+   {
+    "action": "Action 1",
+    "description": "lshds uihfiush fiifihdsuifiudsh fudshfsdfdsghgchgchjjj",
+    "expected_completion_date": "2024-11-27",
+    "milestone": "TASK-2024-00126",
+    "parent": "MT-2024-12--0026",
+    "parentfield": "actions",
+    "parenttype": "Meeting",
+    "priority": "Medium",
+    "responsible_party": "cm9kncqotj"
+   }
+  ],
+  "attendees": [
+   {
+    "email": "ishaq.quttaineh@focuskm.com",
+    "name1": "t3kuaolgri",
+    "parent": "MT-2024-12--0026",
+    "parentfield": "attendees",
+    "parenttype": "Meeting",
+    "party": "cm9kncqotj",
+    "party_type": "2vrnij7ssa",
+    "role": "- Leads the development team in building the application.\n- Ensures technical requirements are met.\n- Provides status updates on development progress."
+   },
+   {
+    "email": "jibreel.abdeen@focuskm.com",
+    "name1": "t6g5549vi0",
+    "parent": "MT-2024-12--0026",
+    "parentfield": "attendees",
+    "parenttype": "Meeting",
+    "party": "cm9kncqotj",
+    "party_type": "2vo9qmbs77",
+    "role": "- Oversees day-to-day project execution.\n- Coordinates communication between stakeholders and project team.\n- Manages project timelines, budget, and resources."
+   }
+  ],
+  "contact_date": null,
+  "contact_person": null,
+  "contact_person_role": null,
+  "contact_subject": null,
+  "docstatus": 0,
+  "doctype": "Meeting",
+  "is_online": 0,
+  "meeting_agenda": "fgfdgf",
+  "meeting_arranged_by": "t3kuaolgri",
+  "meeting_date": "2024-12-02",
+  "meeting_discussion": "<div class=\"ql-editor read-mode\"><p>fdfdfdfdfdfdfdfd fd fdfd fdfdfgfdf</p></div>",
+  "meeting_schedule": "MS-2024-12--0029",
+  "modified": "2024-12-19 12:02:27.863847",
+  "name": "MT-2024-12--0026",
+  "party": "Focus KCSC Allaiance",
+  "party_type1": "Customer",
+  "project": "PROJ-0001",
+  "venue": "office"
+ },
+ {
+  "actions": [
+   {
+    "action": "Fix Send Email Dialog",
+    "description": "Override Send Email button function to load participants' emails into the \"To\" field.",
+    "expected_completion_date": "2024-11-05",
+    "milestone": "TASK-2024-00124",
+    "parent": "MT-2024-12--0028",
+    "parentfield": "actions",
+    "parenttype": "Meeting",
+    "priority": "Medium",
+    "responsible_party": "cm9kncqotj"
+   },
+   {
+    "action": "Fix Naming of Milestone",
+    "description": "Correct the Naming Field in the view.",
+    "expected_completion_date": "2024-11-12",
+    "milestone": "TASK-2024-00124",
+    "parent": "MT-2024-12--0028",
+    "parentfield": "actions",
+    "parenttype": "Meeting",
+    "priority": "Medium",
+    "responsible_party": "cm9kncqotj"
+   },
+   {
+    "action": "Email MOM",
+    "description": null,
+    "expected_completion_date": "2024-11-24",
+    "milestone": "TASK-2024-00123",
+    "parent": "MT-2024-12--0028",
+    "parentfield": "actions",
+    "parenttype": "Meeting",
+    "priority": "Medium",
+    "responsible_party": "cm9kncqotj"
+   }
+  ],
+  "attendees": [
+   {
+    "email": "ishaq.quttaineh@focuskm.com",
+    "name1": "t3kuaolgri",
+    "parent": "MT-2024-12--0028",
+    "parentfield": "attendees",
+    "parenttype": "Meeting",
+    "party": "cm9kncqotj",
+    "party_type": "2vrnij7ssa",
+    "role": "- Leads the development team in building the application.\n- Ensures technical requirements are met.\n- Provides status updates on development progress."
+   },
+   {
+    "email": "jibreel.abdeen@focuskm.com",
+    "name1": "t6g5549vi0",
+    "parent": "MT-2024-12--0028",
+    "parentfield": "attendees",
+    "parenttype": "Meeting",
+    "party": "cm9kncqotj",
+    "party_type": "2vo9qmbs77",
+    "role": "- Oversees day-to-day project execution.\n- Coordinates communication between stakeholders and project team.\n- Manages project timelines, budget, and resources."
+   },
+   {
+    "email": "rami.quttaineh@focuskm.com",
+    "name1": "t8386p5ho2",
+    "parent": "MT-2024-12--0028",
+    "parentfield": "attendees",
+    "parenttype": "Meeting",
+    "party": "cm9kncqotj",
+    "party_type": "ht6ga6s09v",
+    "role": "- Addresses any technical risks and resource allocation concerns."
+   },
+   {
+    "email": "samer.jabari@focuskm.com",
+    "name1": "t7nsht1j4k",
+    "parent": "MT-2024-12--0028",
+    "parentfield": "attendees",
+    "parenttype": "Meeting",
+    "party": "cm9kncqotj",
+    "party_type": "2vl19t1u3u",
+    "role": "- Provides overall project direction and funding.\n- Ensures project aligns with business goals.\n- Approves major deliverables and changes."
+   },
+   {
+    "email": "yghoul@kcsc.com.jo",
+    "name1": "t8nbu1g5uu",
+    "parent": "MT-2024-12--0028",
+    "parentfield": "attendees",
+    "parenttype": "Meeting",
+    "party": "cnini92duh",
+    "party_type": "2vl19t1u3u",
+    "role": "- Provides overall project direction and funding.\n- Ensures project aligns with business goals.\n- Approves major deliverables and changes."
+   }
+  ],
+  "contact_date": null,
+  "contact_person": null,
+  "contact_person_role": null,
+  "contact_subject": null,
+  "docstatus": 0,
+  "doctype": "Meeting",
+  "is_online": 1,
+  "meeting_agenda": "Discuss Progress in Implementation Project Module and specify next actions.",
+  "meeting_arranged_by": "t3kuaolgri",
+  "meeting_date": "2024-12-02",
+  "meeting_discussion": "<div class=\"ql-editor read-mode\"><ol><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Review the meeting scheduling on the module, we find that attendees list is not automatically filled in the \"Send Email\" dialog.</li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Discussed Naming of Parent Milestone in Actions.</li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Email the MOM.</li></ol></div>",
+  "meeting_schedule": "MS-2024-12--0027",
+  "modified": "2024-12-19 12:00:18.428335",
+  "name": "MT-2024-12--0028",
+  "party": "Focus KCSC Allaiance",
+  "party_type1": "Customer",
+  "project": "PROJ-0003",
+  "venue": "Online (Meeting link to be provided)"
+ }
+]

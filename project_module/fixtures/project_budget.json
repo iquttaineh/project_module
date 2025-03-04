@@ -1,0 +1,57 @@
+[
+ {
+  "category": "3i3tnd3loa",
+  "docstatus": 0,
+  "doctype": "Project Budget",
+  "estimated_cost": "3000",
+  "modified": "2024-12-22 11:33:01.708878",
+  "name": "9jc603k1u0",
+  "parent": "PC-2024-022",
+  "parentfield": "budget",
+  "parenttype": "Project Charter"
+ },
+ {
+  "category": "3kgcjsuio0",
+  "docstatus": 0,
+  "doctype": "Project Budget",
+  "estimated_cost": "500",
+  "modified": "2024-12-22 11:33:01.708878",
+  "name": "9jc6d3528p",
+  "parent": "PC-2024-022",
+  "parentfield": "budget",
+  "parenttype": "Project Charter"
+ },
+ {
+  "category": "3kasqnv0kg",
+  "docstatus": 0,
+  "doctype": "Project Budget",
+  "estimated_cost": "0",
+  "modified": "2024-12-22 11:33:01.708878",
+  "name": "9jc6h9094s",
+  "parent": "PC-2024-022",
+  "parentfield": "budget",
+  "parenttype": "Project Charter"
+ },
+ {
+  "category": "3kkte1lp6u",
+  "docstatus": 0,
+  "doctype": "Project Budget",
+  "estimated_cost": "500",
+  "modified": "2024-12-22 11:33:01.708878",
+  "name": "9jc6jfbijc",
+  "parent": "PC-2024-022",
+  "parentfield": "budget",
+  "parenttype": "Project Charter"
+ },
+ {
+  "category": "3k804sta1m",
+  "docstatus": 0,
+  "doctype": "Project Budget",
+  "estimated_cost": "1000",
+  "modified": "2024-12-22 11:33:01.708878",
+  "name": "9jc6l5lum5",
+  "parent": "PC-2024-022",
+  "parentfield": "budget",
+  "parenttype": "Project Charter"
+ }
+]

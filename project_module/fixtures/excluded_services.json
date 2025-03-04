@@ -1,0 +1,32 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Excluded Services",
+  "excluded_services": "Financial part related to project",
+  "modified": "2024-12-22 11:33:01.708878",
+  "name": "9a91el1en8",
+  "parent": "PC-2024-022",
+  "parentfield": "excluded_services",
+  "parenttype": "Project Charter"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Excluded Services",
+  "excluded_services": "HR and payroll integration ",
+  "modified": "2024-12-22 11:33:01.708878",
+  "name": "9a91n4c2h6",
+  "parent": "PC-2024-022",
+  "parentfield": "excluded_services",
+  "parenttype": "Project Charter"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Excluded Services",
+  "excluded_services": "Integration with other project management and planning systems",
+  "modified": "2024-12-22 11:33:01.708878",
+  "name": "9a91skf5j3",
+  "parent": "PC-2024-022",
+  "parentfield": "excluded_services",
+  "parenttype": "Project Charter"
+ }
+]

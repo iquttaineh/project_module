@@ -1,0 +1,298 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Stakeholder Type",
+  "modified": "2024-10-21 14:04:19.518006",
+  "name": "s503r3rott",
+  "roleresponsibility": "- Manages any third-party vendor relationships and contracts.\n- Ensures compliance with procurement policies for any external services or tools used in the project.",
+  "stakeholder_type": "Procurement Team"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Stakeholder Type",
+  "modified": "2024-10-21 14:04:54.622269",
+  "name": "s5b2duajjl",
+  "roleresponsibility": "- Provide data and functionality for stock price information, task management, or other API integrations.\n- Ensure uptime and reliability of their services.",
+  "stakeholder_type": "Third-Party API Providers"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Stakeholder Type",
+  "modified": "2024-10-21 14:08:18.269051",
+  "name": "s7ampml825",
+  "roleresponsibility": "- Facilitates agile ceremonies (e.g., sprint planning, daily stand-ups).\n- Ensures the development team adheres to Scrum principles.",
+  "stakeholder_type": "Scrum Master"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Stakeholder Type",
+  "modified": "2024-10-21 14:09:59.782137",
+  "name": "s8adug7ghb",
+  "roleresponsibility": "- Ensures that the final product meets market demands.\n- Develops go-to-market strategies, product positioning, and internal/external product communication.",
+  "stakeholder_type": "Product Marketing Manager"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Stakeholder Type",
+  "modified": "2024-10-21 14:11:39.335868",
+  "name": "s99hg0mrqc",
+  "roleresponsibility": "- Reviews the project’s financial and operational processes.\n- Ensures all project activities are compliant with internal audit standards.",
+  "stakeholder_type": "Internal Audit Team"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Stakeholder Type",
+  "modified": "2024-10-21 14:07:25.277321",
+  "name": "s6q4hd8mvr",
+  "roleresponsibility": "- Designs the overall technical architecture of the application.\n- Ensures integration with existing systems and infrastructure.\n- Reviews technical challenges and provides solutions.",
+  "stakeholder_type": "Technical Architect"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Stakeholder Type",
+  "modified": "2024-10-21 14:08:02.082744",
+  "name": "s75ktjugr2",
+  "roleresponsibility": "- Oversees the deployment pipeline, automated testing, and continuous integration (CI/CD).\n- Ensures smooth delivery and deployment of the application to the production environment.",
+  "stakeholder_type": "DevOps Engineer"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Stakeholder Type",
+  "modified": "2024-10-21 14:01:22.302369",
+  "name": "s38njn60nr",
+  "roleresponsibility": "- Ensures the application meets the organization's security policies.\n- Reviews and approves security architecture and data handling protocols.",
+  "stakeholder_type": "IT Security Officer"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Stakeholder Type",
+  "modified": "2024-10-21 14:02:16.433827",
+  "name": "s3pklgkpa3",
+  "roleresponsibility": "- Defines product vision and prioritizes features.\n- Provides acceptance of user stories and application functionality.\n- Ensures that the project delivers value to the end users.",
+  "stakeholder_type": "Product Owner"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Stakeholder Type",
+  "modified": "2024-10-21 14:04:36.254784",
+  "name": "s55aq5r977",
+  "roleresponsibility": "- Reviews and approves contracts, terms of service, and compliance with legal regulations (e.g., GDPR, CCPA).",
+  "stakeholder_type": "Legal Department"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Stakeholder Type",
+  "modified": "2024-10-21 14:07:45.240402",
+  "name": "s70cnnqov3",
+  "roleresponsibility": "- Manages the design and implementation of the project’s database.\n- Ensures data integrity, backups, and optimized database performance.",
+  "stakeholder_type": "Database Administrator"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Stakeholder Type",
+  "modified": "2024-10-21 14:10:43.226261",
+  "name": "s8o0cdn2kp",
+  "roleresponsibility": "- Develops training materials for end-users.\n- Provides post-implementation support and helps resolve user issues.",
+  "stakeholder_type": "Training & Support Team"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Stakeholder Type",
+  "modified": "2024-10-21 14:11:56.926561",
+  "name": "s9f1ja6chm",
+  "roleresponsibility": "- Oversees the integration of the new application with current operational processes.\n- Ensures that the new application will drive efficiencies in project management workflows.",
+  "stakeholder_type": "Operations Director"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Stakeholder Type",
+  "modified": "2024-10-21 14:12:22.081449",
+  "name": "s9ms9pj3gh",
+  "roleresponsibility": "- Provide third-party tools or services used in the application (e.g., APIs for task management, reporting, etc.).\n- Ensure reliable integration and availability of services.",
+  "stakeholder_type": "Vendor Representatives"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Stakeholder Type",
+  "modified": "2024-10-21 14:03:32.251878",
+  "name": "30437uq6ep",
+  "roleresponsibility": "- Provides high-level oversight and guidance for the project.\n- Resolves escalated issues and risks.\n- Reviews progress at key milestones.",
+  "stakeholder_type": "Steering Committee\t"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Stakeholder Type",
+  "modified": "2024-10-21 14:11:03.173221",
+  "name": "s8u7bq95kq",
+  "roleresponsibility": "- Ensures the application adheres to regulatory requirements (e.g., GDPR, CCPA).\n- Conducts audits to ensure compliance with internal policies.",
+  "stakeholder_type": "Compliance Officer"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Stakeholder Type",
+  "modified": "2024-10-22 09:53:29.157669",
+  "name": "htorta5apo",
+  "roleresponsibility": "- Represents the interests of the business unit impacted by the project. \n- Provides insights on business requirements and strategic alignment.",
+  "stakeholder_type": "Business Unit Leader"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Stakeholder Type",
+  "modified": "2024-10-21 14:09:31.842022",
+  "name": "300ev7jdmr",
+  "roleresponsibility": "- Participate in the requirements gathering phase.\n- Provide feedback during user acceptance testing.\n- Ensure the final application is aligned with daily project management workflows.\n- Use the final application in day-to-day project management tasks.",
+  "stakeholder_type": "End User Representatives"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Stakeholder Type",
+  "modified": "2024-10-21 15:55:43.094075",
+  "name": "u68mnhuasi",
+  "roleresponsibility": "- Identify and recruit qualified personnel for the project, including developers, designers, and support staff.\n- Collaborate with the project manager to determine resource needs and ensure appropriate allocation of team members throughout the project lifecycle.",
+  "stakeholder_type": "HR Manager"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Stakeholder Type",
+  "modified": "2024-10-21 15:57:29.729894",
+  "name": "u7a16uk9i9",
+  "roleresponsibility": "- Define and communicate the technical vision and architecture of the project to ensure it aligns with business objectives and user requirements.\n- Lead and mentor the development team, providing guidance on best practices, coding standards, and problem-solving techniques.",
+  "stakeholder_type": "Technical Lead"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Stakeholder Type",
+  "modified": "2024-10-21 14:00:41.038573",
+  "name": "s1tb2gpin1",
+  "roleresponsibility": "- Designs user interfaces and user experience for the application.\n- Ensures the application meets usability standards and provides a positive user experience.",
+  "stakeholder_type": "UI/UX Designer"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Stakeholder Type",
+  "modified": "2024-10-21 14:01:48.208246",
+  "name": "s3gq2enkld",
+  "roleresponsibility": "- Gathers and documents project requirements.\n- Ensures alignment between business needs and technical implementation.\n- Acts as liaison between business units and the project team.",
+  "stakeholder_type": "Business Analyst"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Stakeholder Type",
+  "modified": "2024-10-22 09:21:41.429607",
+  "name": "309g0qs304",
+  "roleresponsibility": "- Manages budget allocation and approves financial spending.\n- Reviews financial performance against the project plan.",
+  "stakeholder_type": "Finance Officer"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Stakeholder Type",
+  "modified": "2024-10-22 09:59:24.168777",
+  "name": "s8gu82ou22",
+  "roleresponsibility": "- Oversees communication and training for stakeholders.\n- Manages stakeholder expectations and ensures smooth adoption of the application.",
+  "stakeholder_type": "Change Management Lead"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Stakeholder Type",
+  "modified": "2024-10-21 14:00:53.688429",
+  "name": "s28rg2a68e",
+  "roleresponsibility": "- Manages the quality assurance testing process.\n- Ensures the application is thoroughly tested and meets quality standards.\n- Coordinates user acceptance testing (UAT).",
+  "stakeholder_type": "QA Lead"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Stakeholder Type",
+  "modified": "2024-12-05 10:41:29.859436",
+  "name": "qut2s9qias",
+  "roleresponsibility": "- Provide timely and professional responses to customer inquiries.\n- Resolve customer issues effectively through various communication channels (email, chat, phone).\n- Collaborate with internal teams to escalate and resolve complex issues.",
+  "stakeholder_type": "Customer Support"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Stakeholder Type",
+  "modified": "2024-12-05 10:44:32.329153",
+  "name": "r0m321cf1r",
+  "roleresponsibility": "- Serve as the first point of contact for IT-related issues and inquiries.\n- Log and track support requests in the ticketing system.\n- Escalate unresolved issues to appropriate teams.",
+  "stakeholder_type": "Support Desk"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Stakeholder Type",
+  "modified": "2024-12-05 10:51:49.357057",
+  "name": "r4ulgg5gdq",
+  "roleresponsibility": "- Build and maintain strong client relationships.\n- Identify growth opportunities and drive sales.\n- Resolve client issues promptly and effectively.",
+  "stakeholder_type": "Account Manager"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Stakeholder Type",
+  "modified": "2024-12-05 10:52:49.301906",
+  "name": "r5hdhgp6tv",
+  "roleresponsibility": "- Ensure efficient day-to-day business operations.\n- Monitor and optimize workflows and processes.\n- Collaborate with teams to achieve organizational goals.",
+  "stakeholder_type": "Operations Team"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Stakeholder Type",
+  "modified": "2024-12-05 10:54:35.255254",
+  "name": "r6ig51v9f3",
+  "roleresponsibility": "- Oversee operations and performance in the assigned region.\n- Lead and support teams to achieve sales and growth targets.\n- Analyze regional market trends and implement strategic plans.",
+  "stakeholder_type": "Regional Manager"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Stakeholder Type",
+  "modified": "2024-12-05 10:55:56.243339",
+  "name": "r7bqpfdu2d",
+  "roleresponsibility": "- Manage and resolve high-priority customer escalations effectively.\n- Coordinate with teams to identify root causes and implement solutions.\n- Ensure timely communication and satisfaction for all stakeholders.",
+  "stakeholder_type": "Escalation Manager"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Stakeholder Type",
+  "modified": "2024-12-05 10:57:58.486344",
+  "name": "r8i0tbdr2q",
+  "roleresponsibility": "- Advocate for the customer’s strategic needs within the organization.\n- Provide guidance and support for key project decisions and outcomes.\n- Build and maintain strong relationships with senior stakeholders.",
+  "stakeholder_type": "Executive Sponsor"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Stakeholder Type",
+  "modified": "2024-12-05 11:00:27.550693",
+  "name": "ra0jp7aat9",
+  "roleresponsibility": "- Develop and implement strategic goals to drive organizational success.\n- Oversee and align departmental operations with company objectives.\n- Lead decision-making and provide guidance to executive teams.",
+  "stakeholder_type": "Senior Management"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Stakeholder Type",
+  "modified": "2024-10-21 14:00:30.119221",
+  "name": "2vrnij7ssa",
+  "roleresponsibility": "- Leads the development team in building the application.\n- Ensures technical requirements are met.\n- Provides status updates on development progress.",
+  "stakeholder_type": "Development Team Lead"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Stakeholder Type",
+  "modified": "2024-10-21 14:00:10.934671",
+  "name": "2vo9qmbs77",
+  "roleresponsibility": "- Oversees day-to-day project execution.\n- Coordinates communication between stakeholders and project team.\n- Manages project timelines, budget, and resources.",
+  "stakeholder_type": "Project Manager"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Stakeholder Type",
+  "modified": "2024-10-22 09:52:30.451703",
+  "name": "ht6ga6s09v",
+  "roleresponsibility": "- Addresses any technical risks and resource allocation concerns.",
+  "stakeholder_type": "IT Director"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Stakeholder Type",
+  "modified": "2024-10-21 13:59:56.220934",
+  "name": "2vl19t1u3u",
+  "roleresponsibility": "- Provides overall project direction and funding.\n- Ensures project aligns with business goals.\n- Approves major deliverables and changes.",
+  "stakeholder_type": "Project Sponsor"
+ }
+]

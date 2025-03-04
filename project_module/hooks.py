@@ -246,14 +246,14 @@ web_include_css = "/MyPage/wsr_styles.css"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
-# fixtures = [
-#     "Project Charter", "Meeting", "Meeting Schedule", "Attendees", "Members", 
-#     "Project Members", "Stakeholders", "Risk Levels Child", "Risk Levels", "Issues Log", 
-#     "Risks Log", "Actions", "Constraints", "Business Need", "Stakeholder Party", 
-#     "Payment Plan", "Stakeholder Type", "Payment Against", "Project Budget Category", "Milestones", 
-#     "Risks", "Project Budget", "Payment Type", "Activity Cost", "Penalties", 
-#     "SLA Approval", "SLA Versions", "Validity of Agreement", "Service Performance Metrics", "Conditions of Cancellation", 
-#     "Excluded Services", "Service Availability", "Service Assumptions", "Service Provider Requirements", "Customer Requirements", 
-#     "Service Scope", "Goals and Objectives", "Project Objectives", "Key Deliverables", "Project Scope", 
-#     "Project", "Task"
-# ]
+fixtures = [
+    "Project Charter", "Meeting", "Meeting Schedule", "Attendees", "Members", 
+    "Project Members", "Stakeholders", "Risk Levels Child", "Risk Levels", "Issues Log", 
+    "Risks Log", "Actions", "Constraints", "Business Need", "Stakeholder Party", 
+    "Payment Plan", "Stakeholder Type", "Payment Against", "Project Budget Category", "Milestones", 
+    "Risks", "Project Budget", "Payment Type", "Activity Cost", "Penalties", 
+    "SLA Approval", "SLA Versions", "Validity of Agreement", "Service Performance Metrics", "Conditions of Cancellation", 
+    "Excluded Services", "Service Availability", "Service Assumptions", "Service Provider Requirements", "Customer Requirements", 
+    "Service Scope", "Goals and Objectives", "Project Objectives", "Key Deliverables", "Project Scope", 
+    "Project", "Task"
+]
