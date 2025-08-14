@@ -1,0 +1,519 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:PC-{YYYY}-{###}",
+ "creation": "2024-09-02 10:30:39.217073",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_kmqa",
+  "project_title",
+  "project_sponsor",
+  "schedule",
+  "duration",
+  "column_break_vdis",
+  "creation_date",
+  "project_manager",
+  "initial_budget",
+  "required_documents_section",
+  "proposal",
+  "contract",
+  "section_break_umte",
+  "company_logo",
+  "image_qfbh",
+  "column_break_hxep",
+  "customer_logo",
+  "image_ztye",
+  "section_break_quya",
+  "project_sponsor_signature",
+  "column_break_aohe",
+  "project_manager_signature",
+  "section_break_hnyi",
+  "project_purpose",
+  "business_needbusiness_case",
+  "project_objectives",
+  "project_scope",
+  "excluded_services",
+  "key_stakeholders",
+  "key_deliverables",
+  "milestones",
+  "budget",
+  "payment_plan",
+  "risks",
+  "service_assumptions",
+  "constraints",
+  "service_level_agreement_sla_tab",
+  "section_break_bymh",
+  "sla_type",
+  "column_break_iueb",
+  "effective_date",
+  "section_break_kxds",
+  "version",
+  "approval",
+  "section_break_vnoc",
+  "agreement_overview",
+  "goals_and_objectives",
+  "sla_stakeholders",
+  "section_break_frav",
+  "periodic_review",
+  "section_break_wynp",
+  "previous_review_date",
+  "column_break_vevp",
+  "next_review_date",
+  "section_break_qgsf",
+  "service_scope",
+  "customer_requirements",
+  "service_provider_requirements",
+  "service_availability",
+  "conditions_of_cancellation",
+  "service_performance_metrics",
+  "validity_of_agreement",
+  "penalties",
+  "communication_plan_tab",
+  "risks_levels_section",
+  "risk_levels",
+  "review_meetings_section",
+  "team_weekly_status_review_members",
+  "team_monthly_status_review_members",
+  "steering_committee_review_members",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_kmqa",
+   "fieldtype": "Section Break",
+   "hide_border": 1
+  },
+  {
+   "fieldname": "column_break_vdis",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "creation_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Creation Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_hnyi",
+   "fieldtype": "Section Break",
+   "hide_border": 1
+  },
+  {
+   "fieldname": "business_needbusiness_case",
+   "fieldtype": "Table",
+   "label": "Business Need / Business Case",
+   "options": "Business Need"
+  },
+  {
+   "fieldname": "project_scope",
+   "fieldtype": "Table",
+   "label": "Project Scope (In-Scope)",
+   "options": "Project Scope"
+  },
+  {
+   "fieldname": "excluded_services",
+   "fieldtype": "Table",
+   "label": "Excluded Services (Out-of-Scope)",
+   "options": "Excluded Services"
+  },
+  {
+   "fieldname": "key_deliverables",
+   "fieldtype": "Table",
+   "label": "Key Deliverables (High-Level Requirements)",
+   "options": "Key Deliverables"
+  },
+  {
+   "fieldname": "project_objectives",
+   "fieldtype": "Table",
+   "label": "Project Objectives",
+   "options": "Project Objectives"
+  },
+  {
+   "fieldname": "initial_budget",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Initial Budget"
+  },
+  {
+   "fieldname": "schedule",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Schedule"
+  },
+  {
+   "fieldname": "required_documents_section",
+   "fieldtype": "Section Break",
+   "label": "Required Documents"
+  },
+  {
+   "default": "0",
+   "fieldname": "proposal",
+   "fieldtype": "Check",
+   "label": "Proposal"
+  },
+  {
+   "default": "0",
+   "fieldname": "contract",
+   "fieldtype": "Check",
+   "label": "Contract"
+  },
+  {
+   "fieldname": "service_assumptions",
+   "fieldtype": "Table",
+   "label": "Service Assumptions (Success Criteria)",
+   "options": "Service Assumptions"
+  },
+  {
+   "fieldname": "milestones",
+   "fieldtype": "Table",
+   "label": "Milestones",
+   "options": "Milestones"
+  },
+  {
+   "fieldname": "constraints",
+   "fieldtype": "Table",
+   "label": "Constraints",
+   "options": "Constraints"
+  },
+  {
+   "fieldname": "risks",
+   "fieldtype": "Table",
+   "label": "Risks and Mitigation",
+   "options": "Risks"
+  },
+  {
+   "fieldname": "payment_plan",
+   "fieldtype": "Table",
+   "label": "Payment Plan",
+   "options": "Payment Plan"
+  },
+  {
+   "fieldname": "service_level_agreement_sla_tab",
+   "fieldtype": "Tab Break",
+   "hidden": 1,
+   "label": "service level agreement (SLA)"
+  },
+  {
+   "fieldname": "section_break_bymh",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "sla_type",
+   "fieldtype": "Select",
+   "label": "SLA Type",
+   "options": "\nCustomer SLA\nInternal SLA\nMulti-level SLA"
+  },
+  {
+   "fieldname": "column_break_iueb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "effective_date",
+   "fieldtype": "Date",
+   "label": "Effective Date"
+  },
+  {
+   "fieldname": "section_break_kxds",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "version",
+   "fieldtype": "Table",
+   "label": "Version",
+   "options": "SLA Versions"
+  },
+  {
+   "fieldname": "approval",
+   "fieldtype": "Table",
+   "label": "Approval",
+   "options": "SLA Approval"
+  },
+  {
+   "fieldname": "section_break_vnoc",
+   "fieldtype": "Section Break",
+   "hide_border": 1
+  },
+  {
+   "description": "This Agreement represents a Service Level Agreement (\u201cSLA\u201d or \u201cAgreement\u201d) between Company Name (the \u201cService Provider\u201d) and Customer Name (the \u201cCustomer\u201d) for the provisioning of services (the \u201cService\u201d or \u201cServices\u201d) required to support and sustain Product or Service Name.\n\nThis Agreement remains valid until superseded by a revised agreement mutually endorsed by the stakeholders.\n\nThis Agreement outlines the parameters of all IT services covered as they are mutually understood by the primary stakeholders. This Agreement does not supersede current processes and procedures unless explicitly stated herein.",
+   "fieldname": "agreement_overview",
+   "fieldtype": "Small Text",
+   "label": "Agreement Overview"
+  },
+  {
+   "fieldname": "goals_and_objectives",
+   "fieldtype": "Table",
+   "label": "Goals and Objectives",
+   "options": "Goals and Objectives"
+  },
+  {
+   "fieldname": "sla_stakeholders",
+   "fieldtype": "Table",
+   "label": "Stakeholders",
+   "options": "Stakeholders"
+  },
+  {
+   "fieldname": "section_break_frav",
+   "fieldtype": "Section Break",
+   "hide_border": 1
+  },
+  {
+   "fieldname": "periodic_review",
+   "fieldtype": "Select",
+   "label": "Periodic Review",
+   "options": "Once Every Two Years\nOnce Per Year\nTwice Per Year"
+  },
+  {
+   "fieldname": "section_break_wynp",
+   "fieldtype": "Section Break",
+   "hide_border": 1
+  },
+  {
+   "fieldname": "previous_review_date",
+   "fieldtype": "Date",
+   "label": "Previous Review Date"
+  },
+  {
+   "fieldname": "column_break_vevp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "next_review_date",
+   "fieldtype": "Date",
+   "label": "Next Review Date"
+  },
+  {
+   "fieldname": "section_break_qgsf",
+   "fieldtype": "Section Break",
+   "hide_border": 1
+  },
+  {
+   "fieldname": "service_scope",
+   "fieldtype": "Table",
+   "label": "Service Scope",
+   "options": "Service Scope"
+  },
+  {
+   "fieldname": "customer_requirements",
+   "fieldtype": "Table",
+   "label": "Customer Requirements",
+   "options": "Customer Requirements"
+  },
+  {
+   "fieldname": "service_provider_requirements",
+   "fieldtype": "Table",
+   "label": "Service Provider Requirements",
+   "options": "Service Provider Requirements"
+  },
+  {
+   "fieldname": "service_availability",
+   "fieldtype": "Table",
+   "label": "Service Availability",
+   "options": "Service Availability"
+  },
+  {
+   "fieldname": "conditions_of_cancellation",
+   "fieldtype": "Table",
+   "label": "Conditions of Cancellation",
+   "options": "Conditions of Cancellation"
+  },
+  {
+   "fieldname": "service_performance_metrics",
+   "fieldtype": "Table",
+   "label": "Service Performance Metrics",
+   "options": "Service Performance Metrics"
+  },
+  {
+   "fieldname": "validity_of_agreement",
+   "fieldtype": "Table",
+   "label": "Validity of Agreement",
+   "options": "Validity of Agreement"
+  },
+  {
+   "fieldname": "penalties",
+   "fieldtype": "Table",
+   "label": "Penalties",
+   "options": "Penalties"
+  },
+  {
+   "fieldname": "communication_plan_tab",
+   "fieldtype": "Tab Break",
+   "label": "Communication Plan"
+  },
+  {
+   "fieldname": "risk_levels",
+   "fieldtype": "Table",
+   "options": "Risk Levels Child"
+  },
+  {
+   "fieldname": "review_meetings_section",
+   "fieldtype": "Section Break",
+   "label": "Review Meetings"
+  },
+  {
+   "fieldname": "team_weekly_status_review_members",
+   "fieldtype": "Table",
+   "label": "Team Weekly Status Review Members",
+   "options": "Members"
+  },
+  {
+   "fieldname": "team_monthly_status_review_members",
+   "fieldtype": "Table",
+   "label": "Team Monthly Status Review Members",
+   "options": "Members"
+  },
+  {
+   "fieldname": "steering_committee_review_members",
+   "fieldtype": "Table",
+   "label": "Steering Committee Review Members",
+   "options": "Members"
+  },
+  {
+   "fieldname": "project_purpose",
+   "fieldtype": "Small Text",
+   "label": "Project Purpose",
+   "reqd": 1
+  },
+  {
+   "fieldname": "key_stakeholders",
+   "fieldtype": "Table",
+   "label": "Key Stakeholders",
+   "options": "Stakeholders"
+  },
+  {
+   "fieldname": "project_title",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Project Title",
+   "options": "Project",
+   "reqd": 1
+  },
+  {
+   "fieldname": "project_sponsor",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Project Sponsor",
+   "link_filters": "[]",
+   "options": "Project Members",
+   "reqd": 1
+  },
+  {
+   "fieldname": "project_manager",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Project Manager",
+   "options": "Project Members",
+   "reqd": 1
+  },
+  {
+   "fieldname": "budget",
+   "fieldtype": "Table",
+   "label": "Budget",
+   "options": "Project Budget"
+  },
+  {
+   "fieldname": "risks_levels_section",
+   "fieldtype": "Section Break",
+   "label": "SLA Risks Levels"
+  },
+  {
+   "fieldname": "project_manager_signature",
+   "fieldtype": "Signature",
+   "label": "Project Manager Signature"
+  },
+  {
+   "fieldname": "section_break_quya",
+   "fieldtype": "Section Break",
+   "label": "Signatures"
+  },
+  {
+   "fieldname": "project_sponsor_signature",
+   "fieldtype": "Signature",
+   "label": "Project Sponsor Signature"
+  },
+  {
+   "fieldname": "column_break_aohe",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_umte",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "company_logo",
+   "fieldtype": "Attach Image",
+   "label": "Company Logo"
+  },
+  {
+   "fieldname": "image_qfbh",
+   "fieldtype": "Image",
+   "options": "company_logo"
+  },
+  {
+   "fieldname": "column_break_hxep",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "customer_logo",
+   "fieldtype": "Attach Image",
+   "label": "Customer Logo"
+  },
+  {
+   "fieldname": "image_ztye",
+   "fieldtype": "Image",
+   "options": "customer_logo"
+  },
+  {
+   "fieldname": "duration",
+   "fieldtype": "Data",
+   "label": "Duration",
+   "reqd": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Project Charter",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-12-22 11:23:42.223886",
+ "modified_by": "Administrator",
+ "module": "Project Module",
+ "name": "Project Charter",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "search_fields": "project_title",
+ "show_name_in_global_search": 1,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

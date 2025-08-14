@@ -1,0 +1,72 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-08-06 11:09:39.107165",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "test_type",
+  "test_date",
+  "test_scenario",
+  "test_attachment",
+  "test_judgment",
+  "tested_by"
+ ],
+ "fields": [
+  {
+   "fieldname": "test_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Test Type",
+   "options": "SIT\nUAT",
+   "reqd": 1
+  },
+  {
+   "fieldname": "test_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Test Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "test_scenario",
+   "fieldtype": "Text",
+   "in_list_view": 1,
+   "label": "Test Scenario",
+   "reqd": 1
+  },
+  {
+   "fieldname": "test_attachment",
+   "fieldtype": "Attach",
+   "label": "Test Attachment"
+  },
+  {
+   "default": "Pending",
+   "fieldname": "test_judgment",
+   "fieldtype": "Select",
+   "label": "Test Judgment",
+   "options": "Pending\nPass\nFail"
+  },
+  {
+   "fieldname": "tested_by",
+   "fieldtype": "Link",
+   "label": "Tested By",
+   "options": "User"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-08-12 16:19:13.088830",
+ "modified_by": "Administrator",
+ "module": "Project Module",
+ "name": "Test Case Log",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

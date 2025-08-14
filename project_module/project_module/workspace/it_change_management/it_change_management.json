@@ -1,0 +1,133 @@
+{
+ "app": "project_module",
+ "charts": [
+  {
+   "chart_name": "Change Requests by Status",
+   "label": "Change Requests by Status"
+  },
+  {
+   "chart_name": "Change Requests by Type",
+   "label": "Change Requests by Type"
+  }
+ ],
+ "content": "[{\"id\": \"2g4icb5dkt\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Open Change Requests\", \"col\": 3}}, {\"id\": \"2g454jlmhb\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Failed Changes (Rolled Back)\", \"col\": 3}}, {\"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"id\": \"2g42rt7neb\", \"type\": \"chart\", \"data\": {\"chart_name\": \"Change Requests by Status\", \"col\": 6}}, {\"id\": \"2g4gtbga8l\", \"type\": \"chart\", \"data\": {\"chart_name\": \"Change Requests by Type\", \"col\": 6}}, {\"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h4\\\"><b>Shortcuts</b></span>\", \"col\": 12}}, {\"id\": \"2g4j4mg615\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"New Change Request\", \"col\": 3}}, {\"id\": \"2g4gstmau6\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"All Tasks\", \"col\": 3}}, {\"id\": \"2g489976t6\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Pending CRs\", \"col\": 3}}, {\"id\": \"2g4u01c22a\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"CR Volume\", \"col\": 3}}, {\"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"id\": \"2g4h1egjb0\", \"type\": \"quick_list\", \"data\": {\"quick_list_name\": \"My Assigned Tasks\", \"col\": 4}}, {\"id\": \"2g46atmoku\", \"type\": \"quick_list\", \"data\": {\"quick_list_name\": \"CRs Awaiting My Approval\", \"col\": 4}}, {\"id\": \"2g415isqmq\", \"type\": \"quick_list\", \"data\": {\"quick_list_name\": \"Change Requests I Own\", \"col\": 4}}, {\"type\": \"spacer\", \"data\": {\"col\": 12}}]",
+ "creation": "2025-08-06 11:09:49.155077",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "hide_custom": 0,
+ "icon": "folder-open",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "IT Change Management",
+ "link_type": "DocType",
+ "links": [],
+ "modified": "2025-08-12 15:57:32.832575",
+ "modified_by": "Administrator",
+ "module": "Project Module",
+ "name": "IT Change Management",
+ "number_cards": [
+  {
+   "label": "Open Change Requests",
+   "number_card_name": "Open Change Requests"
+  },
+  {
+   "label": "Failed Changes (Rolled Back)",
+   "number_card_name": "Failed Changes (Rolled Back)"
+  }
+ ],
+ "owner": "Administrator",
+ "public": 1,
+ "quick_lists": [
+  {
+   "document_type": "IT Change Task",
+   "label": "My Assigned Tasks",
+   "quick_list_filter": "[[\"_assign\", \"like\", \"%Administrator%\"]]"
+  },
+  {
+   "document_type": "Change Request",
+   "label": "CRs Awaiting My Approval",
+   "quick_list_filter": "[[\"status\", \"=\", \"Approvals\"]]"
+  },
+  {
+   "document_type": "Change Request",
+   "label": "Change Requests I Own",
+   "quick_list_filter": "[[\"owner\", \"=\", \"Administrator\"]]"
+  }
+ ],
+ "roles": [
+  {
+   "role": "Requester"
+  },
+  {
+   "role": "Requester Manager"
+  },
+  {
+   "role": "Requester's Group Manager"
+  },
+  {
+   "role": "Relationship Manager"
+  },
+  {
+   "role": "Business Solution Team Member"
+  },
+  {
+   "role": "CAC Member"
+  },
+  {
+   "role": "Development Team Manager"
+  },
+  {
+   "role": "Deployer"
+  },
+  {
+   "role": "IT Assurance Manager"
+  },
+  {
+   "role": "IT Assurance Team"
+  },
+  {
+   "role": "Infrastructure Manager"
+  },
+  {
+   "role": "ITGC Manager"
+  },
+  {
+   "role": "Infrastructure Team"
+  }
+ ],
+ "sequence_id": 10.0,
+ "shortcuts": [
+  {
+   "doc_view": "New",
+   "icon": "new-doc",
+   "label": "New Change Request",
+   "link_to": "Change Request",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "List",
+   "icon": "list",
+   "label": "All Tasks",
+   "link_to": "IT Change Task",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "Pending CRs",
+   "link_to": "Pending CRs Report",
+   "report_ref_doctype": "Change Request",
+   "type": "Report"
+  },
+  {
+   "doc_view": "",
+   "label": "CR Volume",
+   "link_to": "CR Volume",
+   "report_ref_doctype": "Change Request",
+   "type": "Report"
+  }
+ ],
+ "title": "IT Change Management",
+ "type": "Workspace"
+}

@@ -1,0 +1,206 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 20px;
+}
+
+.dashboard {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+hr.hr-style {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+h4 {
+    color: #004d66;
+}
+
+/* Dropdown button styling */
+.dropdown-toggle {
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.dropdown-toggle:hover {
+    background-color: #0047AB;
+    color: white;
+}
+
+/* Dropdown menu styling */
+.dropdown-menu {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+/* Search input styling */
+#dropdownSearch {
+    width: 100%;
+    padding: 8px 12px;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    font-size: 1rem;
+    border-bottom: 1px solid #ddd;
+    background-color: #f9f9f9;
+    border-radius: 4px 4px 0 0;
+}
+
+/* Dropdown items styling */
+.dropdown-item {
+    padding: 8px 20px;
+    transition: background-color 0.2s;
+    font-weight: 500;
+    color: #555;
+}
+
+.dropdown-item:hover {
+    background-color: #4a90e2;
+    color: #f0f0f5;
+}
+
+/* Custom scrollbar for dropdown */
+.dropdown-menu::-webkit-scrollbar {
+    width: 6px;
+}
+
+.dropdown-menu::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 4px;
+}
+
+.dropdown-menu::-webkit-scrollbar-thumb:hover {
+    background-color: #bbb;
+}
+
+/* Charts Styling */
+.stats,
+.charts,
+.metrics,
+.survey {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.stat-item,
+.metric-item,
+.survey-item {
+    background-color: #f7f9fc;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+}
+
+.stats .stat-item,
+.metrics .metric-item,
+.survey .survey-item {
+    width: 23%;
+}
+
+.chart-item {
+    width: 49%;
+    background-color: #f7f9fc;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+#statusChart {
+    width: 49% !important;
+    margin: auto;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.table-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+tbody tr:hover {
+    background-color: #024CAA;
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #ecf0f1;
+}
+
+tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+th,
+td {
+    padding: 7px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.poject_info tr {
+    background-color: #ecf0f1;
+}
+
+/* Small Tables Styling */
+.small-table {
+    width: 32%;
+}
+
+.small-table th {
+    color: #fff;
+    padding: 5px;
+    text-align: Center;
+    border: 1px solid #ddd;
+    font-size: Small;
+}
+
+.small-table td {
+    font-size: Small;
+}
+
+.tasks th {
+    background-color: #27ae60;
+}
+
+.risks th {
+    background-color: #e74c3c;
+}
+
+.issues th {
+    background-color: #2980b9;
+}
+
+/* Expandable row styling */
+.hidden-rows {
+    display: none;
+}
+
+.expand-button {
+    margin-top: 10px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}

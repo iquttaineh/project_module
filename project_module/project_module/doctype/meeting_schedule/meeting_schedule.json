@@ -1,0 +1,163 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:MS-{YYYY}-{MM}--{####}",
+ "creation": "2024-09-03 16:06:00.012051",
+ "default_email_template": "Meeting Schedule",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "party_type1",
+  "party",
+  "scheduled_from",
+  "scheduled_to",
+  "venue",
+  "is_online",
+  "column_break_nihg",
+  "project",
+  "meeting_arranged_by",
+  "contact_email",
+  "contact_job_title",
+  "contact_phone",
+  "contact_mobile_no",
+  "meeting_agenda",
+  "section_break_kjaj",
+  "participants"
+ ],
+ "fields": [
+  {
+   "fieldname": "party_type1",
+   "fieldtype": "Link",
+   "label": "Party Type",
+   "link_filters": "[[\"DocType\",\"name\",\"in\",[\"Customer\",\"Lead\"]]]",
+   "options": "DocType",
+   "reqd": 1
+  },
+  {
+   "fieldname": "party",
+   "fieldtype": "Dynamic Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Party",
+   "options": "party_type1",
+   "reqd": 1
+  },
+  {
+   "fieldname": "scheduled_from",
+   "fieldtype": "Datetime",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Scheduled From",
+   "reqd": 1
+  },
+  {
+   "fieldname": "scheduled_to",
+   "fieldtype": "Datetime",
+   "label": "Scheduled To",
+   "reqd": 1
+  },
+  {
+   "fieldname": "venue",
+   "fieldtype": "Data",
+   "label": "Venue"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_online",
+   "fieldtype": "Check",
+   "label": "Is Online"
+  },
+  {
+   "fieldname": "column_break_nihg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "meeting_arranged_by",
+   "fieldtype": "Link",
+   "label": "Meeting Arranged By",
+   "options": "Project Members",
+   "reqd": 1
+  },
+  {
+   "fieldname": "project",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Project",
+   "options": "Project",
+   "reqd": 1
+  },
+  {
+   "fieldname": "meeting_agenda",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Meeting Agenda",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_kjaj",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "participants",
+   "fieldtype": "Table",
+   "label": "Participants",
+   "options": "Attendees"
+  },
+  {
+   "fetch_from": "meeting_arranged_by.phone",
+   "fieldname": "contact_phone",
+   "fieldtype": "Data",
+   "label": "Contact Phone"
+  },
+  {
+   "fetch_from": "meeting_arranged_by.mobile_no",
+   "fieldname": "contact_mobile_no",
+   "fieldtype": "Data",
+   "label": "Contact Mobile No"
+  },
+  {
+   "fetch_from": "meeting_arranged_by.email",
+   "fieldname": "contact_email",
+   "fieldtype": "Data",
+   "label": "Contact Email"
+  },
+  {
+   "fetch_from": "meeting_arranged_by.job_title",
+   "fieldname": "contact_job_title",
+   "fieldtype": "Data",
+   "label": "Contact Job Title"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_calendar_and_gantt": 1,
+ "links": [],
+ "modified": "2024-12-22 12:38:17.576364",
+ "modified_by": "Administrator",
+ "module": "Project Module",
+ "name": "Meeting Schedule",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "show_title_field_in_link": 1,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "scheduled_from",
+ "track_changes": 1,
+ "translated_doctype": 1
+}

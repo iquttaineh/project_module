@@ -1,0 +1,52 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-08-06 11:09:40.005943",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "deployment_plan",
+  "plan_title",
+  "approval_status"
+ ],
+ "fields": [
+  {
+   "fieldname": "deployment_plan",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Deployment Plan",
+   "options": "IT Change Deployement",
+   "reqd": 1
+  },
+  {
+   "fetch_from": "deployment_plan.release_name",
+   "fieldname": "plan_title",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Plan Title",
+   "read_only": 1
+  },
+  {
+   "fieldname": "approval_status",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Approval Status",
+   "read_only": 1
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-08-13 10:20:33.818670",
+ "modified_by": "Administrator",
+ "module": "Project Module",
+ "name": "Deployment Plan Link",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

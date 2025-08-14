@@ -1,0 +1,532 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:RFC-{#####}-CM-{YYYY}",
+ "creation": "2025-08-06 11:09:40.313452",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "title",
+  "requested_by",
+  "change_type",
+  "urgency",
+  "column_break_fmng",
+  "project",
+  "request_date",
+  "business_classification",
+  "impact",
+  "section_break_hamo",
+  "description",
+  "nature_of_change",
+  "business_justification",
+  "managers_review_tab",
+  "manager_recommendation",
+  "manager_impact_assessment",
+  "manager_alternatives",
+  "assign_rm_tab",
+  "relationship_manager_rm",
+  "section_break_qwxw",
+  "role",
+  "column_break_vpta",
+  "department",
+  "open_tab",
+  "project_link",
+  "assigning_tab",
+  "tasks",
+  "under_development_tab",
+  "risk_log",
+  "issue_log",
+  "sit_tab",
+  "test_case_log_sit",
+  "uat_tab",
+  "test_case_log_uat",
+  "pre_deployment_tab",
+  "deployment_link",
+  "deployment_tab",
+  "deployment_plans",
+  "dp_attachment",
+  "rbp_attachment",
+  "is_rolled_back",
+  "pir_tab",
+  "pir_details",
+  "closure_tab",
+  "finalized_on",
+  "lessons_learned",
+  "s_section",
+  "requester_signature",
+  "column_break0_sig",
+  "rm_signature",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Title",
+   "reqd": 1
+  },
+  {
+   "fieldname": "urgency",
+   "fieldtype": "Select",
+   "label": "Urgency",
+   "options": "Low\nMedium\nHigh\nCritical",
+   "reqd": 1
+  },
+  {
+   "fieldname": "nature_of_change",
+   "fieldtype": "Small Text",
+   "label": "Nature of Change",
+   "reqd": 1
+  },
+  {
+   "fieldname": "business_justification",
+   "fieldtype": "Small Text",
+   "label": "Business Justification",
+   "reqd": 1
+  },
+  {
+   "fieldname": "impact",
+   "fieldtype": "Select",
+   "label": "Impact",
+   "options": "Low\nMedium\nHigh",
+   "reqd": 1
+  },
+  {
+   "fieldname": "manager_impact_assessment",
+   "fieldtype": "Small Text",
+   "label": "Assessment of Impact"
+  },
+  {
+   "fieldname": "manager_alternatives",
+   "fieldtype": "Small Text",
+   "label": "Alternative Solutions Considered"
+  },
+  {
+   "fieldname": "manager_recommendation",
+   "fieldtype": "Small Text",
+   "label": "Manager's Recommendation"
+  },
+  {
+   "depends_on": "eval: frappe.user.has_role(\"Relationship Manager\");",
+   "fieldname": "open_tab",
+   "fieldtype": "Tab Break",
+   "label": "Open"
+  },
+  {
+   "fieldname": "assigning_tab",
+   "fieldtype": "Tab Break",
+   "label": "Assigning"
+  },
+  {
+   "fieldname": "tasks",
+   "fieldtype": "Table",
+   "label": "Tasks",
+   "options": "CR Task Link"
+  },
+  {
+   "fieldname": "under_development_tab",
+   "fieldtype": "Tab Break",
+   "label": "Under Development"
+  },
+  {
+   "fieldname": "risk_log",
+   "fieldtype": "Table",
+   "label": "Risk Log",
+   "options": "CR Risk Log"
+  },
+  {
+   "fieldname": "issue_log",
+   "fieldtype": "Table",
+   "label": "Issue Log",
+   "options": "CR Issue Log"
+  },
+  {
+   "fieldname": "sit_tab",
+   "fieldtype": "Tab Break",
+   "label": "System Integration Testing (SIT)"
+  },
+  {
+   "fieldname": "test_case_log_sit",
+   "fieldtype": "Table",
+   "label": "SIT Test Log",
+   "options": "Test Case Log"
+  },
+  {
+   "fieldname": "uat_tab",
+   "fieldtype": "Tab Break",
+   "label": "User Acceptance Testing (UAT)"
+  },
+  {
+   "fieldname": "test_case_log_uat",
+   "fieldtype": "Table",
+   "label": "UAT Test Log",
+   "options": "Test Case Log"
+  },
+  {
+   "fieldname": "deployment_tab",
+   "fieldtype": "Tab Break",
+   "label": "Deployment"
+  },
+  {
+   "fieldname": "deployment_plans",
+   "fieldtype": "Table",
+   "label": "Deployment Plans",
+   "options": "Deployment Plan Link"
+  },
+  {
+   "fieldname": "dp_attachment",
+   "fieldtype": "Attach",
+   "label": "Deployment Plan Attach"
+  },
+  {
+   "fieldname": "rbp_attachment",
+   "fieldtype": "Attach",
+   "label": "Rollback Plan Attach"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_rolled_back",
+   "fieldtype": "Check",
+   "label": "Was Rollback Required?"
+  },
+  {
+   "fieldname": "pir_tab",
+   "fieldtype": "Tab Break",
+   "label": "Post Implementation Review (PIR)"
+  },
+  {
+   "fieldname": "pir_details",
+   "fieldtype": "Table",
+   "label": "PIR Details",
+   "options": "PIR Criterion"
+  },
+  {
+   "fieldname": "closure_tab",
+   "fieldtype": "Tab Break",
+   "label": "Closure"
+  },
+  {
+   "fieldname": "finalized_on",
+   "fieldtype": "Datetime",
+   "label": "Finalized On"
+  },
+  {
+   "fieldname": "lessons_learned",
+   "fieldtype": "Text Editor",
+   "label": "Lessons Learned"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "s_section",
+   "fieldtype": "Section Break",
+   "label": "Signatures"
+  },
+  {
+   "fieldname": "requester_signature",
+   "fieldtype": "Signature",
+   "label": "Requester Signature"
+  },
+  {
+   "fieldname": "column_break0_sig",
+   "fieldtype": "Column Break",
+   "print_width": "50%",
+   "width": "50%"
+  },
+  {
+   "fieldname": "rm_signature",
+   "fieldtype": "Signature",
+   "label": "RM signature"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Change Request",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "default": "__user",
+   "fieldname": "requested_by",
+   "fieldtype": "Link",
+   "label": "Requested By",
+   "options": "User",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "change_type",
+   "fieldtype": "Select",
+   "label": "Change Type",
+   "options": "Business Change\nInfrastructure Standard Change\nEmergency Change",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_fmng",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "project",
+   "fieldtype": "Link",
+   "label": "Project",
+   "options": "Project"
+  },
+  {
+   "depends_on": "eval:doc.cr_type=='Business Change'",
+   "fieldname": "business_classification",
+   "fieldtype": "Select",
+   "label": "Business Classification",
+   "options": "Minor\nMajor\nSignificant",
+   "reqd": 1
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "label": "Description"
+  },
+  {
+   "fieldname": "request_date",
+   "fieldtype": "Date",
+   "label": "Request Date"
+  },
+  {
+   "fieldname": "section_break_hamo",
+   "fieldtype": "Section Break"
+  },
+  {
+   "depends_on": "eval: frappe.user.has_role(\"Requester Manager\") ;",
+   "fieldname": "managers_review_tab",
+   "fieldtype": "Tab Break",
+   "label": "Manager's Review"
+  },
+  {
+   "depends_on": "eval: frappe.user.has_role(\"Business Solution Team Manager\");",
+   "fieldname": "assign_rm_tab",
+   "fieldtype": "Tab Break",
+   "label": "Assign RM"
+  },
+  {
+   "fieldname": "relationship_manager_rm",
+   "fieldtype": "Link",
+   "label": "Relationship Manager (RM)",
+   "options": "User"
+  },
+  {
+   "fieldname": "section_break_qwxw",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "role",
+   "fieldtype": "Data",
+   "label": "Role"
+  },
+  {
+   "fieldname": "column_break_vpta",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "department",
+   "fieldtype": "Data",
+   "label": "Department"
+  },
+  {
+   "fieldname": "project_link",
+   "fieldtype": "Table",
+   "label": "Project Link",
+   "options": "Project Link"
+  },
+  {
+   "fieldname": "pre_deployment_tab",
+   "fieldtype": "Tab Break",
+   "label": "Pre Deployment"
+  },
+  {
+   "fieldname": "deployment_link",
+   "fieldtype": "Table",
+   "label": "Deployment Link",
+   "options": "deployment link"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2025-08-13 15:09:02.762494",
+ "modified_by": "Administrator",
+ "module": "Project Module",
+ "name": "Change Request",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "amend": 1,
+   "cancel": 1,
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Requester",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Requester Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Requester's Group Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "CAC Member",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Business Solution Team Member",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "ITGC Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "IT Assurance Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "IT Assurance Team",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Deployer",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  },
+  {
+   "cancel": 1,
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Infrastructure Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  },
+  {
+   "cancel": 1,
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Infrastructure Team",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "title",
+ "track_changes": 1
+}

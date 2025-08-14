@@ -1,0 +1,32 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-09-02 13:26:40.452113",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "validity_of_agreement"
+ ],
+ "fields": [
+  {
+   "fieldname": "validity_of_agreement",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Validity of Agreement",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-10-09 12:35:00.379611",
+ "modified_by": "Administrator",
+ "module": "Project Module",
+ "name": "Validity of Agreement",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

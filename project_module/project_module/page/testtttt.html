@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WSR Dashboard</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 20px;
+        }
+
+        .dashboard {
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        hr.hr-style {
+            border: 0;
+            height: 1px;
+            background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+        }
+
+        h4 {
+            color: #004d66;
+        }
+
+        /* Dropdown button styling */
+        .dropdown-toggle {
+            background-color: #4a90e2;
+            color: white;
+            border: none;
+            font-weight: 500;
+            transition: background-color 0.3s ease;
+        }
+
+        .dropdown-toggle:hover {
+            background-color: #0047AB;
+            color: white;
+        }
+
+        /* Dropdown menu styling */
+        .dropdown-menu {
+            border: none;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+            max-height: 300px;
+            overflow-y: auto;
+        }
+
+        /* Search input styling */
+        #dropdownSearch {
+            width: 100%;
+            padding: 8px 12px;
+            border: none;
+            outline: none;
+            box-sizing: border-box;
+            font-size: 1rem;
+            border-bottom: 1px solid #ddd;
+            background-color: #f9f9f9;
+            border-radius: 4px 4px 0 0;
+        }
+
+        /* Dropdown items styling */
+        .dropdown-item {
+            padding: 8px 20px;
+            transition: background-color 0.2s;
+            font-weight: 500;
+            color: #555;
+        }
+
+        .dropdown-item:hover {
+            background-color: #4a90e2;
+            color: #f0f0f5;
+        }
+
+        /* Custom scrollbar for dropdown */
+        .dropdown-menu::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        .dropdown-menu::-webkit-scrollbar-thumb {
+            background-color: #ccc;
+            border-radius: 4px;
+        }
+
+        .dropdown-menu::-webkit-scrollbar-thumb:hover {
+            background-color: #bbb;
+        }
+
+        /* Charts Styling */
+        .stats,
+        .charts,
+        .metrics,
+        .survey {
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 10px;
+        }
+
+        .stat-item,
+        .metric-item,
+        .survey-item {
+            background-color: #f7f9fc;
+            border-radius: 10px;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .stats .stat-item,
+        .metrics .metric-item,
+        .survey .survey-item {
+            width: 23%;
+        }
+
+        .chart-item {
+            width: 49%;
+            background-color: #f7f9fc;
+            border-radius: 10px;
+            padding: 10px;
+
+        }
+
+        #statusChart {
+            width: 49% !important;
+            margin: auto;
+        }
+
+        /* Table Styling */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .table-container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        tbody tr:hover {
+            background-color: #024CAA;
+            color: #fff;
+        }
+
+        tr:nth-child(even) {
+            background-color: #ecf0f1;
+        }
+
+        tr:nth-child(odd) {
+            background-color: #ffffff;
+        }
+
+        th,
+        td {
+            padding: 7px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+
+        .poject_info tr {
+            background-color: #ecf0f1;
+        }
+
+        /* Small Tables Styling */
+        .small-table {
+            width: 32%;
+        }
+
+        .small-table th {
+            color: #fff;
+            padding: 5px;
+            text-align: Center;
+            border: 1px solid #ddd;
+            font-size: Small;
+        }
+
+        .small-table td {
+            font-size: Small;
+        }
+
+        .tasks th {
+            background-color: #27ae60;
+        }
+
+        .risks th {
+            background-color: #e74c3c;
+        }
+
+        .issues th {
+            background-color: #2980b9;
+        }
+
+        /* Expandable row styling */
+        .hidden-rows {
+            display: none;
+        }
+
+        .expand-button {
+            margin-top: 10px;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="dashboard">
+        <h2 style="color:rgb(38, 172, 217);padding-bottom:15px;">Weekly Status Report (WSR)</h2>
+
+        <div>
+            <label for="projectSelect">Select Project:</label>
+            <select id="projectSelect" onchange="loadProjectDetails(this.value)">
+                <option value="">Select a project</option>
+            </select>
+        </div>
+
+        <hr class="hr-style">
+
+        <!-- Project Info Table -->
+        <h4 style="display: inline-block;">Project Information</h4>
+        <span style="float: right; color:orange;">
+            <span style="color:#004d66;">From: </span>
+            <span id="firstDay" style="font-weight:bold;"></span>
+            <span style="color:#004d66;">To: </span>
+            <span id="lastDay" style="font-weight:bold;"></span>
+        </span>
+
+        <table class="project_info">
+            <tbody>
+                <tr>
+                    <td><b>Project Name: </b><span id="projectName"></span></td>
+                    <td><b>Project Manager Name: </b><span id="projectManager"></span></td>
+                </tr>
+                <tr>
+                    <td><b>Customer Name: </b><span id="customerName"></span></td>
+                    <td><b>Expected End Date: </b><span id="expectedEndDate"></span></td>
+                </tr>
+                <tr>
+                    <td><b>Project Status: </b><span id="projectStatus"></span></td>
+                    <td><b>% Completed: </b><span id="completionPercentage"></span></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Header -->
+        <h4>Priority Overview</h4>
+        <!-- Stats -->
+        <div class="stats">
+            <div class="stat-item">
+                <h3 id="urgent" style="color:red;"></h3>
+                <p>Urgent</p>
+            </div>
+            <div class="stat-item">
+                <h3 id="high" style="color:orange;"></h3>
+                <p>High</p>
+            </div>
+            <div class="stat-item">
+                <h3 id="medium" style="color:blue;"></h3>
+                <p>Medium</p>
+            </div>
+            <div class="stat-item">
+                <h3 id="low" style="color:green;"></h3>
+                <p>Low</p>
+            </div>
+        </div>
+
+        <!-- Charts -->
+        <div class="charts">
+            <div class="chart-item">
+                <h4 style="color:#004d66;">Work Left To Do vs. Time</h4>
+                <div id="funnelChart"></div>
+            </div>
+            <div class="chart-item">
+                <h4 style="color:#004d66;">Overall Progress</h4>
+                <div id="timelineChart"></div>
+            </div>
+
+        </div>
+        <div class="charts">
+
+            <div class="chart-item">
+                <h4 style="color:#004d66;">Task Status Distribution</h4>
+                <div id="sourceChart"></div>
+            </div>
+            <div class="chart-item">
+                <h4 style="color:#004d66;">Resource Allocation</h4>
+                <div id="funnelChart2"></div>
+            </div>
+        </div>
+
+
+
+        <!-- Small Tables Section -->
+        <div class="table-container">
+            <!-- Tasks List Table -->
+            <div class="small-table tasks">
+                <h4 style="color:#004d66;">Tasks List</h4>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Task</th>
+                            <th>Priority</th>
+                            <th>Expected End Date</th>
+                            <th>% Completed</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+                <button class="expand-button" onclick="toggleRows(this)">Show More</button>
+            </div>
+
+            <!-- Risks Log Table -->
+            <div class="small-table risks">
+                <h4 style="color:#004d66;">Risks Log</h4>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Risk</th>
+                            <th>Priority</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+                <button class="expand-button" onclick="toggleRows(this)">Show More</button>
+            </div>
+
+            <!-- Issues Log Table -->
+            <div class="small-table issues">
+                <h4 style="color:#004d66;">Issues Log</h4>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Issue</th>
+                            <th>Priority</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+                <button class="expand-button" onclick="toggleRows(this)">Show More</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

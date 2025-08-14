@@ -1,0 +1,88 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-09-04 13:38:23.913629",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_eeul",
+  "action",
+  "responsible_party",
+  "expected_completion_date",
+  "column_break_yqjt",
+  "milestone",
+  "priority",
+  "section_break_zdqn",
+  "description"
+ ],
+ "fields": [
+  {
+   "fieldname": "action",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Action",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_eeul",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "expected_completion_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Expected Completion Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_yqjt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "priority",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Priority",
+   "options": "Critical\nHigh\nMedium\nLow"
+  },
+  {
+   "fieldname": "milestone",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Milestone",
+   "link_filters": "[[\"Task\",\"is_milestone\",\"=\",1]]",
+   "options": "Task",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_zdqn",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "label": "Description"
+  },
+  {
+   "fieldname": "responsible_party",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Responsible Party",
+   "options": "Stakeholder Party",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-12-02 17:10:32.102277",
+ "modified_by": "Administrator",
+ "module": "Project Module",
+ "name": "Actions",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

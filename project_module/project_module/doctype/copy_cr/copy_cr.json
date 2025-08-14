@@ -1,0 +1,569 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:RFC-{#####}-CM-{YYYY}",
+ "creation": "2025-08-12 12:19:04.136118",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "is_test_data",
+  "title",
+  "cd0_section0",
+  "cr_type",
+  "column0_cd0_section0",
+  "urgency",
+  "column1_cd0_section0",
+  "business_change_category",
+  "cd0_section1",
+  "nature_of_change",
+  "column_cd0_section1_1",
+  "business_justification",
+  "column_cd0_section1_2",
+  "impact",
+  "cd1_section",
+  "requester",
+  "column_cd1_section1",
+  "requester_manager",
+  "column_cd1_section2",
+  "requester_group_manager",
+  "not_started_tab",
+  "manager_impact_assessment",
+  "column_cd2_section0",
+  "manager_alternatives",
+  "column_cd2_section1",
+  "manager_recommendation",
+  "open_tab",
+  "project_planning_sb",
+  "relationship_manager",
+  "business_solution_team",
+  "project_planning_sh",
+  "stakeholders",
+  "charter_1",
+  "charter_instance",
+  "plan_section",
+  "plan_instance",
+  "assigning_tab",
+  "tasks",
+  "under_development_tab",
+  "risk_log",
+  "issue_log",
+  "sit_tab",
+  "test_case_log_sit",
+  "uat_tab",
+  "test_case_log_uat",
+  "deployment_tab",
+  "deployment_plans",
+  "dp_attachment",
+  "rbp_attachment",
+  "is_rolled_back",
+  "pir_tab",
+  "pir_details",
+  "closure_tab",
+  "finalized_on",
+  "lessons_learned",
+  "s_section",
+  "requester_signature",
+  "column_break0_sig",
+  "rm_signature",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "default": "0",
+   "fieldname": "is_test_data",
+   "fieldtype": "Check",
+   "label": "Is Test Data"
+  },
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Title",
+   "reqd": 1
+  },
+  {
+   "fieldname": "cd0_section0",
+   "fieldtype": "Section Break",
+   "label": "Change Details"
+  },
+  {
+   "fieldname": "cr_type",
+   "fieldtype": "Select",
+   "label": "CR Type",
+   "options": "Business Change\nInfrastructure Standard Change\nEmergency Change",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column0_cd0_section0",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "urgency",
+   "fieldtype": "Select",
+   "label": "Urgency",
+   "options": "Low\nMedium\nHigh\nCritical",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column1_cd0_section0",
+   "fieldtype": "Column Break"
+  },
+  {
+   "depends_on": "eval:doc.cr_type=='Business Change'",
+   "fieldname": "business_change_category",
+   "fieldtype": "Select",
+   "label": "Business Change Category",
+   "options": "Minor\nMajor\nSignificant",
+   "reqd": 1
+  },
+  {
+   "fieldname": "cd0_section1",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "nature_of_change",
+   "fieldtype": "Text Editor",
+   "label": "Nature of Change",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_cd0_section1_1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "business_justification",
+   "fieldtype": "Text Editor",
+   "label": "Business Justification",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_cd0_section1_2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "impact",
+   "fieldtype": "Text Editor",
+   "label": "Impact",
+   "reqd": 1
+  },
+  {
+   "fieldname": "cd1_section",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "__user",
+   "fieldname": "requester",
+   "fieldtype": "Link",
+   "label": "Requester",
+   "options": "User",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_cd1_section1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "requester_manager",
+   "fieldtype": "Link",
+   "label": "Requester's Manager",
+   "options": "User",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_cd1_section2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "requester_group_manager",
+   "fieldtype": "Link",
+   "label": "Requester's Group Manager",
+   "options": "User"
+  },
+  {
+   "fieldname": "not_started_tab",
+   "fieldtype": "Tab Break",
+   "label": "Not Started"
+  },
+  {
+   "fieldname": "manager_impact_assessment",
+   "fieldtype": "Text Editor",
+   "label": "Assessment of Impact"
+  },
+  {
+   "fieldname": "column_cd2_section0",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "manager_alternatives",
+   "fieldtype": "Text Editor",
+   "label": "Alternative Solutions Considered"
+  },
+  {
+   "fieldname": "column_cd2_section1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "manager_recommendation",
+   "fieldtype": "Text Editor",
+   "label": "Manager's Recommendation"
+  },
+  {
+   "fieldname": "open_tab",
+   "fieldtype": "Tab Break",
+   "label": "Open"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "project_planning_sb",
+   "fieldtype": "Section Break",
+   "label": "Project Assignment"
+  },
+  {
+   "fieldname": "relationship_manager",
+   "fieldtype": "Link",
+   "label": "Relationship Manager",
+   "options": "User"
+  },
+  {
+   "fieldname": "business_solution_team",
+   "fieldtype": "Link",
+   "label": "Business Solution Team",
+   "options": "Team"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "project_planning_sh",
+   "fieldtype": "Section Break",
+   "label": "Stake Holders"
+  },
+  {
+   "fieldname": "stakeholders",
+   "fieldtype": "Table",
+   "label": "Stakeholder Register",
+   "options": "CR Stakeholder"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "charter_1",
+   "fieldtype": "Section Break",
+   "label": "Charter"
+  },
+  {
+   "fieldname": "charter_instance",
+   "fieldtype": "Link",
+   "options": "Charter"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "plan_section",
+   "fieldtype": "Section Break",
+   "label": "Plan"
+  },
+  {
+   "fieldname": "plan_instance",
+   "fieldtype": "Link",
+   "options": "CR Project"
+  },
+  {
+   "fieldname": "assigning_tab",
+   "fieldtype": "Tab Break",
+   "label": "Assigning"
+  },
+  {
+   "fieldname": "tasks",
+   "fieldtype": "Table",
+   "label": "Tasks",
+   "options": "CR Task Link"
+  },
+  {
+   "fieldname": "under_development_tab",
+   "fieldtype": "Tab Break",
+   "label": "Under Development"
+  },
+  {
+   "fieldname": "risk_log",
+   "fieldtype": "Table",
+   "label": "Risk Log",
+   "options": "CR Risk Log"
+  },
+  {
+   "fieldname": "issue_log",
+   "fieldtype": "Table",
+   "label": "Issue Log",
+   "options": "CR Issue Log"
+  },
+  {
+   "fieldname": "sit_tab",
+   "fieldtype": "Tab Break",
+   "label": "System Integration Testing (SIT)"
+  },
+  {
+   "fieldname": "test_case_log_sit",
+   "fieldtype": "Table",
+   "label": "SIT Test Log",
+   "options": "Test Case Log"
+  },
+  {
+   "fieldname": "uat_tab",
+   "fieldtype": "Tab Break",
+   "label": "User Acceptance Testing (UAT)"
+  },
+  {
+   "fieldname": "test_case_log_uat",
+   "fieldtype": "Table",
+   "label": "UAT Test Log",
+   "options": "Test Case Log"
+  },
+  {
+   "fieldname": "deployment_tab",
+   "fieldtype": "Tab Break",
+   "label": "Deployment"
+  },
+  {
+   "fieldname": "deployment_plans",
+   "fieldtype": "Table",
+   "label": "Deployment Plans",
+   "options": "Deployment Plan Link"
+  },
+  {
+   "fieldname": "dp_attachment",
+   "fieldtype": "Attach",
+   "label": "Deployment Plan Attach"
+  },
+  {
+   "fieldname": "rbp_attachment",
+   "fieldtype": "Attach",
+   "label": "Rollback Plan Attach"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_rolled_back",
+   "fieldtype": "Check",
+   "label": "Was Rollback Required?"
+  },
+  {
+   "fieldname": "pir_tab",
+   "fieldtype": "Tab Break",
+   "label": "Post Implementation Review (PIR)"
+  },
+  {
+   "fieldname": "pir_details",
+   "fieldtype": "Table",
+   "label": "PIR Details",
+   "options": "PIR Criterion"
+  },
+  {
+   "fieldname": "closure_tab",
+   "fieldtype": "Tab Break",
+   "label": "Closure"
+  },
+  {
+   "fieldname": "finalized_on",
+   "fieldtype": "Datetime",
+   "label": "Finalized On"
+  },
+  {
+   "fieldname": "lessons_learned",
+   "fieldtype": "Text Editor",
+   "label": "Lessons Learned"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "s_section",
+   "fieldtype": "Section Break",
+   "label": "Signatures"
+  },
+  {
+   "fieldname": "requester_signature",
+   "fieldtype": "Signature",
+   "label": "Requester Signature"
+  },
+  {
+   "fieldname": "column_break0_sig",
+   "fieldtype": "Column Break",
+   "print_width": "50%",
+   "width": "50%"
+  },
+  {
+   "fieldname": "rm_signature",
+   "fieldtype": "Signature",
+   "label": "RM signature"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "copy CR",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2025-08-12 12:19:04.136118",
+ "modified_by": "Administrator",
+ "module": "Project Module",
+ "name": "copy CR",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "amend": 1,
+   "cancel": 1,
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Requester",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Requester Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Requester's Group Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "CAC Member",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Business Solution Team Member",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "ITGC Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "IT Assurance Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "IT Assurance Team",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Deployer",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  },
+  {
+   "cancel": 1,
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Infrastructure Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "title",
+ "track_changes": 1
+}

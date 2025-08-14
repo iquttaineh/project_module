@@ -1,0 +1,103 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-12-05 11:10:32.060677",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "risk_level",
+  "risk_description",
+  "response_time_hours",
+  "resolve_time_hours",
+  "column_break_ajvj",
+  "customer_escalate_to",
+  "customer_party_name",
+  "service_provider_escalate_to",
+  "service_provider_party_name"
+ ],
+ "fields": [
+  {
+   "fieldname": "risk_level",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Risk Level",
+   "options": "Risk Levels",
+   "reqd": 1
+  },
+  {
+   "fetch_from": "risk_level.risk_description",
+   "fieldname": "risk_description",
+   "fieldtype": "Data",
+   "label": "Risk Description",
+   "reqd": 1
+  },
+  {
+   "fetch_from": "risk_level.response_time",
+   "fieldname": "response_time_hours",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Response Time (hours)",
+   "non_negative": 1,
+   "precision": "0",
+   "reqd": 1
+  },
+  {
+   "fetch_from": "risk_level.resolve_time",
+   "fieldname": "resolve_time_hours",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Resolve Time (hours)",
+   "non_negative": 1,
+   "precision": "0",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_ajvj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "risk_level.customer_escalate_to",
+   "fieldname": "customer_escalate_to",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Customer Escalate to",
+   "options": "Stakeholder Type",
+   "reqd": 1
+  },
+  {
+   "fetch_from": "risk_level.customer_party_name",
+   "fieldname": "customer_party_name",
+   "fieldtype": "Data",
+   "label": "Customer Party Name"
+  },
+  {
+   "fetch_from": "risk_level.service_provider_party_name",
+   "fieldname": "service_provider_party_name",
+   "fieldtype": "Link",
+   "label": "Service Provider Party Name",
+   "options": "Employee"
+  },
+  {
+   "fetch_from": "risk_level.service_provider_escalate_to",
+   "fieldname": "service_provider_escalate_to",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Service Provider Escalate to",
+   "options": "Stakeholder Type",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-12-05 11:22:42.782409",
+ "modified_by": "Administrator",
+ "module": "Project Module",
+ "name": "Risk Levels Child",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

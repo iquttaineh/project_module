@@ -1,0 +1,110 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-09-03 12:18:04.830381",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "risk_level",
+  "risk_description",
+  "response_time",
+  "resolve_time",
+  "column_break_aayr",
+  "customer_escalate_to",
+  "customer_party_name",
+  "service_provider_escalate_to",
+  "service_provider_party_name"
+ ],
+ "fields": [
+  {
+   "fieldname": "risk_level",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Risk Level",
+   "options": "Low\nMedium\nHigh\nCritical",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_aayr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "response_time",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Response Time (hours)",
+   "non_negative": 1,
+   "precision": "0",
+   "reqd": 1
+  },
+  {
+   "fieldname": "risk_description",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Risk Description",
+   "reqd": 1
+  },
+  {
+   "fieldname": "customer_escalate_to",
+   "fieldtype": "Link",
+   "label": "Customer Escalate to",
+   "options": "Stakeholder Type",
+   "reqd": 1
+  },
+  {
+   "fieldname": "service_provider_escalate_to",
+   "fieldtype": "Link",
+   "label": "Service Provider Escalate to",
+   "options": "Stakeholder Type",
+   "reqd": 1
+  },
+  {
+   "fieldname": "customer_party_name",
+   "fieldtype": "Data",
+   "label": "Customer Party Name"
+  },
+  {
+   "fieldname": "service_provider_party_name",
+   "fieldtype": "Link",
+   "label": "Service Provider Party Name",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "resolve_time",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Resolve Time (hours)",
+   "non_negative": 1,
+   "precision": "0",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-12-05 11:17:07.266798",
+ "modified_by": "Administrator",
+ "module": "Project Module",
+ "name": "Risk Levels",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "show_title_field_in_link": 1,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "risk_level",
+ "translated_doctype": 1
+}

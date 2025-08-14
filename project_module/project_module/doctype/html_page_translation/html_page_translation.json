@@ -1,0 +1,71 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-12-23 15:06:01.236165",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "html_page",
+  "label_id",
+  "column_break_qzot",
+  "english_desc",
+  "arabic_desc"
+ ],
+ "fields": [
+  {
+   "fieldname": "label_id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Label ID",
+   "reqd": 1
+  },
+  {
+   "fieldname": "english_desc",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "English Desc",
+   "reqd": 1
+  },
+  {
+   "fieldname": "arabic_desc",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Arabic Desc",
+   "reqd": 1
+  },
+  {
+   "fieldname": "html_page",
+   "fieldtype": "Data",
+   "label": "HTML Page",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_qzot",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-12-23 16:20:22.388210",
+ "modified_by": "Administrator",
+ "module": "Project Module",
+ "name": "HTML Page Translation",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

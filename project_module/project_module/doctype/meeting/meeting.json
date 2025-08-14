@@ -1,0 +1,199 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:MT-{YYYY}-{MM}--{####}",
+ "creation": "2024-09-04 13:30:49.646740",
+ "default_email_template": "Minutes of Meeting",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "meeting_schedule",
+  "meeting_info_section",
+  "party_type1",
+  "party",
+  "meeting_date",
+  "venue",
+  "is_online",
+  "column_break_bney",
+  "project",
+  "meeting_arranged_by",
+  "meeting_agenda",
+  "section_break_akpj",
+  "attendees",
+  "meeting_discussion",
+  "actions",
+  "section_break_wuvq",
+  "contact_person",
+  "contact_person_role",
+  "column_break_tczc",
+  "contact_date",
+  "contact_subject"
+ ],
+ "fields": [
+  {
+   "fieldname": "meeting_schedule",
+   "fieldtype": "Link",
+   "label": "Meeting Schedule",
+   "options": "Meeting Schedule",
+   "reqd": 1
+  },
+  {
+   "fieldname": "meeting_info_section",
+   "fieldtype": "Section Break",
+   "label": "Meeting Info"
+  },
+  {
+   "fetch_from": "meeting_schedule.scheduled_from",
+   "fieldname": "meeting_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Meeting Date",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "meeting_schedule.party_type1",
+   "fieldname": "party_type1",
+   "fieldtype": "Link",
+   "label": "Party Type",
+   "link_filters": "[[\"DocType\",\"name\",\"in\",[\"Customer\",\"Lead\"]]]",
+   "options": "DocType",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "meeting_schedule.project",
+   "fieldname": "project",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Project",
+   "options": "Project",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_bney",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "meeting_schedule.meeting_arranged_by",
+   "fieldname": "meeting_arranged_by",
+   "fieldtype": "Link",
+   "label": "Meeting Arranged By",
+   "options": "Project Members",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "meeting_schedule.party",
+   "fieldname": "party",
+   "fieldtype": "Dynamic Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Party",
+   "options": "party_type1",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "meeting_schedule.meeting_agenda",
+   "fieldname": "meeting_agenda",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "Meeting Agenda",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_akpj",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "attendees",
+   "fieldtype": "Table",
+   "label": "Attendees",
+   "options": "Attendees"
+  },
+  {
+   "fieldname": "meeting_discussion",
+   "fieldtype": "Text Editor",
+   "label": "Meeting Discussion",
+   "reqd": 1
+  },
+  {
+   "fieldname": "actions",
+   "fieldtype": "Table",
+   "label": "Actions",
+   "options": "Actions"
+  },
+  {
+   "fieldname": "section_break_wuvq",
+   "fieldtype": "Section Break",
+   "label": "Next Contact Details"
+  },
+  {
+   "fieldname": "column_break_tczc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "meeting_schedule.venue",
+   "fieldname": "venue",
+   "fieldtype": "Data",
+   "label": "Venue",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fetch_from": "meeting_schedule.is_online",
+   "fieldname": "is_online",
+   "fieldtype": "Check",
+   "label": "Is Online",
+   "read_only": 1
+  },
+  {
+   "fieldname": "contact_date",
+   "fieldtype": "Date",
+   "label": "Contact Date"
+  },
+  {
+   "fieldname": "contact_subject",
+   "fieldtype": "Small Text",
+   "label": "Contact Subject"
+  },
+  {
+   "fieldname": "contact_person",
+   "fieldtype": "Link",
+   "label": "Contact Person",
+   "options": "Project Members"
+  },
+  {
+   "fetch_from": "contact_person.role__responsibility",
+   "fieldname": "contact_person_role",
+   "fieldtype": "Small Text",
+   "label": "Contact Person Role"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-12-22 13:09:02.834113",
+ "modified_by": "Administrator",
+ "module": "Project Module",
+ "name": "Meeting",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "meeting_schedule",
+ "track_changes": 1
+}

@@ -1,0 +1,273 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{change_request}-{release_name}-{release_number}",
+ "creation": "2025-08-06 11:09:41.603864",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_fffw",
+  "change_request",
+  "column_break_zyqr",
+  "cr_type",
+  "column_break_aino",
+  "urgency",
+  "column_break_ybeh",
+  "business_change_category",
+  "deployment_description_section",
+  "affected_systems",
+  "release_details",
+  "section_break_eoef",
+  "deployment_date_time",
+  "column_break_lwgw",
+  "estimated_time_hours",
+  "section_break_alvy",
+  "risks_log",
+  "section_break_rpus",
+  "deployemnt_rollout_and_resources",
+  "deployment_requirement",
+  "service_impact",
+  "section_break_icve",
+  "deployment_communication_plan_column",
+  "communicate_with",
+  "rollback_plan_section",
+  "rollbackplan",
+  "approval_and_authorization_section",
+  "deployment_team_head",
+  "column_break_lijh",
+  "business_solution_head",
+  "column_break_aoyq",
+  "it_assurance_head",
+  "column_break_ttnt",
+  "chied_information_officere",
+  "proof_attachements_section",
+  "table"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_fffw",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "change_request",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Change Request",
+   "options": "Change Request"
+  },
+  {
+   "fieldname": "column_break_zyqr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "change_request.cr_type",
+   "fetch_if_empty": 1,
+   "fieldname": "cr_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "CR Type",
+   "options": "Business Change\nInfrastructure Standard Change\nEmergency Change",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_aino",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "change_request.urgency",
+   "fetch_if_empty": 1,
+   "fieldname": "urgency",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Urgency",
+   "options": "Low\nMedium\nHigh\nCritical",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_ybeh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "change_request.business_change_category",
+   "fetch_if_empty": 1,
+   "fieldname": "business_change_category",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Business Change Category",
+   "options": "Minor\nMajor\nSignificant",
+   "read_only": 1
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "deployment_description_section",
+   "fieldtype": "Section Break",
+   "label": "Deployment Description"
+  },
+  {
+   "fieldname": "affected_systems",
+   "fieldtype": "Text",
+   "label": "Affected Systems"
+  },
+  {
+   "fieldname": "release_details",
+   "fieldtype": "Text",
+   "label": "Release Details"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "section_break_eoef",
+   "fieldtype": "Section Break",
+   "label": "Deployment Summary"
+  },
+  {
+   "fieldname": "deployment_date_time",
+   "fieldtype": "Datetime",
+   "label": "Deployment Date Time"
+  },
+  {
+   "fieldname": "column_break_lwgw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "estimated_time_hours",
+   "fieldtype": "Int",
+   "label": "Estimated Time (Hours)"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "section_break_alvy",
+   "fieldtype": "Section Break",
+   "label": "Deployment Risks"
+  },
+  {
+   "fieldname": "risks_log",
+   "fieldtype": "Table",
+   "label": "Risks Log",
+   "options": "IT Deployment Risk"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "section_break_rpus",
+   "fieldtype": "Section Break",
+   "label": "Deployment Rollout and Resources"
+  },
+  {
+   "fieldname": "deployemnt_rollout_and_resources",
+   "fieldtype": "Table",
+   "label": "Deployment Rollout and Resources",
+   "options": "DeploymentPlan"
+  },
+  {
+   "fieldname": "deployment_requirement",
+   "fieldtype": "Text",
+   "label": "Deployment Requirement"
+  },
+  {
+   "fieldname": "service_impact",
+   "fieldtype": "Text",
+   "label": "Service Impact"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "section_break_icve",
+   "fieldtype": "Section Break",
+   "label": "Deployment Communication Plan"
+  },
+  {
+   "fieldname": "deployment_communication_plan_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "communicate_with",
+   "fieldtype": "Text",
+   "label": "Communicate With"
+  },
+  {
+   "fieldname": "rollback_plan_section",
+   "fieldtype": "Section Break",
+   "label": "Rollback Plan"
+  },
+  {
+   "fieldname": "rollbackplan",
+   "fieldtype": "Table",
+   "label": "RollbackPlan",
+   "options": "rollbackPlan"
+  },
+  {
+   "fieldname": "approval_and_authorization_section",
+   "fieldtype": "Section Break",
+   "label": "Approval and Authorization"
+  },
+  {
+   "fieldname": "deployment_team_head",
+   "fieldtype": "Signature",
+   "label": "Deployment Team Head"
+  },
+  {
+   "fieldname": "column_break_lijh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "business_solution_head",
+   "fieldtype": "Signature",
+   "label": "Business Solution Head"
+  },
+  {
+   "fieldname": "column_break_aoyq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "it_assurance_head",
+   "fieldtype": "Signature",
+   "label": "IT Assurance Head"
+  },
+  {
+   "fieldname": "column_break_ttnt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "chied_information_officere",
+   "fieldtype": "Signature",
+   "label": "Chied Information Officere"
+  },
+  {
+   "fieldname": "proof_attachements_section",
+   "fieldtype": "Section Break",
+   "label": "Proof Attachements"
+  },
+  {
+   "fieldname": "table",
+   "fieldtype": "Table",
+   "label": "Table",
+   "options": "depolymentproof"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-08-13 10:00:00.628778",
+ "modified_by": "Administrator",
+ "module": "Project Module",
+ "name": "IT Change Deployement",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

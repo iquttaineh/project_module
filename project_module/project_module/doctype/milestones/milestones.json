@@ -1,0 +1,54 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-09-02 12:12:06.300179",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "milestones",
+  "column_break_iqdw",
+  "estimated_starting_date",
+  "estimated_completion_date"
+ ],
+ "fields": [
+  {
+   "fieldname": "milestones",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Milestone",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_iqdw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "estimated_completion_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Estimated Completion Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "estimated_starting_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Estimated Starting Date",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-12-22 11:00:41.325502",
+ "modified_by": "Administrator",
+ "module": "Project Module",
+ "name": "Milestones",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "milestones"
+}

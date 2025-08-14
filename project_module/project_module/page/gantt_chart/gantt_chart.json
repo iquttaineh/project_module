@@ -1,0 +1,19 @@
+{
+ "content": null,
+ "creation": "2024-12-23 17:23:04.938088",
+ "docstatus": 0,
+ "doctype": "Page",
+ "idx": 0,
+ "modified": "2024-12-23 17:23:04.938088",
+ "modified_by": "Administrator",
+ "module": "Project Module",
+ "name": "gantt-chart",
+ "owner": "Administrator",
+ "page_name": "gantt-chart",
+ "roles": [],
+ "script": null,
+ "standard": "Yes",
+ "style": null,
+ "system_page": 0,
+ "title": "Gantt"
+}

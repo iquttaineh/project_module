@@ -1,0 +1,66 @@
+[
+ {
+  "description_of_deliverable": "Completion of project charter, detailed project plan, and resource allocation.",
+  "docstatus": 0,
+  "doctype": "Payment Against",
+  "modified": "2024-10-21 11:38:34.751718",
+  "name": "pc8q4b5iac",
+  "payment_against": "Project Initiation & Planning"
+ },
+ {
+  "description_of_deliverable": "Delivery of finalized requirement specification document, user stories, and acceptance criteria.",
+  "docstatus": 0,
+  "doctype": "Payment Against",
+  "modified": "2024-10-21 11:38:50.207206",
+  "name": "pd4slbvn9d",
+  "payment_against": "Requirements Gathering & Analysis"
+ },
+ {
+  "description_of_deliverable": "Completion of wireframes, user interface design prototypes, and approval from key stakeholders.",
+  "docstatus": 0,
+  "doctype": "Payment Against",
+  "modified": "2024-10-21 11:39:01.996127",
+  "name": "pd85bbipr3",
+  "payment_against": "UI/UX Design Completion"
+ },
+ {
+  "description_of_deliverable": "Completion of backend and frontend core features, including project template creation, user authentication, and roles.",
+  "docstatus": 0,
+  "doctype": "Payment Against",
+  "modified": "2024-10-21 11:39:13.307365",
+  "name": "pdd8si64as",
+  "payment_against": "Application Architecture & Development"
+ },
+ {
+  "description_of_deliverable": "Completion of advanced functionalities like reporting, collaboration tools, and project management features.",
+  "docstatus": 0,
+  "doctype": "Payment Against",
+  "modified": "2024-10-21 11:39:25.158753",
+  "name": "pdhfcehced",
+  "payment_against": "Development"
+ },
+ {
+  "description_of_deliverable": "Successful completion of system and integration testing, user acceptance testing (UAT) started, and bug fixes applied.",
+  "docstatus": 0,
+  "doctype": "Payment Against",
+  "modified": "2024-10-21 11:39:35.429924",
+  "name": "pdlrb0ouq9",
+  "payment_against": "System Testing & Quality Assurance"
+ },
+ {
+  "description_of_deliverable": "Deployment of the application in production environment and completion of all user training and documentation.",
+  "docstatus": 0,
+  "doctype": "Payment Against",
+  "modified": "2024-10-21 11:39:46.616499",
+  "name": "pdqsjqeq26",
+  "payment_against": "Deployment & Go-Live"
+ },
+ {
+  "description_of_deliverable": "Completion of 1-month post-launch support, including monitoring and addressing any critical issues.",
+  "docstatus": 0,
+  "doctype": "Payment Against",
+  "modified": "2024-10-21 11:39:57.283235",
+  "name": "pdund1kkvj",
+  "payment_against": "Post-Implementation Support"
+ }
+]
