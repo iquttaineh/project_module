@@ -11,6 +11,7 @@
   "requested_by",
   "change_type",
   "urgency",
+  "requester_manager",
   "column_break_fmng",
   "project",
   "request_date",
@@ -109,7 +110,7 @@
    "label": "Manager's Recommendation"
   },
   {
-   "depends_on": "eval: frappe.user.has_role(\"Relationship Manager\");",
+   "depends_on": "eval:frappe.user.has_role(\"Relationship Manager\") && doc.relationship_manager_rm === frappe.session.user\r\n",
    "fieldname": "open_tab",
    "fieldtype": "Tab Break",
    "label": "Open"
@@ -143,7 +144,7 @@
    "options": "CR Issue Log"
   },
   {
-   "depends_on": "eval: frappe.user.has_role(\"Dev Team Member\");",
+   "depends_on": "eval: frappe.user.has_role(\"Dev Team Member\")||frappe.user.has_role(\"Dev Team Member\");",
    "fieldname": "sit_tab",
    "fieldtype": "Tab Break",
    "label": "System Integration Testing (SIT)"
@@ -350,13 +351,19 @@
    "fieldtype": "Table",
    "label": "Deployment Link",
    "options": "deployment link"
+  },
+  {
+   "fieldname": "requester_manager",
+   "fieldtype": "Link",
+   "label": "Requester's Manager",
+   "options": "User"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-08-17 14:01:04.233696",
+ "modified": "2025-08-18 13:18:08.836914",
  "modified_by": "Administrator",
  "module": "Project Module",
  "name": "Change Request",

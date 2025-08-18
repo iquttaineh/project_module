@@ -51,16 +51,16 @@
  {
   "docstatus": 0,
   "doctype": "Workflow Action Master",
-  "modified": "2025-08-06 11:09:47.447427",
-  "name": "Open CR",
-  "workflow_action_name": "Open CR"
+  "modified": "2025-08-06 11:09:47.471053",
+  "name": "Move to SIT",
+  "workflow_action_name": "Move to SIT"
  },
  {
   "docstatus": 0,
   "doctype": "Workflow Action Master",
-  "modified": "2025-08-06 11:09:47.471053",
-  "name": "Move to SIT",
-  "workflow_action_name": "Move to SIT"
+  "modified": "2025-08-06 11:09:47.447427",
+  "name": "Open CR",
+  "workflow_action_name": "Open CR"
  },
  {
   "docstatus": 0,
@@ -86,13 +86,6 @@
  {
   "docstatus": 0,
   "doctype": "Workflow Action Master",
-  "modified": "2025-08-06 11:09:47.437442",
-  "name": "Move to UAT",
-  "workflow_action_name": "Move to UAT"
- },
- {
-  "docstatus": 0,
-  "doctype": "Workflow Action Master",
   "modified": "2025-08-06 11:09:47.452808",
   "name": "Complete Implementation",
   "workflow_action_name": "Complete Implementation"
@@ -114,16 +107,23 @@
  {
   "docstatus": 0,
   "doctype": "Workflow Action Master",
-  "modified": "2025-08-06 11:09:47.491245",
-  "name": "Confirm Close",
-  "workflow_action_name": "Confirm Close"
+  "modified": "2025-08-06 11:09:47.495248",
+  "name": "Log Deployment Complete",
+  "workflow_action_name": "Log Deployment Complete"
  },
  {
   "docstatus": 0,
   "doctype": "Workflow Action Master",
-  "modified": "2025-08-06 11:09:47.495248",
-  "name": "Log Deployment Complete",
-  "workflow_action_name": "Log Deployment Complete"
+  "modified": "2025-08-06 11:09:47.437442",
+  "name": "Move to UAT",
+  "workflow_action_name": "Move to UAT"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-08-06 11:09:47.505950",
+  "name": "Confirm Plan",
+  "workflow_action_name": "Confirm Plan"
  },
  {
   "docstatus": 0,
@@ -142,9 +142,9 @@
  {
   "docstatus": 0,
   "doctype": "Workflow Action Master",
-  "modified": "2025-08-06 11:09:47.505950",
-  "name": "Confirm Plan",
-  "workflow_action_name": "Confirm Plan"
+  "modified": "2025-08-06 11:09:47.491245",
+  "name": "Confirm Close",
+  "workflow_action_name": "Confirm Close"
  },
  {
   "docstatus": 0,

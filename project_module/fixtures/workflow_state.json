@@ -57,15 +57,6 @@
   "docstatus": 0,
   "doctype": "Workflow State",
   "icon": "",
-  "modified": "2025-08-06 11:09:47.308053",
-  "name": "Deployment Preparation",
-  "style": "",
-  "workflow_state_name": "Deployment Preparation"
- },
- {
-  "docstatus": 0,
-  "doctype": "Workflow State",
-  "icon": "",
   "modified": "2025-08-06 11:09:48.367576",
   "name": "Submitted for Approval",
   "style": "",
@@ -119,11 +110,20 @@
  {
   "docstatus": 0,
   "doctype": "Workflow State",
+  "icon": "ok-sign",
+  "modified": "2025-07-30 15:33:08.193152",
+  "name": "Approved",
+  "style": "Success",
+  "workflow_state_name": "Approved"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
   "icon": "",
-  "modified": "2025-08-03 13:09:53.484425",
-  "name": "Draft",
-  "style": "Primary",
-  "workflow_state_name": "Draft"
+  "modified": "2025-08-06 11:09:47.308053",
+  "name": "Deployment Preparation",
+  "style": "",
+  "workflow_state_name": "Deployment Preparation"
  },
  {
   "docstatus": 0,
@@ -133,15 +133,6 @@
   "name": "Review and Close",
   "style": "",
   "workflow_state_name": "Review and Close"
- },
- {
-  "docstatus": 0,
-  "doctype": "Workflow State",
-  "icon": "ok-sign",
-  "modified": "2025-07-30 15:33:08.193152",
-  "name": "Approved",
-  "style": "Success",
-  "workflow_state_name": "Approved"
  },
  {
   "docstatus": 0,
@@ -156,6 +147,15 @@
   "docstatus": 0,
   "doctype": "Workflow State",
   "icon": "",
+  "modified": "2025-08-03 13:09:53.484425",
+  "name": "Draft",
+  "style": "Primary",
+  "workflow_state_name": "Draft"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
   "modified": "2025-08-06 11:09:47.275529",
   "name": "Assigning",
   "style": "",
@@ -165,46 +165,10 @@
   "docstatus": 0,
   "doctype": "Workflow State",
   "icon": "",
-  "modified": "2025-08-06 11:09:47.266190",
-  "name": "CAC Review",
-  "style": "",
-  "workflow_state_name": "CAC Review"
- },
- {
-  "docstatus": 0,
-  "doctype": "Workflow State",
-  "icon": "",
   "modified": "2025-08-06 11:09:47.249097",
   "name": "Not Started",
   "style": "",
   "workflow_state_name": "Not Started"
- },
- {
-  "docstatus": 0,
-  "doctype": "Workflow State",
-  "icon": "",
-  "modified": "2025-08-06 11:09:47.231262",
-  "name": "Manager Review",
-  "style": "",
-  "workflow_state_name": "Manager Review"
- },
- {
-  "docstatus": 0,
-  "doctype": "Workflow State",
-  "icon": "",
-  "modified": "2025-08-06 11:09:47.293808",
-  "name": "System Integration Testing (SIT)",
-  "style": "",
-  "workflow_state_name": "System Integration Testing (SIT)"
- },
- {
-  "docstatus": 0,
-  "doctype": "Workflow State",
-  "icon": "",
-  "modified": "2025-08-06 11:09:47.321131",
-  "name": "Post Implementation Review (PIR)",
-  "style": "",
-  "workflow_state_name": "Post Implementation Review (PIR)"
  },
  {
   "docstatus": 0,
@@ -228,6 +192,24 @@
   "docstatus": 0,
   "doctype": "Workflow State",
   "icon": "",
+  "modified": "2025-08-06 11:09:47.321131",
+  "name": "Post Implementation Review (PIR)",
+  "style": "",
+  "workflow_state_name": "Post Implementation Review (PIR)"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-08-06 11:09:47.231262",
+  "name": "Manager Review",
+  "style": "",
+  "workflow_state_name": "Manager Review"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
   "modified": "2025-08-06 11:09:47.300681",
   "name": "User Acceptance Testing (UAT)",
   "style": "",
@@ -241,6 +223,24 @@
   "name": "Closure",
   "style": "",
   "workflow_state_name": "Closure"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-08-06 11:09:47.266190",
+  "name": "CAC Review",
+  "style": "",
+  "workflow_state_name": "CAC Review"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-08-06 11:09:47.293808",
+  "name": "System Integration Testing (SIT)",
+  "style": "",
+  "workflow_state_name": "System Integration Testing (SIT)"
  },
  {
   "docstatus": 0,
@@ -264,18 +264,18 @@
   "docstatus": 0,
   "doctype": "Workflow State",
   "icon": "",
-  "modified": "2025-08-06 11:09:47.340063",
-  "name": "Approvals",
+  "modified": "2025-08-06 11:09:47.358210",
+  "name": "Closed",
   "style": "",
-  "workflow_state_name": "Approvals"
+  "workflow_state_name": "Closed"
  },
  {
   "docstatus": 0,
   "doctype": "Workflow State",
   "icon": "",
-  "modified": "2025-08-06 11:09:47.358210",
-  "name": "Closed",
+  "modified": "2025-08-06 11:09:47.340063",
+  "name": "Approvals",
   "style": "",
-  "workflow_state_name": "Closed"
+  "workflow_state_name": "Approvals"
  }
 ]
