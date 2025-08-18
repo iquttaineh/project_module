@@ -71,7 +71,7 @@
 #     Ensures that all required Workflow States and Actions exist in the database.
 #     This function is wrapped in its own error handling.
 #     """
-#     try:
+# #    try:
 #         print("  - Ensuring Workflow States exist...")
 #         for state_name in state_names:
 #             if not frappe.db.exists("Workflow State", state_name):

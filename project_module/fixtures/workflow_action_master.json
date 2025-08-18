@@ -100,13 +100,6 @@
  {
   "docstatus": 0,
   "doctype": "Workflow Action Master",
-  "modified": "2025-08-06 11:09:47.478156",
-  "name": "Initiate Close",
-  "workflow_action_name": "Initiate Close"
- },
- {
-  "docstatus": 0,
-  "doctype": "Workflow Action Master",
   "modified": "2025-08-06 11:09:47.495248",
   "name": "Log Deployment Complete",
   "workflow_action_name": "Log Deployment Complete"
@@ -121,9 +114,9 @@
  {
   "docstatus": 0,
   "doctype": "Workflow Action Master",
-  "modified": "2025-08-06 11:09:47.505950",
-  "name": "Confirm Plan",
-  "workflow_action_name": "Confirm Plan"
+  "modified": "2025-08-06 11:09:47.478156",
+  "name": "Initiate Close",
+  "workflow_action_name": "Initiate Close"
  },
  {
   "docstatus": 0,
@@ -145,6 +138,13 @@
   "modified": "2025-08-06 11:09:47.491245",
   "name": "Confirm Close",
   "workflow_action_name": "Confirm Close"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-08-06 11:09:47.505950",
+  "name": "Confirm Plan",
+  "workflow_action_name": "Confirm Plan"
  },
  {
   "docstatus": 0,
