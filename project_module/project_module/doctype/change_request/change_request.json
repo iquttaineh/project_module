@@ -143,6 +143,7 @@
    "options": "CR Issue Log"
   },
   {
+   "depends_on": "eval: frappe.user.has_role(\"Dev Team Member\");",
    "fieldname": "sit_tab",
    "fieldtype": "Tab Break",
    "label": "System Integration Testing (SIT)"
@@ -151,7 +152,7 @@
    "fieldname": "test_case_log_sit",
    "fieldtype": "Table",
    "label": "SIT Test Log",
-   "options": "Test Case Log"
+   "options": "CR SIT Link"
   },
   {
    "fieldname": "uat_tab",
@@ -162,7 +163,7 @@
    "fieldname": "test_case_log_uat",
    "fieldtype": "Table",
    "label": "UAT Test Log",
-   "options": "Test Case Log"
+   "options": "CR UAT Link"
   },
   {
    "fieldname": "deployment_tab",
@@ -304,7 +305,7 @@
    "label": "Manager's Review"
   },
   {
-   "depends_on": "eval: frappe.user.has_role(\"Business Solution Team Manager\");",
+   "depends_on": "eval: frappe.user.has_role(\"Business Solution Team Manager\") || frappe.user.has_role(\"Requester's Group Manager\") ;",
    "fieldname": "assign_rm_tab",
    "fieldtype": "Tab Break",
    "label": "Assign RM"
@@ -355,7 +356,7 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-08-13 15:09:02.762494",
+ "modified": "2025-08-17 14:01:04.233696",
  "modified_by": "Administrator",
  "module": "Project Module",
  "name": "Change Request",
@@ -518,6 +519,35 @@
    "read": 1,
    "report": 1,
    "role": "Infrastructure Team",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  },
+  {
+   "amend": 1,
+   "cancel": 1,
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Administrator",
+   "select": 1,
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Dev Team Member",
    "share": 1,
    "submit": 1,
    "write": 1

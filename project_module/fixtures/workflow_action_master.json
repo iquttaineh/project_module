@@ -1,0 +1,170 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-07-30 15:33:08.242786",
+  "name": "Review",
+  "workflow_action_name": "Review"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-08-03 13:31:45.503030",
+  "name": "Edit",
+  "workflow_action_name": "Edit"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-08-06 11:09:48.641470",
+  "name": "Cancel Task",
+  "workflow_action_name": "Cancel Task"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-08-06 11:09:48.644761",
+  "name": "Mark as Completed",
+  "workflow_action_name": "Mark as Completed"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-08-06 11:09:48.646511",
+  "name": "Start Task",
+  "workflow_action_name": "Start Task"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-08-17 17:08:38.072900",
+  "name": "Feedback",
+  "workflow_action_name": "Feedback"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-08-18 10:17:00.545502",
+  "name": "Approved by Deployer",
+  "workflow_action_name": "Approved by Deployer"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-08-06 11:09:47.447427",
+  "name": "Open CR",
+  "workflow_action_name": "Open CR"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-08-06 11:09:47.471053",
+  "name": "Move to SIT",
+  "workflow_action_name": "Move to SIT"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-08-06 11:09:47.484698",
+  "name": "Reopen",
+  "workflow_action_name": "Reopen"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-08-06 11:09:47.499409",
+  "name": "Assign RM",
+  "workflow_action_name": "Assign RM"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-08-06 11:09:47.399374",
+  "name": "Ready for Deployment",
+  "workflow_action_name": "Ready for Deployment"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-08-06 11:09:47.437442",
+  "name": "Move to UAT",
+  "workflow_action_name": "Move to UAT"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-08-06 11:09:47.452808",
+  "name": "Complete Implementation",
+  "workflow_action_name": "Complete Implementation"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-08-06 11:09:47.461861",
+  "name": "Close CR",
+  "workflow_action_name": "Close CR"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-08-06 11:09:47.478156",
+  "name": "Initiate Close",
+  "workflow_action_name": "Initiate Close"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-08-06 11:09:47.491245",
+  "name": "Confirm Close",
+  "workflow_action_name": "Confirm Close"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-08-06 11:09:47.495248",
+  "name": "Log Deployment Complete",
+  "workflow_action_name": "Log Deployment Complete"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-08-03 13:24:52.018793",
+  "name": "Submit for Approval",
+  "workflow_action_name": "Submit for Approval"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-08-06 11:09:47.442881",
+  "name": "Approve UAT",
+  "workflow_action_name": "Approve UAT"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-08-06 11:09:47.505950",
+  "name": "Confirm Plan",
+  "workflow_action_name": "Confirm Plan"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-08-06 11:09:47.511132",
+  "name": "Submit for Review",
+  "workflow_action_name": "Submit for Review"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-07-30 15:33:08.237416",
+  "name": "Approve",
+  "workflow_action_name": "Approve"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-07-30 15:33:08.239808",
+  "name": "Reject",
+  "workflow_action_name": "Reject"
+ }
+]

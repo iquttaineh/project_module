@@ -108,6 +108,7 @@
   {
    "fieldname": "creation_date",
    "fieldtype": "Date",
+   "in_list_view": 1,
    "label": "Creation Date",
    "reqd": 1
   },
@@ -122,7 +123,7 @@
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2025-08-12 16:26:40.293014",
+ "modified": "2025-08-14 13:24:12.126250",
  "modified_by": "Administrator",
  "module": "Project Module",
  "name": "IT Deployment Risk",

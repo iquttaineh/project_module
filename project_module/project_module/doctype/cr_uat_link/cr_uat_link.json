@@ -1,0 +1,35 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-08-17 13:59:21.143405",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "uat"
+ ],
+ "fields": [
+  {
+   "fieldname": "uat",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "UAT",
+   "options": "Test Case Log",
+   "reqd": 1
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-08-17 14:00:41.484951",
+ "modified_by": "Administrator",
+ "module": "Project Module",
+ "name": "CR UAT Link",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

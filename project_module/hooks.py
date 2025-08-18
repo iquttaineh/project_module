@@ -247,15 +247,169 @@ web_include_css = "/MyPage/wsr_styles.css"
 # }
 
 fixtures = [
-    "Project Charter", "Meeting", "Meeting Schedule", "Attendees", "Members", 
-    "Project Members", "Stakeholders", "Risk Levels Child", "Risk Levels", "Issues Log", 
-    "Risks Log", "Actions", "Constraints", "Business Need", "Stakeholder Party", 
-    "Payment Plan", "Stakeholder Type", "Payment Against", "Project Budget Category", "Milestones", 
-    "Risks", "Project Budget", "Payment Type", "Activity Cost", "Penalties", 
-    "SLA Approval", "SLA Versions", "Validity of Agreement", "Service Performance Metrics", "Conditions of Cancellation", 
-    "Excluded Services", "Service Availability", "Service Assumptions", "Service Provider Requirements", "Customer Requirements", 
-    "Service Scope", "Goals and Objectives", "Project Objectives", "Key Deliverables", "Project Scope", 
-    "Project", "Task"
+    {
+        "doctype": "Workflow",
+        "filters": [
+            ["name", "in", [
+                "IT Change Management Workflow",
+                "IT Change Task Workflow",
+                "IT Deployment Plan Workflow"
+                ]
+            ]
+        ]
+    },
+    {
+        "doctype": "Workflow State",
+        "filters": [
+            ["name", "in",
+                [
+                    "Feedback",
+                    "Cancelled",
+                    "Completed",
+                    "In Progress",
+                    "Submitted for Approval",
+                    "Closed",
+                    "Review and Close",
+                    "Implementation",
+                    "Approvals",
+                    "Planning",
+                    "Closure",
+                    "Post Implementation Review (PIR)",
+                    "Deployment",
+                    "Deployment Preparation",
+                    "User Acceptance Testing (UAT)",
+                    "System Integration Testing (SIT)",
+                    "Under Development",
+                    "Assigning",
+                    "CAC Review",
+                    "Open",
+                    "Not Started",
+                    "Manager Review",
+                    "-",
+                    "Draft",
+                    "Rejected",
+                    "Approved",
+                    "Pending",
+                    "IT Assurance Manager Approval",
+                    "BSTM Approval",
+                    "Approved by Deployer's Manager",
+                    "Approved by Deployer"
+                ]
+            ]
+        ]
+    },
+    {
+        "doctype": "Workflow Action Master",
+        "filters": [
+            ["name", "in",
+                [
+                    "Start Task", 
+                    "Mark as Completed",
+                    "Feedback",
+                    "Cancel Task",
+                    "Submit for Review",
+                    "Confirm Plan",
+                    "Assign RM",
+                    "Log Deployment Complete",
+                    "Confirm Close",
+                    "Reopen",
+                    "Initiate Close",
+                    "Move to SIT",
+                    "Close CR",
+                    "Complete Implementation",
+                    "Open CR",
+                    "Approve UAT",
+                    "Move to UAT",
+                    "Ready for Deployment",
+                    "Edit",
+                    "Submit for Approval",
+                    "Review",
+                    "Reject",
+                    "Approve",
+                    "Approved by Deployer"
+                ]
+            ]
+        ]
+    },
+    {
+        "doctype": "Role",
+        "filters": [
+            ["name", "in", 
+                [
+                    "Deployer's Manager",
+                    "Dev Team Member",
+                    "Business Solution Team Manager",
+                    "Infrastructure Team",
+                    "ITGC Manager",
+                    "Infrastructure Manager",
+                    "IT Assurance Team",
+                    "IT Assurance Manager",
+                    "Deployer",
+                    "Development Team Manager",
+                    "CAC Member",
+                    "Business Solution Team Member",
+                    "Relationship Manager",
+                    "Requester's Group Manager",
+                    "Requester Manager",
+                    "Requester",
+                    "Employee",
+                    "Workspace Manager",
+                    "Script Manager",
+                    "Dashboard Manager",
+                    "Website Manager",
+                    "Administrator",
+                    "All",
+                    "System Manager",
+                    "Guest",
+                    "Desk User"
+                ]
+            ]
+        ]
+    },
+    # Uncomment if needed:
+    # {"doctype": "Project Charter"
+    # },
+    # {"doctype": "Meeting"},
+    # {"doctype": "Meeting Schedule"},
+    # {"doctype": "Attendees"},
+    # {"doctype": "Members"},
+    # {"doctype": "Project Members"},
+    # {"doctype": "Stakeholders"},
+    # {"doctype": "Risk Levels Child"},
+    # {"doctype": "Risk Levels"},
+    # {"doctype": "Issues Log"},
+    # {"doctype": "Risks Log"},
+    # {"doctype": "Actions"},
+    # {"doctype": "Constraints"},
+    # {"doctype": "Business Need"},
+    # {"doctype": "Stakeholder Party"},
+    # {"doctype": "Payment Plan"},
+    # {"doctype": "Stakeholder Type"},
+    # {"doctype": "Payment Against"},
+    # {"doctype": "Project Budget Category"},
+    # {"doctype": "Milestones"},
+    # {"doctype": "Risks"},
+    # {"doctype": "Project Budget"},
+    # {"doctype": "Payment Type"},
+    # {"doctype": "Activity Cost"},
+    # {"doctype": "Penalties"},
+    # {"doctype": "SLA Approval"},
+    # {"doctype": "SLA Versions"},
+    # {"doctype": "Validity of Agreement"},
+    # {"doctype": "Service Performance Metrics"},
+    # {"doctype": "Conditions of Cancellation"},
+    # {"doctype": "Excluded Services"},
+    # {"doctype": "Service Availability"},
+    # {"doctype": "Service Assumptions"},
+    # {"doctype": "Service Provider Requirements"},
+    # {"doctype": "Customer Requirements"},
+    # {"doctype": "Service Scope"},
+    # {"doctype": "Goals and Objectives"},
+    # {"doctype": "Project Objectives"},
+    # {"doctype": "Key Deliverables"},
+    # {"doctype": "Project Scope"},
+    # {"doctype": "Project"},
+    # {"doctype": "Task"}
 ]
 
 #new branch

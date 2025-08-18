@@ -1,7 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "format:{change_request}-{release_name}-{release_number}",
+ "autoname": "format:{####}",
  "creation": "2025-08-06 11:09:41.603864",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -13,8 +13,6 @@
   "cr_type",
   "column_break_aino",
   "urgency",
-  "column_break_ybeh",
-  "business_change_category",
   "deployment_description_section",
   "affected_systems",
   "release_details",
@@ -40,7 +38,7 @@
   "column_break_aoyq",
   "it_assurance_head",
   "column_break_ttnt",
-  "chied_information_officere",
+  "chief_information_officer",
   "proof_attachements_section",
   "table"
  ],
@@ -61,7 +59,7 @@
    "fieldtype": "Column Break"
   },
   {
-   "fetch_from": "change_request.cr_type",
+   "fetch_from": "change_request.change_type",
    "fetch_if_empty": 1,
    "fieldname": "cr_type",
    "fieldtype": "Select",
@@ -82,20 +80,6 @@
    "in_list_view": 1,
    "label": "Urgency",
    "options": "Low\nMedium\nHigh\nCritical",
-   "read_only": 1
-  },
-  {
-   "fieldname": "column_break_ybeh",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fetch_from": "change_request.business_change_category",
-   "fetch_if_empty": 1,
-   "fieldname": "business_change_category",
-   "fieldtype": "Select",
-   "in_list_view": 1,
-   "label": "Business Change Category",
-   "options": "Minor\nMajor\nSignificant",
    "read_only": 1
   },
   {
@@ -227,11 +211,6 @@
    "fieldtype": "Column Break"
   },
   {
-   "fieldname": "chied_information_officere",
-   "fieldtype": "Signature",
-   "label": "Chied Information Officere"
-  },
-  {
    "fieldname": "proof_attachements_section",
    "fieldtype": "Section Break",
    "label": "Proof Attachements"
@@ -241,12 +220,17 @@
    "fieldtype": "Table",
    "label": "Table",
    "options": "depolymentproof"
+  },
+  {
+   "fieldname": "chief_information_officer",
+   "fieldtype": "Signature",
+   "label": "Chief Information Officer"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-08-13 10:00:00.628778",
+ "modified": "2025-08-17 09:33:28.892499",
  "modified_by": "Administrator",
  "module": "Project Module",
  "name": "IT Change Deployement",
