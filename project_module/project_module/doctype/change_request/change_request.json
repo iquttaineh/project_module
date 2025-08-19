@@ -46,6 +46,7 @@
   "deployment_link",
   "deployment_tab",
   "deployment_plans",
+  "deployment",
   "dp_attachment",
   "rbp_attachment",
   "is_rolled_back",
@@ -357,13 +358,20 @@
    "fieldtype": "Link",
    "label": "Requester's Manager",
    "options": "User"
+  },
+  {
+   "fieldname": "deployment",
+   "fieldtype": "Link",
+   "hidden": 1,
+   "label": "read only/ hidden",
+   "options": "IT Change Deployement"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-08-19 10:24:55.522129",
+ "modified": "2025-08-19 12:58:14.709567",
  "modified_by": "Administrator",
  "module": "Project Module",
  "name": "Change Request",
