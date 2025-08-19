@@ -361,7 +361,7 @@ fixtures = [
                     "All",
                     "System Manager",
                     "Guest",
-                    "Desk User"
+                    "Desk User",
                 ]
             ]
         ]

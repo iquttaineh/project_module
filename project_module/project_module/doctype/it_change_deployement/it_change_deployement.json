@@ -13,6 +13,8 @@
   "cr_type",
   "column_break_aino",
   "urgency",
+  "column_break_fzev",
+  "business_classification",
   "deployment_description_section",
   "affected_systems",
   "release_details",
@@ -40,7 +42,8 @@
   "column_break_ttnt",
   "chief_information_officer",
   "proof_attachements_section",
-  "table"
+  "table",
+  "amended_from"
  ],
  "fields": [
   {
@@ -225,12 +228,34 @@
    "fieldname": "chief_information_officer",
    "fieldtype": "Signature",
    "label": "Chief Information Officer"
+  },
+  {
+   "fieldname": "column_break_fzev",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "change_request.business_classification",
+   "fieldname": "business_classification",
+   "fieldtype": "Select",
+   "label": "Business Classification",
+   "read_only": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "IT Change Deployement",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
+ "is_submittable": 1,
  "links": [],
- "modified": "2025-08-17 09:33:28.892499",
+ "modified": "2025-08-19 11:37:22.252248",
  "modified_by": "Administrator",
  "module": "Project Module",
  "name": "IT Change Deployement",
@@ -246,6 +271,62 @@
    "read": 1,
    "report": 1,
    "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Development Team Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Deployer",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "IT Assurance Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Deployer's Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Business Solution Team Manager",
    "share": 1,
    "write": 1
   }
