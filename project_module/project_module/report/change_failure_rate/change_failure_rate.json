@@ -1,0 +1,45 @@
+{
+ "add_total_row": 0,
+ "add_translate_data": 0,
+ "columns": [
+  {
+   "fieldname": "failed_crs",
+   "fieldtype": "Int",
+   "label": "Failed CRs",
+   "width": 150
+  },
+  {
+   "fieldname": "failure_rate",
+   "fieldtype": "Float",
+   "label": "Failure Rate (%)",
+   "width": 150
+  }
+ ],
+ "creation": "2025-08-05 16:04:41.613191",
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "letterhead": null,
+ "modified": "2025-08-20 11:56:40.616384",
+ "modified_by": "Administrator",
+ "module": "Project Module",
+ "name": "Change Failure Rate",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "query": "SELECT COUNT(name) AS failed_crs, (COUNT(CASE WHEN is_rolled_back = 1 THEN 1 END) * 100.0 / COUNT(name)) AS failure_rate FROM `tabChange Request` WHERE is_rolled_back = 1",
+ "ref_doctype": "Change Request",
+ "report_name": "Change Failure Rate",
+ "report_type": "Query Report",
+ "roles": [
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "IT Assurance Team"
+  }
+ ],
+ "timeout": 0
+}

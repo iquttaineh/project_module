@@ -1,0 +1,39 @@
+{
+ "add_total_row": 0,
+ "add_translate_data": 0,
+ "columns": [
+  {
+   "fieldname": "backlogged_changes",
+   "fieldtype": "Int",
+   "label": "Backlogged Changes",
+   "width": 150
+  }
+ ],
+ "creation": "2025-08-05 16:04:41.732133",
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "letterhead": null,
+ "modified": "2025-08-20 11:55:40.013806",
+ "modified_by": "Administrator",
+ "module": "Project Module",
+ "name": "Number of Changes Backlogged",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "query": "SELECT COUNT(name) AS backlogged_changes FROM `tabChange Request` WHERE status IN ('Not Started', 'Open', 'Planning', 'Approvals')",
+ "ref_doctype": "Change Request",
+ "report_name": "Number of Changes Backlogged",
+ "report_type": "Query Report",
+ "roles": [
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "IT Assurance Team"
+  }
+ ],
+ "timeout": 0
+}

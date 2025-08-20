@@ -1,0 +1,45 @@
+{
+ "add_total_row": 0,
+ "add_translate_data": 0,
+ "columns": [
+  {
+   "fieldname": "cr_type",
+   "fieldtype": "Data",
+   "label": "CR Type",
+   "width": 150
+  },
+  {
+   "fieldname": "avg_completion_time",
+   "fieldtype": "Float",
+   "label": "Average Completion Time (Days)",
+   "width": 200
+  }
+ ],
+ "creation": "2025-08-05 16:04:42.362646",
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "letterhead": null,
+ "modified": "2025-08-20 11:53:30.646515",
+ "modified_by": "Administrator",
+ "module": "Project Module",
+ "name": "CR Completion Time by Type",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "query": "SELECT cr_type, AVG(DATEDIFF(finalized_on, creation)) AS avg_completion_time FROM `tabChange Request` WHERE status = 'Closed' GROUP BY cr_type",
+ "ref_doctype": "Change Request",
+ "report_name": "CR Completion Time by Type",
+ "report_type": "Query Report",
+ "roles": [
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "IT Assurance Team"
+  }
+ ],
+ "timeout": 0
+}

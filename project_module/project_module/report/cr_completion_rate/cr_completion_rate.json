@@ -1,0 +1,45 @@
+{
+ "add_total_row": 1,
+ "add_translate_data": 0,
+ "columns": [
+  {
+   "fieldname": "completed_crs",
+   "fieldtype": "Int",
+   "label": "Completed CRs",
+   "width": 150
+  },
+  {
+   "fieldname": "completion_rate",
+   "fieldtype": "Float",
+   "label": "Completion Rate (%)",
+   "width": 150
+  }
+ ],
+ "creation": "2025-08-05 16:04:41.570981",
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "letterhead": null,
+ "modified": "2025-08-20 11:57:09.733338",
+ "modified_by": "Administrator",
+ "module": "Project Module",
+ "name": "CR Completion Rate",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "query": "SELECT COUNT(name) AS completed_crs, (COUNT(CASE WHEN docstatus = 1 THEN 1 END) * 100.0 / COUNT(name)) AS completion_rate FROM `tabChange Request` WHERE docstatus = 1",
+ "ref_doctype": "Change Request",
+ "report_name": "CR Completion Rate",
+ "report_type": "Query Report",
+ "roles": [
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "IT Assurance Team"
+  }
+ ],
+ "timeout": 0
+}

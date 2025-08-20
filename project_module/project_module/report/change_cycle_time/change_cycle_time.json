@@ -1,0 +1,39 @@
+{
+ "add_total_row": 0,
+ "add_translate_data": 0,
+ "columns": [
+  {
+   "fieldname": "avg_cycle_time_days",
+   "fieldtype": "Float",
+   "label": "Avg Cycle Time (Days)",
+   "width": 200
+  }
+ ],
+ "creation": "2025-08-05 16:04:41.807799",
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "letterhead": null,
+ "modified": "2025-08-20 11:54:57.090988",
+ "modified_by": "Administrator",
+ "module": "Project Module",
+ "name": "Change Cycle Time",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "query": "SELECT AVG(TIMESTAMPDIFF(DAY, creation, finalized_on)) AS avg_cycle_time_days FROM `tabChange Request` WHERE docstatus = 1",
+ "ref_doctype": "Change Request",
+ "report_name": "Change Cycle Time",
+ "report_type": "Query Report",
+ "roles": [
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "IT Assurance Team"
+  }
+ ],
+ "timeout": 0
+}
