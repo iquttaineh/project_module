@@ -3,8 +3,8 @@
  "add_translate_data": 0,
  "columns": [
   {
-   "fieldname": "cr_type",
-   "fieldtype": "Data",
+   "fieldname": "change_type",
+   "fieldtype": "Select",
    "label": "CR Type",
    "width": 150
   },
@@ -23,13 +23,13 @@
  "idx": 0,
  "is_standard": "Yes",
  "letterhead": null,
- "modified": "2025-08-20 11:57:35.051265",
+ "modified": "2025-08-20 13:20:26.933236",
  "modified_by": "Administrator",
  "module": "Project Module",
  "name": "CR Classification Breakdown",
  "owner": "Administrator",
  "prepared_report": 0,
- "query": "SELECT cr_type, COUNT(name) AS cr_count FROM `tabChange Request` GROUP BY cr_type",
+ "query": "SELECT change_type, COUNT(name) AS cr_count FROM `tabChange Request` GROUP BY change_type",
  "ref_doctype": "Change Request",
  "report_name": "CR Classification Breakdown",
  "report_type": "Query Report",

@@ -10,8 +10,8 @@
    "width": 120
   },
   {
-   "fieldname": "cr_type",
-   "fieldtype": "Data",
+   "fieldname": "change_type",
+   "fieldtype": "Select",
    "label": "CR Type",
    "width": 150
   },
@@ -30,13 +30,13 @@
  "idx": 0,
  "is_standard": "Yes",
  "letterhead": null,
- "modified": "2025-08-20 11:54:09.845194",
+ "modified": "2025-08-20 13:24:27.882564",
  "modified_by": "Administrator",
  "module": "Project Module",
  "name": "Compliance Report",
  "owner": "Administrator",
  "prepared_report": 0,
- "query": "SELECT name, cr_type, status FROM `tabChange Request` WHERE cr_type = 'Infrastructure Standard Change' AND status = 'Closed'",
+ "query": "SELECT name, change_type, status FROM `tabChange Request` WHERE change_type = 'Infrastructure Standard Change' AND status = 'Closed'",
  "ref_doctype": "Change Request",
  "report_name": "Compliance Report",
  "report_type": "Query Report",
