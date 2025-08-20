@@ -366,6 +366,75 @@ fixtures = [
             ]
         ]
     },
+    #    # Workspace itself (change name if needed)
+    # {
+    #     "doctype": "Workspace",
+    #     "filters": [
+    #         ["name", "in", ["IT Change Management"]]
+    #     ]
+    # },
+
+    # # --- Workspace child shortcuts (attached to the workspace as child table entries) ---
+    # {
+    #     "doctype": "Workspace Shortcut",
+    #     "filters": [
+    #         ["parent", "in", ["IT Change Management"]],
+    #         ["label", "in", [
+    #             "New Change Request",
+    #             "All Tasks",
+    #             "Pending CRs",
+    #             "CR Volume"
+    #         ]]
+    #     ]
+    # },
+
+    # # --- Top-level Shortcut records (some Frappe versions store shortcuts here) ---
+    # {
+    #     "doctype": "Shortcut",
+    #     "filters": [
+    #         ["label", "in", [
+    #             "New Change Request",
+    #             "All Tasks",
+    #             "Pending CRs",
+    #             "CR Volume"
+    #         ]]
+    #     ]
+    # },
+
+    # # --- (optional) include Number Cards, Charts, Quick Lists previously added ---
+    # {
+    #     "doctype": "Workspace Number Card",
+    #     "filters": [
+    #         ["parent", "in", ["IT Change Management"]]
+    #     ]
+    # },
+    # {
+    #     "doctype": "Workspace Chart",
+    #     "filters": [
+    #         ["parent", "in", ["IT Change Management"]]
+    #     ]
+    # },
+    # {
+    #     "doctype": "Workspace Quick List",
+    #     "filters": [
+    #         ["parent", "in", ["IT Change Management"]]
+    #     ]
+    # },
+    {
+        "doctype": "Custom Field",
+        "filters": [
+            ["name", "in", [
+                "Task-custom_category",
+                "Task-custom_user_acceptance_testing_uat",
+                "Task-custom_system_integration_testing",
+                "Task-custom_testing",
+                "Task-custom_responsible_party",
+                "Task-custom_classification",
+                "Task-total_expense_claim"
+                ]
+            ]
+        ]
+    }
     # Uncomment if needed:
     # {"doctype": "Project Charter"
     # },
